@@ -73,5 +73,7 @@ LANGUAGE MODELING
 NEURAL NETWORK LANGUAGE MODEL
 
 -take vectors of each word in the sequence from C matrix rows and feed them to the neural net as matrix X (concatinated word representation vectros in word sequence)
-	-softmax at the last layer and get i'th output=P(wt=i|context)
+	-feed forward network structure multiply X matrix with a weight and add a bias and nonlinearity (tanh may be)
+	-softmax at the output layer and get i'th output=P(wt=i|context)
+	-with this not only the neural net weights are trained but also the c(w=) word vector representations are trained
 	
