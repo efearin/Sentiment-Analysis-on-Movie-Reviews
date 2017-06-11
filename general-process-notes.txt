@@ -1,3 +1,16 @@
+tokenizing -word tokenizer -sentence tokenizer
+corpora -body of text ex:medical journals, presidential speeches, English language
+lexicon -words and their meanings (investor speak vs regular english speak)
+
+gensim w2v
+https://rare-technologies.com/word2vec-tutorial/
+nlp
+https://www.youtube.com/watch?v=B95LTf2rVWM&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=85
+nltk
+https://www.youtube.com/watch?v=EymPQgCtcAE
+pandas
+https://www.youtube.com/watch?v=fCMrO_VzeL8&index=16&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y
+
 PREPROCESS
 
 -tokenize text (parse them as single words)
@@ -76,4 +89,9 @@ NEURAL NETWORK LANGUAGE MODEL
 	-feed forward network structure multiply X matrix with a weight and add a bias and nonlinearity (tanh may be)
 	-softmax at the output layer and get i'th output=P(wt=i|context)
 	-with this not only the neural net weights are trained but also the c(w=) word vector representations are trained
-	
+	-for example we are looking for p("eatig"|"the" "cat" "is"), let say in the training corpus there is "the dog is eating" but not "cat is eating"
+		n gram model couldt give a solution but if training data has such "the cat was sleeping" and "the dog was sleeping" couples 
+		neural net could learn that dog and cat similar and their vector representations are close each other so neural net gives a sln.
+
+--
+HIERARCHICAL OUTPUT LAYER
