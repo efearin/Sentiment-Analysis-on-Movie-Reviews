@@ -12,37 +12,45 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="deneme.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deneme.py">
+      <file leaf-file-name="dominant-word-extract.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dominant-word-extract.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+            <state relative-caret-position="250">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="8output-results.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/8output-results.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
+      <file leaf-file-name="deneme.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deneme.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7calculate-test.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7calculate-test.ipynb">
+      <file leaf-file-name="5get-w2v-model.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5get-w2v-model.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="7" />
+              <selected id="4" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,6 +58,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/8output-results.ipynb" />
+        <option value="$PROJECT_DIR$/7calculate-test.ipynb" />
+        <option value="$PROJECT_DIR$/dominant-word-extract.py" />
         <option value="$PROJECT_DIR$/deneme.py" />
       </list>
     </option>
@@ -221,7 +232,7 @@
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25405404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2681081" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -246,6 +257,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dominant-word-extract.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -253,21 +271,51 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/deneme.py">
+    <entry file="file://$PROJECT_DIR$/dominant-word-extract.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/8output-results.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7calculate-test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deneme.py" />
+    <entry file="file://$PROJECT_DIR$/7calculate-test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8output-results.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deneme.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/IPython/core/interactiveshell.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -286,7 +334,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="2737" column="0" lean-forward="false" selection-start-line="2737" selection-start-column="0" selection-end-line="2737" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8output-results.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
@@ -297,20 +351,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deneme.py">
+    <entry file="file://$PROJECT_DIR$/recursive-calculate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8output-results.ipynb">
+    <entry file="file://$PROJECT_DIR$/5get-w2v-model.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="0" />
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deneme.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dominant-word-extract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
