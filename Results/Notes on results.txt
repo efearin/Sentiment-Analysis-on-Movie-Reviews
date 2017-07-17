@@ -1,0 +1,4 @@
+-nothing change with recursive approach but it will gives better results for bigger corpus 
+	search tree set up could be used in recursive system to get better results 
+-dominant words extraction not working for v2 model of order could be decreased 
+	since at the areas that has less data points qeuation behaves aggressively
