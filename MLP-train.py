@@ -10,8 +10,8 @@ df_complete_train = pd.read_csv('data/train-clean.csv', sep="\t")
 df_complete_train = df_complete_train.drop('Unnamed: 0', 1).drop('Unnamed: 0.1', 1)
 df_complete_test = pd.read_csv('data/test.csv', sep="\t")
 df_complete_test = df_complete_test.drop('Unnamed: 0', 1).drop('Unnamed: 0.1', 1)
-print(df_complete_train.head())
-print(df_complete_test.head())
+# print(df_complete_train.head())
+# print(df_complete_test.head())
 
 
 ##### Preprocess functions
@@ -51,17 +51,21 @@ def get_sentences(df):
                         df.loc[same.index[x], "PhraseId"] = np.nan
     df = df.dropna()
     df = df.reset_index(drop=True)
+    df.to_csv("data/MLPsentence.csv", sep='\t')
     return df
 
 def get_w2v_model(df):
     tokenized_sentences = df.apply(lambda row: word_tokenize(row['Phrase']), axis=1)
     logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
     model = gensim.models.Word2Vec(tokenized_sentences, min_count=1)
+    model.save('MLPw2vmodel')
     return model
 
 def get_words(df):
     mask = df.Phrase.str.match(r'\A[\w-]+\Z')
     df = df[mask]
+    df = df.reset_index(drop=True)
+    df.to_csv("data/MLPwords.csv", sep='\t')
     return df
 
 ##### Train set construction functions
@@ -77,20 +81,43 @@ def get_direct_score(phrase):
         return np.NaN
 
 def get_similar_word_score(word):
+    # check if input has a proper vector
     try:
         vec = w2v_model[word]
-        tmpvec = w2v_model[words_df.loc[0, "Phrase"]]
-        tmpindx = 0
-        dist = distance.euclidean(vec, tmpvec)
-        for indx1, row in words_df.iterrows():
-            tmpdist = distance.euclidean(vec, w2v_model[row.Phrase])
-            if tmpdist < dist:
-                dist = tmpdist
-                tmpvec = w2v_model[row.Phrase]
-                tmpindx = indx1
-        return words_df.loc[tmpindx, "Sentiment"]
     except:
+        # print("input kelime vektörü bulunanadı")
         return np.NaN
+    # check if there is an initial vector closest to input at the word corpus
+    # checking is limited, might be changed !
+    similar_index = 0
+    found = False
+    for x in range(0, int(len(words_df)/2)):
+        try:
+            similar_vec = w2v_model[words_df.loc[x, "Phrase"]]
+            similar_index = x
+            found = True
+        except:
+            pass
+        if found:
+            break
+    if not found:
+        # print("inputa en yakın başlangıç vektörü bulunamadı")
+        return np.NaN
+    # if there is a vector of input and there is a initial vector to start
+    dist = distance.euclidean(vec, similar_vec)
+    for indx1, row in words_df.iterrows():
+        phrase = row.Phrase
+        try:
+            vec_to_compare = w2v_model[phrase]
+        except:
+            continue
+        # if a vector to compare is found
+        tmpdist = distance.euclidean(vec, vec_to_compare)
+        if tmpdist < dist:
+            dist = tmpdist
+            similar_vec = vec_to_compare
+            similar_index = indx1
+    return words_df.loc[similar_index, "Sentiment"]
 
 def collect_independent_word_scores(phrase_words):
     global direct_attribution_count, direct_attribution_sum, closest_attribution_count, closest_attribution_sum
@@ -100,8 +127,10 @@ def collect_independent_word_scores(phrase_words):
             direct_attribution_sum += score
             direct_attribution_count += 1
         else:
-            closest_attribution_sum += get_similar_word_score(m)
-            closest_attribution_count += 1
+            closest_score = get_similar_word_score(m)
+            if ~np.isnan(closest_score):
+                closest_attribution_sum += closest_score
+                closest_attribution_count += 1
 
 # optimisation needed there exists duplicate code blocks
 # when code hits the longest window phrase it directly calculate it by stoping shift of window
@@ -122,8 +151,10 @@ def collect_phrase_scores(phrase):
         if length == 1:
             # if phrase contains single word
             # and it doesn't have direct score since code doesn't return from the above part (already checked case)
-            closest_attribution_sum += get_similar_word_score(phrase_words)
-            closest_attribution_count += 1
+            similar_word_score =  get_similar_word_score(phrase_words)
+            if ~np. isnan(similar_word_score):
+                closest_attribution_sum += get_similar_word_score(phrase_words)
+                closest_attribution_count += 1
             return
         elif length == 2:
             collect_independent_word_scores(phrase_words)
@@ -161,9 +192,10 @@ def collect_phrase_scores(phrase):
                 collect_independent_word_scores(phrase_words)
 
 def get_matrix(df):
+    global direct_attribution_count, direct_attribution_sum, closest_attribution_count, closest_attribution_sum
     # list will be returned which has list[0] as input, list[1] as output
     # output is bounded between 0 and 1 by division
-    # output is regration scores betwwen 0-5 and features in matrix[0] are as
+    # and features in matrix[0] are as
     # length_of_phrase
     # direct_sum
     # direct_count
@@ -179,7 +211,8 @@ def get_matrix(df):
         direct_attribution_sum = 0
         if isinstance(row.Phrase, str):
             if len(row.Phrase):
-                collect_phrase_scores(row.Phrase)
+                phrase = row.Phrase
+                collect_phrase_scores(phrase)
                 inp.append([float(length),float(direct_attribution_sum),float(direct_attribution_count),
                             float(closest_attribution_sum),float(closest_attribution_count)])
                 out.append(float(row.Sentiment)/5)
@@ -189,7 +222,7 @@ def get_matrix(df):
 # Returns result df which contains rusults of calculatable rows
 # so if size does not macth (input df and output df) there are some phrases that can not be calculated
 def calculate(df):
-    matrix = get_matrix(df.Phrase)
+    matrix = get_matrix(df)
     real_scores = matrix[1]
     calculated_scores = mlp_model.predict(matrix[0])
     error = []
@@ -207,25 +240,104 @@ def calculate(df):
 dfset = get_dfset(df_complete_train)
 train_inp=[]
 train_out=[]
+
+closest_attribution_count = 0
+closest_attribution_sum = 0
+direct_attribution_count = 0
+direct_attribution_sum = 0
+
+#--------
+
+# test = dfset[3]
+# del dfset[3]
+# train = pd.concat(dfset, ignore_index=True)
+#
+# train.reset_index(drop=True)
+# test.reset_index(drop=True)
+#
+# train.to_csv("traintmp.csv", sep='\t')
+# test.to_csv("testtmp.csv", sep='\t')
+#
+# sentence_df = get_sentences(train)
+# print('sentence done: ' + str(3 + 1))
+# w2v_model = get_w2v_model(sentence_df)
+# print('w2v model done: ' + str(3 + 1))
+# words_df = get_words(train)
+
+#--------
+
 for x in range(0, len(dfset)):
     test = dfset[0]
     del dfset[0]
-    train = pd.concat(dfset)
+    train = pd.concat(dfset, ignore_index=True)
+
+    train.reset_index(drop=True)
+    test.reset_index(drop=True)
+
+    train.to_csv("data/MLPdata/train"+str(x+1)+".csv", sep='\t')
+    test.to_csv("data/MLPdata/test"+str(x+1)+".csv", sep='\t')
+
     sentence_df = get_sentences(train)
+    sentence_df.to_csv("data/MLPdata/sentence"+str(x+1)+".csv", sep='\t')
+    print('sentence done: '+str(x+1))
     w2v_model = get_w2v_model(sentence_df)
+    w2v_model.save("data/MLPdata/w2vmodel"+str(x+1))
+    print('w2v model done: '+str(x+1))
     words_df = get_words(train)
+    words_df.to_csv("data/MLPdata/word"+str(x+1)+".csv", sep='\t')
+    print('word done: '+str(x+1))
     partial_mlp_train_matrix = get_matrix(test)
+    print('matrix done: '+str(x+1))
+    partial_train_inp = partial_mlp_train_matrix[0]
+    partial_train_out = partial_mlp_train_matrix[1]
+    partial_mlp_feed_df = pd.DataFrame({'length_of_phrase': pd.Series([item[0] for item in partial_train_inp]),
+                                'direct_sum': pd.Series([item[1] for item in partial_train_inp]),
+                                'direct_count': pd.Series([item[2] for item in partial_train_inp]),
+                                'closest_sum': pd.Series([item[3] for item in partial_train_inp]),
+                                'closest_count': pd.Series([item[4] for item in partial_train_inp]),
+                                'output': pd.Series(partial_train_out)})
+    partial_mlp_feed_df.to_csv("data/MLPdata/partial_mlp_feed"+str(x+1)+".csv", sep='\t')
     train_inp += partial_mlp_train_matrix[0]
     train_out += partial_mlp_train_matrix[1]
     dfset.append(test)
+    print('for loop done: '+str(x+1))
+    print('')
+
+# get final feature and output df and save
+mlp_feed_df = pd.DataFrame({'length_of_phrase': pd.Series([item[0] for item in train_inp]),
+                            'direct_sum': pd.Series([item[1] for item in train_inp]),
+                            'direct_count': pd.Series([item[2] for item in train_inp]),
+                            'closest_sum': pd.Series([item[3] for item in train_inp]),
+                            'closest_count': pd.Series([item[4] for item in train_inp]),
+                            'output': pd.Series(train_out)})
+mlp_feed_df.to_csv("data/MLPdata/mlp_feed_df.csv", sep='\t')
 
 # construct MLP model
+# train_inp=[[1,2,3,4,5],[2,4,6,8,10],[10,20,30,40,50]]
+# train_out=[1,2,10]
+
 mlp_model = MLPRegressor(hidden_layer_sizes=(20,), activation='logistic', solver='adam',
                    alpha=0.001, learning_rate='constant', max_iter=100, random_state=5,
                    shuffle=True, early_stopping=True)
 mlp_model.fit(train_inp,train_out)
 
-# calculate
+print('mlp model done')
 
-df_calculation = calculate(df_complete_test)
+# initialized for calculation reassigning for all sets
+# by deviding all sets initially construction can be made for whole sets needed for test calculation could be optimized
+# now dublicate calculations exist !
+test = df_complete_test
+train = df_complete_train
+train.reset_index(drop=True)
+test.reset_index(drop=True)
+sentence_df = get_sentences(train)
+print('main sentence done')
+w2v_model = get_w2v_model(sentence_df)
+print('main w2v done')
+words_df = get_words(train)
+print('main words done')
+
+# calculate
+df_calculation = calculate(test)
+print('main calculation done')
 df_calculation.to_csv("data/test-MLPcalculated.csv", sep='\t')
