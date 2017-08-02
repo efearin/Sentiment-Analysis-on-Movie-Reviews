@@ -1,3 +1,5 @@
+# as version 2 dominant word scores has model (polynomial) of phrase lengths score=function(phrase_length)
+
 import numpy as np
 import gensim, logging
 import pandas as pd

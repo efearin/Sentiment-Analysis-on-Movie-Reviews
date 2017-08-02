@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a42cb5f-feba-458c-9994-0663cab56ba5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5get-w2v-model.ipynb" afterPath="$PROJECT_DIR$/5get-w2v-model.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MLPresultview.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/MLPdata/partial_mlp_feed1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/MLPdata/sentence1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/MLPdata/sentence2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/MLPdata/test1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/MLPdata/test2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/MLPdata/train1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/MLPdata/train2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/MLPdata/w2vmodel1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/MLPdata/w2vmodel2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/MLPdata/word1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/MLPdata/word2.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLPw2vmodel" afterPath="$PROJECT_DIR$/MLPw2vmodel" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1clean-data.ipynb" afterPath="$PROJECT_DIR$/1clean-data.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/7calculate-test.ipynb" afterPath="$PROJECT_DIR$/7calculate-test.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP-train.py" afterPath="$PROJECT_DIR$/MLP-train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.ipynb" afterPath="$PROJECT_DIR$/Main.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Untitled.ipynb" afterPath="$PROJECT_DIR$/Untitled.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/MLPsentence.csv" afterPath="$PROJECT_DIR$/data/MLPsentence.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/MLPwords.csv" afterPath="$PROJECT_DIR$/data/MLPwords.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dominant-word-extract-v2.py" afterPath="$PROJECT_DIR$/dominant-word-extract-v2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recursive-calculate-with-dominant.py" afterPath="$PROJECT_DIR$/recursive-calculate-with-dominant.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recursive-calculate-with-dominantv1.py" afterPath="$PROJECT_DIR$/recursive-calculate-with-dominantv1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,10 +40,9 @@
       <file leaf-file-name="MLP-train.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MLP-train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="340" column="28" lean-forward="false" selection-start-line="340" selection-start-column="28" selection-end-line="340" selection-end-column="28" />
+            <state relative-caret-position="-1018">
+              <caret line="121" column="4" lean-forward="false" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#499#532#0" expanded="false" />
                 <element signature="e#619#957#0" expanded="false" />
                 <element signature="e#986#1840#0" expanded="false" />
@@ -29,89 +50,22 @@
                 <element signature="e#2341#2379#0" expanded="false" />
                 <element signature="e#2693#2845#0" expanded="false" />
                 <element signature="e#2885#4130#0" expanded="false" />
-                <element signature="e#4187#4687#0" expanded="false" />
                 <element signature="e#4687#4743#0" expanded="false" />
-                <element signature="e#5059#8125#0" expanded="false" />
+                <element signature="e#9257#9295#0" expanded="false" />
+                <marker date="1501606132194" expanded="true" signature="15993:16526" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5get-w2v-model.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5get-w2v-model.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="frame.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/frame.py">
+      <file leaf-file-name="MLPresultview.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MLPresultview.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7850">
-              <caret line="401" column="0" lean-forward="false" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_pydev_execfile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pydevd.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38825">
-              <caret line="1590" column="0" lean-forward="false" selection-start-line="1590" selection-start-column="0" selection-end-line="1590" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/generic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67100">
-              <caret line="2737" column="0" lean-forward="false" selection-start-line="2737" selection-start-column="0" selection-end-line="2737" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="indexing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/indexing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32150">
-              <caret line="1306" column="0" lean-forward="false" selection-start-line="1306" selection-start-column="0" selection-end-line="1306" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7700">
-              <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/indexes/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33550">
-              <caret line="1395" column="0" lean-forward="false" selection-start-line="1395" selection-start-column="0" selection-end-line="1395" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="100">
+              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,6 +82,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>word</find>
+      <find>si</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/8output-results.ipynb" />
         <option value="$PROJECT_DIR$/deneme.py" />
         <option value="$PROJECT_DIR$/haha..py" />
         <option value="$PROJECT_DIR$/3clean-train.ipynb" />
@@ -150,7 +104,10 @@
         <option value="$PROJECT_DIR$/4get-sentences.ipynb" />
         <option value="$PROJECT_DIR$/7calculate-test.ipynb" />
         <option value="$PROJECT_DIR$/5get-w2v-model.ipynb" />
+        <option value="$PROJECT_DIR$/MLPresultwiev.py" />
+        <option value="$PROJECT_DIR$/8output-results.ipynb" />
         <option value="$PROJECT_DIR$/MLP-train.py" />
+        <option value="$PROJECT_DIR$/MLPresultview.py" />
       </list>
     </option>
   </component>
@@ -195,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,11 +165,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MLP-train.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MLPresultview.py" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
@@ -226,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MLP">
+  <component name="RunManager" selected="Python.MLPresultview">
     <configuration name="MLP" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,6 +197,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Sentiment-Analysis-on-Movie-Reviews" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MLP-train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="MLPresultview" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\efear\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Sentiment-Analysis-on-Movie-Reviews" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MLPresultview.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -393,13 +367,14 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Python.recursive-calculate" />
-      <item index="1" class="java.lang.String" itemvalue="Python.dominant-word" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dominant-word-v2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.recursive-wd-v2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.recursive-wd-v1" />
-      <item index="5" class="java.lang.String" itemvalue="Python.MLP" />
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Python.MLPresultview" />
+      <item index="1" class="java.lang.String" itemvalue="Python.recursive-calculate" />
+      <item index="2" class="java.lang.String" itemvalue="Python.dominant-word" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dominant-word-v2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.recursive-wd-v2" />
+      <item index="5" class="java.lang.String" itemvalue="Python.recursive-wd-v1" />
+      <item index="6" class="java.lang.String" itemvalue="Python.MLP" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -430,17 +405,17 @@
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24756756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19081081" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27220955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32801822" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40222222" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34120426" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25783783" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28648648" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -462,53 +437,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="141" />
+      <option name="time" value="160" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/5get-w2v-model.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dominant-word-extract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5get-w2v-model.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dominant-word-extract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5get-w2v-model.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dominant-word-extract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5get-w2v-model.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -603,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8output-results.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deneme.py" />
     <entry file="file://$PROJECT_DIR$/haha..py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/numeric.py">
@@ -644,20 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recursive-calculate-with-dominantv1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="133" column="23" lean-forward="true" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recursive-calculate-with-dominant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -704,41 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7calculate-test.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/indexes/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33550">
-          <caret line="1395" column="0" lean-forward="false" selection-start-line="1395" selection-start-column="0" selection-end-line="1395" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/series.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="602" column="0" lean-forward="false" selection-start-line="602" selection-start-column="0" selection-end-line="602" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38825">
-          <caret line="1590" column="0" lean-forward="false" selection-start-line="1590" selection-start-column="0" selection-end-line="1590" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32150">
           <caret line="1306" column="0" lean-forward="false" selection-start-line="1306" selection-start-column="0" selection-end-line="1306" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7700">
           <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67100">
           <caret line="2737" column="0" lean-forward="false" selection-start-line="2737" selection-start-column="0" selection-end-line="2737" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7850">
           <caret line="401" column="0" lean-forward="false" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,12 +665,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLP-train.py">
+    <entry file="file://$PROJECT_DIR$/7calculate-test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="340" column="28" lean-forward="false" selection-start-line="340" selection-start-column="28" selection-end-line="340" selection-end-column="28" />
+        <state relative-caret-position="425">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38950">
+          <caret line="1595" column="0" lean-forward="false" selection-start-line="1595" selection-start-column="0" selection-end-line="1595" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/internals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65050">
+          <caret line="2666" column="0" lean-forward="false" selection-start-line="2666" selection-start-column="0" selection-end-line="2666" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/types/cast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16875">
+          <caret line="697" column="0" lean-forward="false" selection-start-line="697" selection-start-column="0" selection-end-line="697" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/gensim-2.1.0-py3.6-win-amd64.egg/gensim/models/word2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31125">
+          <caret line="1259" column="0" lean-forward="false" selection-start-line="1259" selection-start-column="0" selection-end-line="1259" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recursive-calculate-with-dominantv1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1325">
+          <caret line="70" column="51" lean-forward="true" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recursive-calculate-with-dominant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="3261" column="0" lean-forward="false" selection-start-line="3261" selection-start-column="0" selection-end-line="3261" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLPresultwiev.py" />
+    <entry file="file://$PROJECT_DIR$/8output-results.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2devide-data.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLPresultview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLP-train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1018">
+          <caret line="121" column="4" lean-forward="false" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+          <folding>
             <element signature="e#499#532#0" expanded="false" />
             <element signature="e#619#957#0" expanded="false" />
             <element signature="e#986#1840#0" expanded="false" />
@@ -801,9 +765,9 @@
             <element signature="e#2341#2379#0" expanded="false" />
             <element signature="e#2693#2845#0" expanded="false" />
             <element signature="e#2885#4130#0" expanded="false" />
-            <element signature="e#4187#4687#0" expanded="false" />
             <element signature="e#4687#4743#0" expanded="false" />
-            <element signature="e#5059#8125#0" expanded="false" />
+            <element signature="e#9257#9295#0" expanded="false" />
+            <marker date="1501606132194" expanded="true" signature="15993:16526" ph="..." />
           </folding>
         </state>
       </provider>

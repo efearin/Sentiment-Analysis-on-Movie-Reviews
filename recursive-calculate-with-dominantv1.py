@@ -1,3 +1,5 @@
+# as version 1 avg value of dominant wods are used 
+
 import numpy as np
 import gensim, logging
 import pandas as pd

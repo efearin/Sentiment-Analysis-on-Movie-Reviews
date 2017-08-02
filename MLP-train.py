@@ -204,6 +204,8 @@ def get_matrix(df):
     inp=[]
     out=[]
     for indx, row in df.iterrows():
+        if not isinstance(row.Phrase, str):
+            continue
         length = len(row.Phrase.split())
         closest_attribution_count = 0
         closest_attribution_sum = 0
@@ -215,7 +217,7 @@ def get_matrix(df):
                 collect_phrase_scores(phrase)
                 inp.append([float(length),float(direct_attribution_sum),float(direct_attribution_count),
                             float(closest_attribution_sum),float(closest_attribution_count)])
-                out.append(float(row.Sentiment)/5)
+                out.append(float(row.Sentiment)/4)
     return [inp,out]
 
 ##### Test score calculation functions
@@ -227,7 +229,7 @@ def calculate(df):
     calculated_scores = mlp_model.predict(matrix[0])
     error = []
     for x in range(0,len(real_scores)):
-        error.append(abs(real_scores[x]-(5*calculated_scores[x])))
+        error.append(abs(real_scores[x]-(4*calculated_scores[x])))
     result_df = pd.DataFrame({'Sentiment': pd.Series(real_scores),
                               'calculation': pd.Series(calculated_scores),
                               'error': pd.Series(error)})
@@ -246,8 +248,7 @@ closest_attribution_sum = 0
 direct_attribution_count = 0
 direct_attribution_sum = 0
 
-#--------
-
+#--------not used
 # test = dfset[3]
 # del dfset[3]
 # train = pd.concat(dfset, ignore_index=True)
@@ -263,63 +264,144 @@ direct_attribution_sum = 0
 # w2v_model = get_w2v_model(sentence_df)
 # print('w2v model done: ' + str(3 + 1))
 # words_df = get_words(train)
-
 #--------
 
-for x in range(0, len(dfset)):
-    test = dfset[0]
-    del dfset[0]
-    train = pd.concat(dfset, ignore_index=True)
+#------not used
+# x=0
+# test = dfset[0]
+# del dfset[0]
+# dfset.append(test)
+#
+# x=1
+# test = dfset[0]
+# del dfset[0]
+# dfset.append(test)
+#
+# x=2
+# test = dfset[0]
+# del dfset[0]
+# dfset.append(test)
+#
+# X=3
+# test = dfset[0]
+# del dfset[0]
+# train = pd.concat(dfset, ignore_index=True)
+# train.reset_index(drop=True)
+# test.reset_index(drop=True)
+# sentence_df = pd.read_csv('data/MLPdata/sentence4.csv', sep="\t")
+# w2v_model = get_w2v_model(sentence_df)
+# w2v_model.save("data/MLPdata/w2vmodel" + str(x + 1))
+# print('w2v model done: ' + str(x + 1))
+# words_df = get_words(train)
+# words_df.to_csv("data/MLPdata/word" + str(x + 1) + ".csv", sep='\t')
+# print('word done: ' + str(x + 1))
+# partial_mlp_train_matrix = get_matrix(test)
+# print('matrix done: ' + str(x + 1))
+# partial_train_inp = partial_mlp_train_matrix[0]
+# partial_train_out = partial_mlp_train_matrix[1]
+# partial_mlp_feed_df = pd.DataFrame({'length_of_phrase': pd.Series([item[0] for item in partial_train_inp]),
+#                                     'direct_sum': pd.Series([item[1] for item in partial_train_inp]),
+#                                     'direct_count': pd.Series([item[2] for item in partial_train_inp]),
+#                                     'closest_sum': pd.Series([item[3] for item in partial_train_inp]),
+#                                     'closest_count': pd.Series([item[4] for item in partial_train_inp]),
+#                                     'output': pd.Series(partial_train_out)})
+# partial_mlp_feed_df.to_csv("data/MLPdata/partial_mlp_feed" + str(x + 1) + ".csv", sep='\t')
+# train_inp += partial_mlp_train_matrix[0]
+# train_out += partial_mlp_train_matrix[1]
+# dfset.append(test)
+# print('for loop done: ' + str(x + 1))
+# print('')
+# w2v_model = gensim.models.Word2Vec.load("data/MLPdata/w2vmodel2")
+# words_df = pd.read_csv('data/MLPdata/word2.csv', sep="\t")
+# partial_mlp_train_matrix = get_matrix(test)
+# partial_train_inp = partial_mlp_train_matrix[0]
+# partial_train_out = partial_mlp_train_matrix[1]
+# partial_mlp_feed_df = pd.DataFrame({'length_of_phrase': pd.Series([item[0] for item in partial_train_inp]),
+#                             'direct_sum': pd.Series([item[1] for item in partial_train_inp]),
+#                             'direct_count': pd.Series([item[2] for item in partial_train_inp]),
+#                             'closest_sum': pd.Series([item[3] for item in partial_train_inp]),
+#                             'closest_count': pd.Series([item[4] for item in partial_train_inp]),
+#                             'output': pd.Series(partial_train_out)})
+# partial_mlp_feed_df.to_csv("data/MLPdata/partial_mlp_feed"+str(x+1)+".csv", sep='\t')
+# dfset.append(test)
+#------------------------------
 
-    train.reset_index(drop=True)
-    test.reset_index(drop=True)
+# for x in range(0, len(dfset)):
+#     test = dfset[0]
+#     del dfset[0]
+#     train = pd.concat(dfset, ignore_index=True)
+#
+#     train.reset_index(drop=True)
+#     test.reset_index(drop=True)
+#
+#     train.to_csv("data/MLPdata/train"+str(x+1)+".csv", sep='\t')
+#     test.to_csv("data/MLPdata/test"+str(x+1)+".csv", sep='\t')
+#
+#     sentence_df = get_sentences(train)
+#     sentence_df.to_csv("data/MLPdata/sentence"+str(x+1)+".csv", sep='\t')
+#     print('sentence done: '+str(x+1))
+#     w2v_model = get_w2v_model(sentence_df)
+#     w2v_model.save("data/MLPdata/w2vmodel"+str(x+1))
+#     print('w2v model done: '+str(x+1))
+#     words_df = get_words(train)
+#     words_df.to_csv("data/MLPdata/word"+str(x+1)+".csv", sep='\t')
+#     print('word done: '+str(x+1))
+#     partial_mlp_train_matrix = get_matrix(test)
+#     print('matrix done: '+str(x+1))
+#     partial_train_inp = partial_mlp_train_matrix[0]
+#     partial_train_out = partial_mlp_train_matrix[1]
+#     partial_mlp_feed_df = pd.DataFrame({'length_of_phrase': pd.Series([item[0] for item in partial_train_inp]),
+#                                 'direct_sum': pd.Series([item[1] for item in partial_train_inp]),
+#                                 'direct_count': pd.Series([item[2] for item in partial_train_inp]),
+#                                 'closest_sum': pd.Series([item[3] for item in partial_train_inp]),
+#                                 'closest_count': pd.Series([item[4] for item in partial_train_inp]),
+#                                 'output': pd.Series(partial_train_out)})
+#     partial_mlp_feed_df.to_csv("data/MLPdata/partial_mlp_feed"+str(x+1)+".csv", sep='\t')
+#     train_inp += partial_mlp_train_matrix[0]
+#     train_out += partial_mlp_train_matrix[1]
+#     dfset.append(test)
+#     print('for loop done: '+str(x+1))
+#     print('')
 
-    train.to_csv("data/MLPdata/train"+str(x+1)+".csv", sep='\t')
-    test.to_csv("data/MLPdata/test"+str(x+1)+".csv", sep='\t')
-
-    sentence_df = get_sentences(train)
-    sentence_df.to_csv("data/MLPdata/sentence"+str(x+1)+".csv", sep='\t')
-    print('sentence done: '+str(x+1))
-    w2v_model = get_w2v_model(sentence_df)
-    w2v_model.save("data/MLPdata/w2vmodel"+str(x+1))
-    print('w2v model done: '+str(x+1))
-    words_df = get_words(train)
-    words_df.to_csv("data/MLPdata/word"+str(x+1)+".csv", sep='\t')
-    print('word done: '+str(x+1))
-    partial_mlp_train_matrix = get_matrix(test)
-    print('matrix done: '+str(x+1))
-    partial_train_inp = partial_mlp_train_matrix[0]
-    partial_train_out = partial_mlp_train_matrix[1]
-    partial_mlp_feed_df = pd.DataFrame({'length_of_phrase': pd.Series([item[0] for item in partial_train_inp]),
-                                'direct_sum': pd.Series([item[1] for item in partial_train_inp]),
-                                'direct_count': pd.Series([item[2] for item in partial_train_inp]),
-                                'closest_sum': pd.Series([item[3] for item in partial_train_inp]),
-                                'closest_count': pd.Series([item[4] for item in partial_train_inp]),
-                                'output': pd.Series(partial_train_out)})
-    partial_mlp_feed_df.to_csv("data/MLPdata/partial_mlp_feed"+str(x+1)+".csv", sep='\t')
-    train_inp += partial_mlp_train_matrix[0]
-    train_out += partial_mlp_train_matrix[1]
-    dfset.append(test)
-    print('for loop done: '+str(x+1))
-    print('')
-
+#------------open after
 # get final feature and output df and save
-mlp_feed_df = pd.DataFrame({'length_of_phrase': pd.Series([item[0] for item in train_inp]),
-                            'direct_sum': pd.Series([item[1] for item in train_inp]),
-                            'direct_count': pd.Series([item[2] for item in train_inp]),
-                            'closest_sum': pd.Series([item[3] for item in train_inp]),
-                            'closest_count': pd.Series([item[4] for item in train_inp]),
-                            'output': pd.Series(train_out)})
-mlp_feed_df.to_csv("data/MLPdata/mlp_feed_df.csv", sep='\t')
+# mlp_feed_df = pd.DataFrame({'length_of_phrase': pd.Series([item[0] for item in train_inp]),
+#                             'direct_sum': pd.Series([item[1] for item in train_inp]),
+#                             'direct_count': pd.Series([item[2] for item in train_inp]),
+#                             'closest_sum': pd.Series([item[3] for item in train_inp]),
+#                             'closest_count': pd.Series([item[4] for item in train_inp]),
+#                             'output': pd.Series(train_out)})
+# mlp_feed_df.to_csv("data/MLPdata/mlp_feed_df.csv", sep='\t')
 
 # construct MLP model
 # train_inp=[[1,2,3,4,5],[2,4,6,8,10],[10,20,30,40,50]]
 # train_out=[1,2,10]
 
-mlp_model = MLPRegressor(hidden_layer_sizes=(20,), activation='logistic', solver='adam',
-                   alpha=0.001, learning_rate='constant', max_iter=100, random_state=5,
-                   shuffle=True, early_stopping=True)
-mlp_model.fit(train_inp,train_out)
+#====
+# mlpraw = []
+# mlpraw.append(pd.read_csv('data/MLPdata/1/partial_mlp_feed1.csv', sep="\t"))
+# mlpraw.append(pd.read_csv('data/MLPdata/2/partial_mlp_feed2.csv', sep="\t"))
+# mlpraw.append(pd.read_csv('data/MLPdata/3/partial_mlp_feed3.csv', sep="\t"))
+# mlpraw.append(pd.read_csv('data/MLPdata/4/partial_mlp_feed4.csv', sep="\t"))
+# mlpraw.append(pd.read_csv('data/MLPdata/5/partial_mlp_feed5.csv', sep="\t"))
+# mlpraw = pd.concat(mlpraw, ignore_index=True).drop('Unnamed: 0', 1)
+# mlpraw.to_csv("data/MLPdata/merged_mlp.csv", sep='\t')
+
+mlpraw = pd.read_csv('data/MLPdata/merged_mlp.csv', sep="\t").drop('Unnamed: 0', 1)
+mlpraw.reset_index(drop=True)
+mlpraw.output = mlpraw.output.multiply(1.25)
+print(mlpraw.output.describe())
+#====
+train_out = mlpraw.output.tolist()
+mlpraw = mlpraw.drop('output', 1)
+for row in mlpraw.iterrows():
+    index, data = row
+    train_inp.append(data.tolist()[::-1])
+#=====
+
+mlp_model = MLPRegressor(hidden_layer_sizes=(20,), activation='identity',
+                   alpha=0.001, learning_rate='constant', early_stopping=True)
+mlp_model.fit(train_inp, train_out)
 
 print('mlp model done')
 
@@ -330,11 +412,13 @@ test = df_complete_test
 train = df_complete_train
 train.reset_index(drop=True)
 test.reset_index(drop=True)
-sentence_df = get_sentences(train)
+sentence_df = pd.read_csv('data/train-w2v.csv', sep="\t").drop('Unnamed: 0', 1)
+sentence_df.reset_index(drop=True)
 print('main sentence done')
-w2v_model = get_w2v_model(sentence_df)
+w2v_model = gensim.models.Word2Vec.load("w2vmodel")
 print('main w2v done')
-words_df = get_words(train)
+words_df = pd.read_csv('data/words.csv', sep="\t").drop('Unnamed: 0', 1)
+words_df.reset_index(drop=True)
 print('main words done')
 
 # calculate

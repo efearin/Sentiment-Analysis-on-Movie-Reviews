@@ -1,3 +1,5 @@
+# as v2 dominant word scores are function of phrase length 
+
 import nltk
 import pandas as pd
 import matplotlib.pyplot as plt
