@@ -2,572 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a42cb5f-feba-458c-9994-0663cab56ba5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled2-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/boy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/clich.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/cultur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/dog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/event.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/flat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/girl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/guy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/hilari.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/honest.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/hous.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/issu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/john.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/men.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/michael.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/mr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/nice.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/realiti.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/rich.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/screenwrit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/side.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/social.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/solid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/soul.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/teen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/tv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/war.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most dominant words (err rate less then 0.6/worst.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/abov.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/act.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/action.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/actor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/actual.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/adult.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/adventur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/age.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/allow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/almost.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/along.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/alreadi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/also.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/alway.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/american.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/amus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/ani.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/anoth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/anyon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/anyth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/appeal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/appear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/approach.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/around.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/art.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/artist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/attempt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/attract.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/audienc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/away.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/bad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/beauti.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/becaus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/becom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/befor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/begin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/believ.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/best.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/better.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/beyond.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/bit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/bland.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/bore.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/boy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/bring.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/ca.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/call.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/camera.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/captur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/care.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/cast.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/chang.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/charact.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/charm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/children.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/cinema.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/cinemat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/classic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/clever.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/clich.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/cold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/color.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/come.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/comedi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/comic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/commun.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/compel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/complet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/complex.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/contriv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/convinc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/could.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/creat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/creativ.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/crime.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/cultur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/cut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/day.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/de.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/death.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/debut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/deepli.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/delight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/deliv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/deserv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/despit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/detail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/develop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/dialogu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/differ.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/direct.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/director.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/documentari.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/doe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/dog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/done.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/drama.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/dramat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/dream.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/dull.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/dumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/dure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/earnest.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/easi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/effect.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/effort.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/either.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/element.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/els.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/emot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/end.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/energi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/engag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/enjoy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/enough.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/entertain.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/entir.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/episod.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/especi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/even.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/event.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/ever.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/everi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/everyon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/everyth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/except.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/excit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/exercis.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/expect.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/experi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/explor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/extrem.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/eye.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/face.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/fact.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/fail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/fall.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/famili.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/familiar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/fan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/fantasi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/far.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/fascin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/featur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/feel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/few.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/fill.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/film.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/filmmak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/final.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/find.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/fine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/first.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/flat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/flaw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/flick.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/forc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/formula.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/french.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/fresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/full.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/fun.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/funni.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/gag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/game.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/gener.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/genr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/genuin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/get.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/girl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/give.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/go.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/goe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/good.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/great.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/grow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/guy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/ha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/half.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/hand.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/happen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/hard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/head.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/help.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/hero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/hi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/high.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/hilari.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/histor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/histori.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/hit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/hold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/hollywood.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/honest.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/hope.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/horror.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/hour.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/hous.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/human.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/humor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/idea.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/imag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/imagin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/import.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/impress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/insid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/insight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/inspir.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/instead.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/intellig.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/intens.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/interest.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/intrigu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/invent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/involv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/issu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/john.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/joke.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/keep.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/kid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/kind.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/know.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/lack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/last.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/laugh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/lead.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/least.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/leav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/less.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/let.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/level.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/life.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/light.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/like.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/littl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/live.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/long.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/look.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/lot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/love.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/lrb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/made.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/make.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/man.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/manag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/mani.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/manner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/mark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/master.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/materi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/matter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/may.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/mean.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/melodrama.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/men.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/messag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/michael.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/middl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/might.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/mind.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/minut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/miss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/modern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/moment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/moral.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/move.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/movi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/mr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/much.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/music.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/mysteri.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/narr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/natur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/nearli.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/need.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/never.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/new.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/nice.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/no.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/not.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/noth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/nt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/obviou.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/occasion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/odd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/offer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/often.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/old.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/onc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/one.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/onli.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/opera.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/origin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/otherwis.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/out.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/over.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/pace.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/pain.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/part.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/passion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/past.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/peopl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/perfect.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/perform.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/person.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/pictur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/piec.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/place.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/pleasur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/plot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/point.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/polit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/possibl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/potenti.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/power.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/predict.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/premis.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/present.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/pretti.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/probabl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/problem.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/produc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/product.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/project.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/promis.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/prove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/provid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/psycholog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/pull.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/put.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/question.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/quirki.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/quit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/rare.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/rather.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/real.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/realiti.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/realli.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/reason.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/recent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/relationship.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/remain.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/remark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/reveal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/rich.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/role.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/romanc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/romant.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/rrb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/run.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/sad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/satir.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/satisfi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/say.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/scene.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/screenplay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/screenwrit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/script.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/second.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/see.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/seem.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/seen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/sens.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/sentiment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/sequel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/sequenc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/seri.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/seriou.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/serv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/set.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/sever.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/sex.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/short.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/shot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/show.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/side.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/silli.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/simpli.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/sinc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/sit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/situat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/slow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/smart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/social.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/solid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/someth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/sometim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/sort.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/soul.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/sound.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/special.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/spirit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/stand.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/start.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/still.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/stori.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/storytel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/strang.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/strong.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/studi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/stuff.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/style.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/subject.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/suffer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/summer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/sure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/surpris.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/surprisingli.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/suspens.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/sweet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/take.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/tale.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/talent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/teen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/tell.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/theater.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/theme.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/themselv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/thi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/thing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/think.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/though.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/thought.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/three.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/thriller.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/time.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/titl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/togeth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/tone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/too.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/touch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/tragedi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/tri.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/true.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/truli.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/turn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/tv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/twist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/two.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/ultim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/under.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/understand.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/us.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/use.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/usual.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/veri.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/version.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/video.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/view.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/viewer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/visual.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/wa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/want.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/war.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/watch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/way.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/well.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/whi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/whole.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/whose.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/wild.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/win.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/wit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/without.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/wo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/woman.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/women.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/wonder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/word.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/work.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/world.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/worst.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/worth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/would.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/year.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/yet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Length dependent scores of most frequent 500 words/young.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-dominantv1-result/bad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-dominantv1-result/err.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-dominantv1-result/good.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-dominantv1-result/result-dominantv1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-dominantv1-result/soso.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-dominantv2-result/bad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-dominantv2-result/err.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-dominantv2-result/good.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-dominantv2-result/result-dominantv2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-dominantv2-result/soso.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-result/bad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-result/err.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-result/good.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-result/result-recursive.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/recursive-result/soso.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/straigth-result/bad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/straigth-result/err.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/straigth-result/good.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/straigth-result/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Results/straigth-result/soso.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Untitled.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Untitled1.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Untitled2.ipynb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MLP Modular/Main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MLP Modular/calculate_repo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MLP Modular/func_repo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MLP Modular/io_repo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4get-sentences.ipynb" afterPath="$PROJECT_DIR$/4get-sentences.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP-train.py" afterPath="$PROJECT_DIR$/MLP-train.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLPresultview.py" afterPath="$PROJECT_DIR$/MLPresultview.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Results/Notes on results.txt" afterPath="$PROJECT_DIR$/Results/Notes on results.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dominant-word-extract-v2.py" afterPath="$PROJECT_DIR$/dominant-word-extract-v2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dominant-word-extract.py" afterPath="$PROJECT_DIR$/dominant-word-extract.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recursive-calculate-with-dominant.py" afterPath="$PROJECT_DIR$/recursive-calculate-with-dominant.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recursive-calculate-with-dominantv1.py" afterPath="$PROJECT_DIR$/recursive-calculate-with-dominantv1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP/3clean-train.ipynb" afterPath="$PROJECT_DIR$/MLP/3clean-train.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -578,38 +18,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="MLPresultview.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MLPresultview.py">
+      <file leaf-file-name="Calculate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MLP/Calculate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="45" column="44" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="-1625">
+              <caret line="363" column="17" lean-forward="false" selection-start-line="363" selection-start-column="17" selection-end-line="363" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MLP-train.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MLP-train.py">
+      <file leaf-file-name="Calculate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MLP Modular/Calculate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2475">
-              <caret line="240" column="0" lean-forward="true" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+            <state relative-caret-position="400">
+              <caret line="283" column="17" lean-forward="false" selection-start-line="283" selection-start-column="17" selection-end-line="283" selection-end-column="17" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#536#569#0" expanded="false" />
                 <element signature="e#656#1099#0" expanded="false" />
-                <element signature="e#1128#1982#0" expanded="false" />
-                <element signature="e#2011#2303#0" expanded="false" />
-                <element signature="e#2328#2481#0" expanded="false" />
-                <element signature="e#2483#2521#0" expanded="false" />
-                <element signature="e#2835#2987#0" expanded="false" />
-                <element signature="e#3027#4272#0" expanded="false" />
-                <element signature="e#4329#4829#0" expanded="false" />
-                <element signature="e#4829#4885#0" expanded="false" />
-                <element signature="e#5201#8267#0" expanded="false" />
-                <element signature="e#8293#9397#0" expanded="false" />
-                <element signature="e#8729#9376#0" expanded="false" />
-                <element signature="e#9399#9437#0" expanded="false" />
-                <element signature="e#9628#10077#0" expanded="false" />
-                <element signature="e#15410#15427#0" expanded="false" />
+                <element signature="e#1129#1983#0" expanded="false" />
+                <element signature="e#2012#2304#0" expanded="false" />
+                <element signature="e#2329#2482#0" expanded="false" />
+                <element signature="e#2484#2522#0" expanded="false" />
+                <element signature="e#4830#4886#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calculate_repo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MLP Modular/calculate_repo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="160" column="46" lean-forward="false" selection-start-line="160" selection-start-column="46" selection-end-line="160" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#258#296#0" expanded="false" />
+                <element signature="e#2104#2604#0" expanded="false" />
+                <element signature="e#2604#2660#0" expanded="false" />
+                <element signature="e#6068#6137#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MLP Modular/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <element signature="e#23#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -629,6 +91,8 @@
       <find>word</find>
       <find>si</find>
       <find>calculate</find>
+      <find>rese</find>
+      <find>reset</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -655,6 +119,11 @@
         <option value="$PROJECT_DIR$/dominant-word-extract-v2.py" />
         <option value="$PROJECT_DIR$/MLP-train.py" />
         <option value="$PROJECT_DIR$/MLPresultview.py" />
+        <option value="$PROJECT_DIR$/MLP Modular/Calculate.py" />
+        <option value="$PROJECT_DIR$/MLP Modular/io_repo.py" />
+        <option value="$PROJECT_DIR$/MLP Modular/func_repo.py" />
+        <option value="$PROJECT_DIR$/MLP Modular/calculate_repo.py" />
+        <option value="$PROJECT_DIR$/MLP Modular/Main.py" />
       </list>
     </option>
   </component>
@@ -699,7 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -707,15 +176,20 @@
               <item name="Sentiment-Analysis-on-Movie-Reviews" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sentiment-Analysis-on-Movie-Reviews" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Sentiment-Analysis-on-Movie-Reviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sentiment-Analysis-on-Movie-Reviews" type="462c0819:PsiDirectoryNode" />
+              <item name="MLP Modular" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MLPresultview.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MLP Modular/Main.py" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
@@ -730,41 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MLPresultview">
-    <configuration name="MLP" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\efear\Anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Sentiment-Analysis-on-Movie-Reviews" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MLP-train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="MLPresultview" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\efear\Anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Sentiment-Analysis-on-Movie-Reviews" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MLPresultview.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.modular_main">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -829,100 +269,23 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration name="dominant-word-v2" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="modular_main" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\efear\Anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MLP Modular" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Sentiment-Analysis-on-Movie-Reviews" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dominant-word-extract-v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MLP Modular/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="dominant-word" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\efear\Anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Sentiment-Analysis-on-Movie-Reviews" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dominant-word-extract.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="recursive-calculate" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\efear\Anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Sentiment-Analysis-on-Movie-Reviews" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursive-calculate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="recursive-wd-v1" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\efear\Anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Sentiment-Analysis-on-Movie-Reviews" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursive-calculate-with-dominantv1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="recursive-wd-v2" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\efear\Anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Sentiment-Analysis-on-Movie-Reviews" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursive-calculate-with-dominant.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Python.MLPresultview" />
-      <item index="1" class="java.lang.String" itemvalue="Python.recursive-calculate" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dominant-word" />
-      <item index="3" class="java.lang.String" itemvalue="Python.dominant-word-v2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.recursive-wd-v2" />
-      <item index="5" class="java.lang.String" itemvalue="Python.recursive-wd-v1" />
-      <item index="6" class="java.lang.String" itemvalue="Python.MLP" />
-    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -952,17 +315,17 @@
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2054054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1827957" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18160096" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32735962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21744324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32801822" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32735962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3405018" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21675676" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26756757" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -977,6 +340,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MLP Modular/calculate_repo.py</url>
+          <line>165</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MLP Modular/Main.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -984,90 +359,15 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="163" />
+      <option name="time" value="273" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dominant-word-extract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5get-w2v-model.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dominant-word-extract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5get-w2v-model.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dominant-word-extract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/7calculate-test.ipynb" />
     <entry file="file://$PROJECT_DIR$/deneme.py" />
-    <entry file="file://$PROJECT_DIR$/5get-w2v-model.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dominant-word-extract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8output-results.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7calculate-test.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deneme.py" />
-    <entry file="file://$PROJECT_DIR$/7calculate-test.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8output-results.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/7calculate-test.ipynb" />
+    <entry file="file://$PROJECT_DIR$/8output-results.ipynb" />
     <entry file="file://$PROJECT_DIR$/deneme.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/IPython/core/interactiveshell.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1094,20 +394,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MLP-recursive-calculate.py" />
-    <entry file="file://$PROJECT_DIR$/3clean-train.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6get-words.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/3clean-train.ipynb" />
+    <entry file="file://$PROJECT_DIR$/6get-words.ipynb" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/tools/merge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1115,20 +403,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="602" column="0" lean-forward="false" selection-start-line="602" selection-start-column="0" selection-end-line="602" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.ipynb" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/common.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1140,13 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32150">
           <caret line="1306" column="0" lean-forward="false" selection-start-line="1306" selection-start-column="0" selection-end-line="1306" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7700">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1164,38 +432,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5get-w2v-model.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7calculate-test.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/5get-w2v-model.ipynb" />
+    <entry file="file://$PROJECT_DIR$/7calculate-test.ipynb" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38950">
           <caret line="1595" column="0" lean-forward="false" selection-start-line="1595" selection-start-column="0" selection-end-line="1595" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/internals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65050">
-          <caret line="2666" column="0" lean-forward="false" selection-start-line="2666" selection-start-column="0" selection-end-line="2666" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1221,96 +463,146 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MLPresultwiev.py" />
-    <entry file="file://$PROJECT_DIR$/8output-results.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2devide-data.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4get-sentences.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/8output-results.ipynb" />
+    <entry file="file://$PROJECT_DIR$/2devide-data.ipynb" />
+    <entry file="file://$PROJECT_DIR$/4get-sentences.ipynb" />
     <entry file="file://$PROJECT_DIR$/MLPresultviewwithnegatives.py" />
-    <entry file="file://$PROJECT_DIR$/recursive-calculate-with-dominantv1.py">
+    <entry file="file://$PROJECT_DIR$/recursive-calculate-with-dominantv1.py" />
+    <entry file="file://$PROJECT_DIR$/recursive-calculate.py" />
+    <entry file="file://$PROJECT_DIR$/recursive-calculate-with-dominant.py" />
+    <entry file="file://$PROJECT_DIR$/dominant-word-extract.py" />
+    <entry file="file://$PROJECT_DIR$/dominant-word-extract-v2.py" />
+    <entry file="file://$PROJECT_DIR$/MLPresultview.py" />
+    <entry file="file://$PROJECT_DIR$/MLP-train.py" />
+    <entry file="file://$PROJECT_DIR$/MLP Modular/1clean-data.ipynb" />
+    <entry file="file://$PROJECT_DIR$/MLP Modular/2devide-data.ipynb" />
+    <entry file="file://$PROJECT_DIR$/MLP Modular/3clean-train.ipynb" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="46" lean-forward="true" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recursive-calculate.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/series.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="120" column="33" lean-forward="false" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
+        <state relative-caret-position="162">
+          <caret line="2176" column="0" lean-forward="false" selection-start-line="2176" selection-start-column="0" selection-end-line="2176" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recursive-calculate-with-dominant.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/internals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dominant-word-extract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="4" column="99" lean-forward="false" selection-start-line="4" selection-start-column="99" selection-end-line="4" selection-end-column="99" />
+        <state relative-caret-position="58">
+          <caret line="1128" column="0" lean-forward="false" selection-start-line="1128" selection-start-column="0" selection-end-line="1128" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dominant-word-extract-v2.py">
+    <entry file="file://$PROJECT_DIR$/MLP Modular/func_repo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="61" column="37" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="37" />
+        <state relative-caret-position="217">
+          <caret line="234" column="0" lean-forward="true" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
           <folding>
-            <element signature="e#565#576#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
+            <element signature="e#308#336#0" expanded="false" />
+            <element signature="e#1015#2622#0" expanded="false" />
+            <element signature="e#1093#1157#0" expanded="false" />
+            <element signature="e#1419#1574#0" expanded="false" />
+            <element signature="e#1699#1742#0" expanded="false" />
+            <element signature="e#2388#2580#0" expanded="false" />
+            <element signature="e#2624#2671#0" expanded="false" />
+            <element signature="e#3009#3372#0" expanded="false" />
+            <element signature="e#3374#3402#0" expanded="false" />
+            <element signature="e#3729#5725#0" expanded="false" />
+            <element signature="e#5727#5744#0" expanded="false" />
+            <element signature="e#5879#6010#0" expanded="false" />
+            <element signature="e#6018#6035#0" expanded="false" />
+            <element signature="e#6662#7908#0" expanded="false" />
+            <element signature="e#7910#7927#0" expanded="false" />
+            <element signature="e#8179#8320#0" expanded="false" />
+            <element signature="e#8322#8350#0" expanded="false" />
+            <element signature="e#8496#8699#0" expanded="false" />
+            <element signature="e#8701#8744#0" expanded="false" />
+            <element signature="e#8947#9788#0" expanded="false" />
+            <element signature="e#9790#9820#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLPresultview.py">
+    <entry file="file://$PROJECT_DIR$/MLP Modular/io_repo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="45" column="44" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+        <state relative-caret-position="-39">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+            <element signature="e#305#343#0" expanded="false" />
+            <element signature="e#422#488#0" expanded="false" />
+            <element signature="e#488#543#0" expanded="false" />
+            <element signature="e#619#790#0" expanded="false" />
+            <element signature="e#792#877#0" expanded="false" />
+            <element signature="e#1245#1279#0" expanded="false" />
+            <element signature="e#1414#1430#0" expanded="false" />
+            <element signature="e#1461#1748#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLP/Calculate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1625">
+          <caret line="363" column="17" lean-forward="false" selection-start-line="363" selection-start-column="17" selection-end-line="363" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLP Modular/Calculate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="283" column="17" lean-forward="false" selection-start-line="283" selection-start-column="17" selection-end-line="283" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#536#569#0" expanded="false" />
+            <element signature="e#656#1099#0" expanded="false" />
+            <element signature="e#1129#1983#0" expanded="false" />
+            <element signature="e#2012#2304#0" expanded="false" />
+            <element signature="e#2329#2482#0" expanded="false" />
+            <element signature="e#2484#2522#0" expanded="false" />
+            <element signature="e#4830#4886#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLP-train.py">
+    <entry file="file://$PROJECT_DIR$/MLP Modular/calculate_repo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2475">
-          <caret line="240" column="0" lean-forward="true" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="160" column="46" lean-forward="false" selection-start-line="160" selection-start-column="46" selection-end-line="160" selection-end-column="46" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#656#1099#0" expanded="false" />
-            <element signature="e#1128#1982#0" expanded="false" />
-            <element signature="e#2011#2303#0" expanded="false" />
-            <element signature="e#2328#2481#0" expanded="false" />
-            <element signature="e#2483#2521#0" expanded="false" />
-            <element signature="e#2835#2987#0" expanded="false" />
-            <element signature="e#3027#4272#0" expanded="false" />
-            <element signature="e#4329#4829#0" expanded="false" />
-            <element signature="e#4829#4885#0" expanded="false" />
-            <element signature="e#5201#8267#0" expanded="false" />
-            <element signature="e#8293#9397#0" expanded="false" />
-            <element signature="e#8729#9376#0" expanded="false" />
-            <element signature="e#9399#9437#0" expanded="false" />
-            <element signature="e#9628#10077#0" expanded="false" />
-            <element signature="e#15410#15427#0" expanded="false" />
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#258#296#0" expanded="false" />
+            <element signature="e#2104#2604#0" expanded="false" />
+            <element signature="e#2604#2660#0" expanded="false" />
+            <element signature="e#6068#6137#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLP Modular/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
