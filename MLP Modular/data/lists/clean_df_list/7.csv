@@ -1,101 +1,101 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	676	24	good indic	3
-1	804	29	arthur schnitzler reigen	2
-2	276	11	littl recommend snow dog	1
-3	16	1	good goos	2
-4	336	12	prove sometim dream youth remain	1
-5	748	28	earnest	2
-6	692	25	romant comedi boilerpl start finish	2
-7	450	16	sweet modest	4
-8	879	32	sound	3
-9	255	9	leav much	2
-10	918	34	veri littl sens go maker serv up clich consider dash	1
-11	404	14	path	2
-12	498	18	love veri much	4
-13	633	23	watch host defend froth exgirlfriend	2
-14	504	18	hong kong movi	2
-15	509	18	movi	2
-16	650	24	chuck norri grenad gag	2
-17	261	10	could hate reason	1
-18	977	36	unnam easili substitut forc	1
-19	697	25	comedi	3
-20	802	29	structur	2
-21	380	14	way	2
-22	644	23	froth exgirlfriend	2
-23	556	21	indi year	3
-24	920	34	veri littl sens go	0
-25	7	1		2
-26	289	11	consid clich dialogu pervers escap sourc high hilar	2
-27	652	24	chuck	2
-28	341	12	dream youth remain	2
-29	113	3	thi one	2
-30	790	29	vapid actor exercis appropri structur arthur schnitzler reigen	2
-31	214	8	import earnest thick wit play like read bartlett familiar quotat	3
-32	699	25	start	2
-33	249	9	doe nt leav much	1
-34	108	3	hard time	1
-35	827	30		2
-36	182	6	in	2
-37	824	30	narr	2
-38	902	33	feel	2
-39	865	32	script	2
-40	300	11	sourc high hilar	3
-41	527	19	aveng wild wild west	2
-42	782	28	actor perform	2
-43	936	34	serv up	2
-44	424	16	welcom relief basebal movi tri too hard mythic thi one sweet modest ultim win stori	3
-45	703	26	arriv impecc pedigre mongrel pep almost indecipher plot complic	2
-46	43	1		2
-47	873	32	poetri	3
-48	708	26	impecc pedigre mongrel pep almost indecipher plot complic	1
-49	916	33	earli	2
-50	673	24	windtalk	2
-51	325	12	childhood dream	2
-52	671	24	dure windtalk	2
-53	454	16	modest	3
-54	38	1		2
-55	31	1	also	2
-56	993	36	hero horror movi tri avoid	1
-57	973	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	1
-58	209	7	plod mess	0
-59	407	14	sens	2
-60	593	22	gambl publish world	2
-61	577	22	oddest	1
-62	889	33	age	2
-63	503	18	veri	2
-64	351	12		2
-65	309	12	kung	2
-66	56	1	much stori	2
-67	608	22	exist apart movi polit ramif	2
-68	372	14	seriou	2
-69	741	27	convert	2
-70	469	17	woman	2
-71	264	10	hate reason	1
-72	649	24	chuck norri grenad gag	2
-73	521	19	inept	1
-74	441	16	mythic	2
-75	253	9	doe	2
-76	572	22	hick	2
-77	869	32	aim poetri	2
-78	954	35	runaway success	4
-79	445	16	thi one sweet modest ultim win stori	4
-80	53	1	amount much stori	2
-81	417	15	mile	2
-82	749	28	offer opportun occasion smile chuckl	2
-83	532	19	wild wild west	3
-84	719	26	mongrel	1
-85	842	31	runofthemil action	3
-86	898	33	featur	2
-87	944	34	dash	2
-88	887	33	ice age	2
-89	575	22	oddest coupl	2
-90	165	5	manipul	2
-91	248	9	doe nt leav much	1
-92	463	17	bilingu	2
-93	591	22	studi	2
-94	307	12	kung pow oedekerk realiz hi childhood dream in martialart flick prove sometim dream youth remain	1
-95	776	28	beyond	2
-96	373	14	say way in extravag chanc distort perspect throw us path good sens	3
-97	217	8	earnest thick wit play like read bartlett familiar quotat	2
-98	2	1	seri escapad demonstr adag good goos	2
-99	122	4	posit	3
+0	628	23	hous parti	2
+1	951	35	follow runaway success hi first film full monti	3
+2	759	28	chuckl	1
+3	195	6	undergo	2
+4	719	26	mongrel	1
+5	433	16	basebal	2
+6	723	26	indecipher	2
+7	57	1		2
+8	827	30		2
+9	244	8	bartlett	2
+10	805	29	arthur schnitzler reigen	3
+11	213	7	mess	1
+12	4	1		2
+13	327	12	dream	3
+14	142	4	murder	1
+15	857	32	no paralyz	1
+16	330	12		2
+17	151	4	juici soap opera	3
+18	583	22	movi becom studi gambl publish world offer case studi exist apart movi polit ramif	2
+19	326	12	childhood	2
+20	512	18	mainland set	3
+21	46	1	amus none amount much stori	2
+22	182	6	in	2
+23	738	27	exclus	2
+24	163	5	manipul whitewash	1
+25	464	17	charmer	3
+26	461	17	bilingu charmer	3
+27	691	25	romant comedi boilerpl start finish	3
+28	844	31	runofthemil action	2
+29	728	27	film	2
+30	648	24	chuck norri grenad gag occur 7 time dure windtalk good indic seriousmind film	2
+31	440	16	hard mythic	1
+32	656	24		2
+33	36	1	gander	2
+34	631	23	hous	2
+35	430	16	basebal movi tri too hard mythic	1
+36	365	14	fresnadillo	2
+37	789	29	latest	2
+38	355	13	perform	2
+39	168	6	comedydrama nearli epic proport	3
+40	186	6	perform	2
+41	392	14	distort	2
+42	716	26	pedigre	2
+43	373	14	say way in extravag chanc distort perspect throw us path good sens	3
+44	211	7	plod mess	0
+45	812	30	vaudevil show wellconstruct narr term inoffens actual rather sweet	3
+46	245	8	familiar quotat	2
+47	590	22	studi	2
+48	909	33	make	2
+49	889	33	age	2
+50	192	6	titl	2
+51	737	27	preach	2
+52	369	14	someth seriou say way in extravag chanc distort perspect throw us path good sens	3
+53	284	11	snow	2
+54	431	16	basebal movi tri too hard mythic	0
+55	634	23	watch	2
+56	231	8	play like read bartlett familiar quotat	2
+57	923	34	veri littl sens go	1
+58	528	19	aveng wild wild west	2
+59	248	9	doe nt leav much	1
+60	227	8	wit play like read bartlett familiar quotat	3
+61	533	19	wild wild west	2
+62	641	23		2
+63	726	27	film clearli mean preach exclus convert	2
+64	424	16	welcom relief basebal movi tri too hard mythic thi one sweet modest ultim win stori	3
+65	131	4		2
+66	354	13	perform	2
+67	171	6	nearli epic proport	3
+68	387	14	distort perspect throw us path good sens	2
+69	682	24	seriousmind film	2
+70	232	8		2
+71	882	33	ice age first computergener featur cartoon feel like movi make glacial pace earli	2
+72	453	16	sweet	4
+73	116	3	one	2
+74	661	24		2
+75	71	2	introspect entertain	3
+76	422	15	damn	2
+77	643	23		2
+78	18	1	good goos	2
+79	149	4	tragedi	1
+80	415	15	moonlight	2
+81	924	34	veri littl sens	1
+82	954	35	runaway success	4
+83	904	33	movi	2
+84	382	14	in	2
+85	808	29	schnitzler	2
+86	570	22	hatfield	2
+87	884	33	ice age first computergener featur cartoon feel like movi	3
+88	684	24	seriousmind	2
+89	998	36	horror movi	2
+90	65	2	thi quiet introspect entertain independ	3
+91	283	11	snow dog	2
+92	420	15	better	4
+93	155	4	soap	2
+94	502	18	veri much	2
+95	141	4	deceit	1
+96	619	22	ramif	2
+97	767	28	reason in theater beyond wild wit actor perform	2
+98	20	1	good goos	2
+99	793	29	vapid	1

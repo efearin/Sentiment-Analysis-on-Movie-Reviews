@@ -1,89 +1,88 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	322	12	hi childhood dream	2.0
-1	158	5	aggress selfglorif manipul whitewash	0.5
-2	100	3	suspect	2.0
-3	856	32	no paralyz	2.0
-4	751	28	offer opportun occasion smile	3.0
-5	338	12	sometim dream youth remain	1.0
-6	809	29	schnitzler	2.0
-7	216	8	import	3.0
-8	104	3	hard time sit thi one	0.0
-9	622	23	like go hous parti watch host defend froth exgirlfriend	1.0
-10	363	13	joy	4.0
-11	80	2	worth	2.0
-12	231	8	play like read bartlett familiar quotat	2.0
-13	672	24	dure	2.0
-14	599	22	publish	2.0
-15	136	4	betray deceit murder	1.0
-16	793	29	vapid	1.0
-17	365	14	fresnadillo	2.0
-18	200	7	narr	2.0
-19	87	3	ismail merchant work	2.0
-20	153	4	juici	3.0
-21	468	17	woman	2.0
-22	837	30	actual	2.0
-23	694	25	romant comedi boilerpl	1.0
-24	391	14	distort perspect	2.0
-25	910	33	glacial pace	2.0
-26	780	28	wild	2.0
-27	814	30	vaudevil show wellconstruct narr	1.5
-28	767	28	reason in theater beyond wild wit actor perform	2.0
-29	828	30	term	2.0
-30	562	21	far	2.0
-31	553	21	best	4.0
-32	994	36	hero horror movi	2.0
-33	161	5	selfglorif	1.0
-34	408	15	still like moonlight mile better judgment damn	3.0
-35	311	12	oedekerk realiz hi childhood dream in martialart flick prove sometim dream youth remain	2.0
-36	456	16	ultim	2.0
-37	8	1	escapad demonstr adag good goos	2.0
-38	552	21	best indi year far	4.0
-39	959	35	hi first film full monti	2.0
-40	315	12	oedekerk realiz hi childhood dream in martialart flick	2.0
-41	121	4	posit thrill combin	3.0
-42	395	14	perspect	2.0
-43	997	36	horror movi	2.0
-44	578	22	coupl	2.0
-45	176	6	proport	2.0
-46	346	12	youth	2.0
-47	727	27	film clearli mean	2.0
-48	328	12	in martialart flick	2.0
-49	693	25	romant comedi boilerpl start	2.0
-50	272	11	littl recommend snow dog unless one consid clich dialogu pervers escap sourc high hilar	1.0
-51	28	1	also good gander occasion amus none amount much stori	2.0
-52	33	1	gander occasion amus none amount much stori	2.0
-53	256	9	leav	2.0
-54	517	19	inept bigscreen remak aveng wild wild west	1.0
-55	73	2	introspect	2.0
-56	799	29	appropri structur arthur schnitzler reigen	2.0
-57	147	4	shakespearean tragedi	2.0
-58	680	24	seriousmind film	3.0
-59	62	1	stori	2.0
-60	492	18	in mood love veri much hong kong movi	3.0
-61	184	6	sincer perform	4.0
-62	638	23	defend froth exgirlfriend	2.0
-63	68	2	quiet introspect entertain	3.0
-64	254	9	nt	2.0
-65	139	4	deceit murder	1.0
-66	585	22	becom studi gambl publish world offer case studi exist apart movi polit ramif	2.0
-67	359	13	absolut joy	4.0
-68	642	23	froth exgirlfriend	2.0
-69	946	35	cattaneo	2.0
-70	134	4	intrigu	3.0
-71	923	34	veri littl sens go	1.0
-72	107	3	hard time	1.0
-73	203	7	troubl everi day	2.0
-74	854	32	hamper	2.0
-75	550	20	noth	1.0
-76	580	22	in thi sens movi becom studi gambl publish world offer case studi exist apart movi polit ramif	3.0
-77	903	33	like movi	2.0
-78	299	11	escap	2.0
-79	713	26	impecc pedigre mongrel pep	3.0
-80	897	33	featur cartoon	2.0
-81	976	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	1.0
-82	817	30	vaudevil	2.0
-83	747	28	earnest	2.0
-84	574	22	make	2.0
-85	784	28	actor	2.0
-86	483	18	gorgeou	3.0
-87	20	1	good goos	2.0
+0	308	12	kung pow	2.0
+1	160	5	selfglorif manipul whitewash	0.0
+2	992	36	terror	1.0
+3	627	23	go	2.0
+4	964	35	full monti	2.0
+5	515	18	mainland	2.0
+6	942	34	consider dash	2.0
+7	175	6	epic	3.0
+8	463	17	bilingu	2.0
+9	747	28	earnest	2.0
+10	58	1	much stori	2.0
+11	545	20	expect noth	2.0
+12	304	11	high hilar	4.0
+13	863	32	selfindulg script	2.0
+14	885	33	ice age first computergener featur cartoon feel like movi	2.5
+15	262	10	could hate reason	0.0
+16	31	1	also	2.0
+17	79	2	worth	2.0
+18	62	1	stori	2.0
+19	605	22	case studi	2.0
+20	459	17	bilingu charmer like woman inspir	3.0
+21	713	26	impecc pedigre mongrel pep	3.0
+22	794	29	actor exercis	2.0
+23	788	29	latest	2.0
+24	438	16	too hard mythic	1.0
+25	88	3	ismail merchant work	2.0
+26	731	27	clearli	2.0
+27	173	6	nearli epic	4.0
+28	560	21	year	2.0
+29	720	26	pep	2.0
+30	735	27	preach exclus convert	2.0
+31	957	35	success	3.0
+32	922	34	veri littl sens go	1.0
+33	135	4	betray deceit murder	2.0
+34	974	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	2.0
+35	84	3	even fan	2.0
+36	81	2	seek	2.0
+37	406	14	good sens	3.0
+38	833	30	inoffens actual rather sweet	3.0
+39	867	32	aim poetri end up sound like satir	1.0
+40	372	14	seriou	2.0
+41	333	12	martialart flick	2.0
+42	756	28	occasion smile	3.0
+43	709	26	impecc pedigre mongrel pep almost	2.0
+44	92	3	merchant	2.0
+45	421	15	judgment	2.0
+46	403	14	path	2.0
+47	934	34	maker	2.0
+48	243	8	bartlett	2.0
+49	364	14	fresnadillo ha someth seriou say way in extravag chanc distort perspect throw us path good sens	3.0
+50	223	8	thick wit play like read bartlett familiar quotat	2.0
+51	803	29	structur	2.0
+52	396	14	throw us path good sens	2.0
+53	849	32	hamper no paralyz selfindulg script aim poetri end up sound like satir	0.0
+54	465	17	like woman inspir	2.0
+55	733	27	mean	2.0
+56	686	24	film	2.0
+57	613	22	movi polit ramif	2.0
+58	106	3	hard time sit thi one	1.0
+59	317	12	oedekerk realiz hi childhood dream	2.0
+60	487	18	wong in mood love veri much hong kong movi despit mainland set	2.0
+61	274	11	littl recommend snow dog unless one consid clich dialogu pervers escap sourc high hilar	1.0
+62	314	12	oedekerk realiz hi childhood dream in martialart flick	2.0
+63	701	25	finish	2.0
+64	214	8	import earnest thick wit play like read bartlett familiar quotat	3.0
+65	994	36	hero horror movi	2.0
+66	439	16	too	2.0
+67	995	36	hero	2.0
+68	152	4	juici soap opera	3.0
+69	618	22	polit	2.0
+70	443	16	mythic	2.0
+71	837	30	actual	2.0
+72	725	26	complic	1.0
+73	301	11	sourc	2.0
+74	517	19	inept bigscreen remak aveng wild wild west	1.0
+75	573	22	make oddest coupl	2.0
+76	621	23	like go hous parti watch host defend froth exgirlfriend	1.0
+77	418	15	better judgment	2.0
+78	819	30	show	2.0
+79	234	8	play	2.0
+80	133	4	intrigu betray deceit murder	2.0
+81	153	4	juici	3.0
+82	297	11	pervers escap	2.0
+83	8	1	escapad demonstr adag good goos	2.0
+84	940	34	clich	2.0
+85	654	24	norri	2.0
+86	835	30	inoffens	2.0

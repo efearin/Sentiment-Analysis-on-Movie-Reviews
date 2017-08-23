@@ -1,101 +1,101 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	534	19	wild	3
-1	54	1	amount much stori	2
-2	37	1	gander	2
-3	717	26	mongrel pep	2
-4	63	1		2
-5	860	32	paralyz	2
-6	77	2	worth seek	3
-7	988	36	whatev terror hero horror movi tri avoid	2
-8	376	14	way in extravag chanc distort perspect throw us path good sens	2
-9	473	17	inspir	3
-10	9	1	escapad	2
-11	803	29	structur	2
-12	507	18	kong movi	2
-13	682	24	seriousmind film	2
-14	324	12	hi	2
-15	746	28	import earnest	3
-16	35	1	gander	2
-17	816	30	vaudevil	2
-18	822	30	wellconstruct narr	4
-19	318	12	oedekerk realiz	2
-20	48	1	none amount much stori	1
-21	171	6	nearli epic proport	3
-22	981	36	easili substitut	1
-23	980	36	unnam	2
-24	49	1		2
-25	613	22	movi polit ramif	2
-26	645	23	froth exgirlfriend	2
-27	66	2	thi	2
-28	335	12	flick	2
-29	196	6	midlif crisi	1
-30	502	18	veri much	2
-31	271	10	reason	2
-32	306	11	hilar	3
-33	65	2	thi quiet introspect entertain independ	3
-34	233	8	play like read bartlett familiar quotat	3
-35	496	18	love veri much hong kong movi	2
-36	947	35	follow runaway success hi first film full monti someth differ	2
-37	1	1	seri escapad demonstr adag good goos also good gander occasion amus none amount much stori	1
-38	691	25	romant comedi boilerpl start finish	3
-39	999	36	horror	1
-40	81	2	seek	2
-41	163	5	manipul whitewash	1
-42	83	3	even fan ismail merchant work	2
-43	246	8	familiar	2
-44	72	2	introspect	3
-45	789	29	latest	2
-46	403	14	path	2
-47	724	26	plot complic	2
-48	979	36	unnam easili substitut	1
-49	399	14	us	3
-50	669	24	7	2
-51	79	2	worth	2
-52	884	33	ice age first computergener featur cartoon feel like movi	3
-53	808	29	schnitzler	2
-54	518	19	inept bigscreen remak aveng wild wild west	2
-55	36	1	gander	2
-56	624	23	go hous parti watch host defend froth exgirlfriend	1
-57	421	15	judgment	2
-58	283	11	snow dog	2
-59	132	4	intrigu betray deceit murder	1
-60	369	14	someth seriou say way in extravag chanc distort perspect throw us path good sens	3
-61	728	27	film	2
-62	594	22	gambl	2
-63	282	11	recommend	3
-64	773	28	theater	2
-65	969	35	someth differ	3
-66	137	4	betray	2
-67	661	24		2
-68	609	22	exist apart	2
-69	619	22	ramif	2
-70	738	27	exclus	2
-71	269	10	reason	2
-72	561	21	year	2
-73	629	23	hous parti	2
-74	955	35	runaway success	3
-75	120	4	posit thrill combin	3
-76	586	22	becom studi gambl publish world	2
-77	236	8	like	2
-78	588	22	becom	2
-79	597	22	publish world	2
-80	846	31	runofthemil	1
-81	428	16	welcom	2
-82	168	6	comedydrama nearli epic proport	3
-83	128	4	ethnographi	2
-84	82	3	even fan ismail merchant work suspect would hard time sit thi one	1
-85	885	33	ice age first computergener featur cartoon feel like movi	2
-86	538	20	everyth expect noth	1
-87	615	22	movi	2
-88	805	29	arthur schnitzler reigen	3
-89	106	3	hard time sit thi one	1
-90	208	7	plod mess	1
-91	488	18	wong	2
-92	288	11	one consid clich dialogu pervers escap sourc high hilar	2
-93	26	1	goos	2
-94	164	5	manipul whitewash	1
-95	191	6	titl charact	2
-96	541	20	everyth	2
-97	434	16	movi	2
-98	67	2	quiet introspect entertain independ	4
-99	115	3	thi one	2
+0	90	3	ismail	2
+1	973	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	1
+2	250	9	doe nt leav much	1
+3	156	4	opera	2
+4	255	9	leav much	2
+5	436	16	tri too hard mythic	1
+6	651	24	chuck norri grenad gag	2
+7	778	28	wild wit	3
+8	530	19	aveng	2
+9	455	16	ultim win stori	4
+10	452	16	sweet	3
+11	816	30	vaudevil	2
+12	806	29	arthur schnitzler	2
+13	993	36	hero horror movi tri avoid	1
+14	997	36	horror movi	2
+15	139	4	deceit murder	1
+16	42	1		2
+17	876	32	end	2
+18	540	20	everyth expect noth	1
+19	490	18	in mood love veri much hong kong movi despit mainland set	2
+20	915	33	earli	2
+21	83	3	even fan ismail merchant work	2
+22	17	1		2
+23	873	32	poetri	3
+24	710	26	impecc pedigre mongrel pep	2
+25	103	3	would	2
+26	107	3	hard time	1
+27	254	9	nt	2
+28	850	32	hamper no paralyz selfindulg script aim poetri end up sound like satir	1
+29	388	14		2
+30	769	28	in theater beyond wild wit actor perform	2
+31	499	18	love	3
+32	815	30	vaudevil show wellconstruct narr	1
+33	441	16	mythic	2
+34	9	1	escapad	2
+35	807	29	arthur	2
+36	169	6	comedydrama	2
+37	189	6	titl charact undergo midlif crisi	2
+38	315	12	oedekerk realiz hi childhood dream in martialart flick	2
+39	389	14	distort perspect throw us path good sens	2
+40	454	16	modest	3
+41	678	24	indic	2
+42	470	17	inspir	2
+43	306	11	hilar	3
+44	233	8	play like read bartlett familiar quotat	3
+45	505	18	hong kong movi	2
+46	916	33	earli	2
+47	391	14	distort perspect	2
+48	356	13	absolut joy	4
+49	780	28	wild	2
+50	91	3	merchant	2
+51	972	36		2
+52	781	28	wild	2
+53	757	28	occasion	2
+54	970	35	differ	2
+55	592	22	gambl publish world	2
+56	743	28	import earnest offer opportun occasion smile chuckl	3
+57	310	12	pow	3
+58	795	29	actor	2
+59	511	18	despit	2
+60	258	9		2
+61	120	4	posit thrill combin	3
+62	199	7	narr troubl everi day plod mess	1
+63	650	24	chuck norri grenad gag	2
+64	351	12		2
+65	910	33	glacial pace	2
+66	569	22	hatfield hick	2
+67	936	34	serv up	2
+68	48	1	none amount much stori	1
+69	659	24	gag	2
+70	642	23	froth exgirlfriend	2
+71	377	14		2
+72	853	32	hamper no paralyz	2
+73	217	8	earnest thick wit play like read bartlett familiar quotat	2
+74	681	24		2
+75	821	30		2
+76	598	22	publish world	2
+77	586	22	becom studi gambl publish world	2
+78	829	30		2
+79	880	32	like satir	2
+80	677	24	good indic	3
+81	462	17	bilingu charmer	3
+82	324	12	hi	2
+83	748	28	earnest	2
+84	975	36		2
+85	504	18	hong kong movi	2
+86	240	8	bartlett familiar quotat	2
+87	489	18	in mood love veri much hong kong movi despit mainland set	2
+88	256	9	leav	2
+89	150	4		2
+90	727	27	film clearli mean	2
+91	445	16	thi one sweet modest ultim win stori	4
+92	25	1		2
+93	329	12	in martialart flick	2
+94	159	5	aggress	2
+95	193	6	charact	2
+96	325	12	childhood dream	2
+97	913	33	glacial	2
+98	785	28	actor	2
+99	147	4	shakespearean tragedi	2

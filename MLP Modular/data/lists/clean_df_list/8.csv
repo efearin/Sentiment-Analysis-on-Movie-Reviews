@@ -1,101 +1,101 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	386	14	chanc	2
-1	778	28	wild wit	3
-2	304	11	high hilar	4
-3	205	7	everi day	2
-4	825	30	term inoffens actual rather sweet	3
-5	753	28	opportun occasion smile	2
-6	482	18	dizzili	2
-7	929	34	go	2
-8	390	14	distort perspect	2
-9	177	6	root in sincer perform titl charact undergo midlif crisi	4
-10	211	7	plod mess	0
-11	207	7	day	2
-12	320	12	oedekerk	2
-13	634	23	watch	2
-14	74	2		2
-15	530	19	aveng	2
-16	381	14	in extravag chanc distort perspect throw us path good sens	2
-17	966	35	full	3
-18	515	18	mainland	2
-19	734	27	preach exclus convert	1
-20	662	24	occur 7 time dure windtalk good indic seriousmind film	2
-21	333	12	martialart flick	2
-22	985	36	forc	2
-23	621	23	like go hous parti watch host defend froth exgirlfriend	1
-24	173	6	nearli epic	4
-25	733	27	mean	2
-26	731	27	clearli	2
-27	287	11	unless	2
-28	477	18	less dizzili gorgeou companion	2
-29	451	16	sweet modest	3
-30	89	3	ismail merchant	2
-31	548	20	expect	2
-32	628	23	hous parti	2
-33	844	31	runofthemil action	2
-34	109	3	hard	2
-35	714	26	impecc	4
-36	119	4	posit thrill combin ethnographi intrigu betray deceit murder	4
-37	124	4	thrill	4
-38	974	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	2
-39	484	18	companion	3
-40	917	34	veri littl sens go maker serv up clich consider dash	2
-41	425	16	welcom relief basebal movi tri too hard mythic	3
-42	6	1	escapad demonstr adag good goos	2
-43	378	14	way in extravag chanc distort perspect throw us path good sens	1
-44	92	3	merchant	2
-45	285	11	dog	2
-46	872	32	poetri	2
-47	418	15	better judgment	2
-48	945	35	cattaneo follow runaway success hi first film full monti someth differ	2
-49	189	6	titl charact undergo midlif crisi	2
-50	14	1		2
-51	75	2	entertain	4
-52	930	34	go	2
-53	664	24	occur	2
-54	978	36	unnam easili substitut forc	2
-55	654	24	norri	2
-56	125	4	combin	2
-57	356	13	absolut joy	4
-58	576	22	oddest	2
-59	449	16	sweet modest	3
-60	514	18	mainland set	2
-61	528	19	aveng wild wild west	2
-62	666	24	7 time dure windtalk	2
-63	636	23	host	2
-64	583	22	movi becom studi gambl publish world offer case studi exist apart movi polit ramif	2
-65	648	24	chuck norri grenad gag occur 7 time dure windtalk good indic seriousmind film	2
-66	783	28	actor	2
-67	245	8	familiar quotat	2
-68	874	32	end up sound like satir	1
-69	76	2	independ	2
-70	420	15	better	4
-71	774	28	theater	3
-72	542	20	expect noth	1
-73	715	26	pedigre mongrel pep	2
-74	627	23	go	2
-75	567	22	hatfield hick make oddest coupl	2
-76	859	32	paralyz	1
-77	436	16	tri too hard mythic	1
-78	960	35	hi first film full monti	2
-79	810	29	reigen	2
-80	406	14	good sens	3
-81	683	24	seriousmind film	3
-82	829	30		2
-83	274	11	littl recommend snow dog unless one consid clich dialogu pervers escap sourc high hilar	1
-84	911	33	glacial pace	2
-85	788	29	latest	2
-86	280	11	recommend snow dog	2
-87	301	11	sourc	2
-88	882	33	ice age first computergener featur cartoon feel like movi make glacial pace earli	2
-89	204	7	troubl	1
-90	982	36	easili substitut	2
-91	560	21	year	2
-92	40	1		2
-93	443	16	mythic	2
-94	487	18	wong in mood love veri much hong kong movi despit mainland set	2
-95	984	36	substitut	1
-96	90	3	ismail	2
-97	641	23		2
-98	494	18	mood	3
-99	235	8	like read bartlett familiar quotat	2
+0	206	7	everi	2
+1	581	22	in thi sens	2
+2	695	25	romant	2
+3	741	27	convert	2
+4	622	23	like go hous parti watch host defend froth exgirlfriend	1
+5	225	8	thick wit play like read bartlett familiar quotat	3
+6	963	35	first film	2
+7	687	25	plot romant comedi boilerpl start finish	2
+8	784	28	actor	2
+9	862	32	selfindulg script	0
+10	966	35	full	3
+11	854	32	hamper	2
+12	602	22	offer	2
+13	286	11	unless one consid clich dialogu pervers escap sourc high hilar	1
+14	952	35	follow	2
+15	566	22	hatfield hick make oddest coupl	2
+16	60	1	stori	2
+17	100	3	suspect	2
+18	101	3	would hard time sit thi one	1
+19	526	19	remak	2
+20	883	33	ice age first computergener featur cartoon feel like movi make glacial pace earli	2
+21	344	12	dream	2
+22	657	24	grenad gag	2
+23	693	25	romant comedi boilerpl start	2
+24	181	6	in sincer perform	4
+25	692	25	romant comedi boilerpl start finish	2
+26	629	23	hous parti	2
+27	571	22	hatfield	2
+28	264	10	hate reason	1
+29	792	29	vapid actor exercis	1
+30	95	3	suspect would hard time sit thi one	1
+31	108	3	hard time	1
+32	70	2	introspect entertain	3
+33	577	22	oddest	1
+34	122	4	posit	3
+35	362	13	absolut	2
+36	311	12	oedekerk realiz hi childhood dream in martialart flick prove sometim dream youth remain	2
+37	381	14	in extravag chanc distort perspect throw us path good sens	2
+38	457	16	win stori	3
+39	99	3		2
+40	679	24	seriousmind film	2
+41	734	27	preach exclus convert	1
+42	683	24	seriousmind film	3
+43	474	18	like less dizzili gorgeou companion mr wong in mood love veri much hong kong movi despit mainland set	2
+44	339	12	sometim dream youth remain	1
+45	85	3	even	2
+46	384	14	extravag chanc	2
+47	826	30	term	2
+48	777	28	wild wit actor perform	2
+49	722	26	indecipher plot complic	1
+50	981	36	easili substitut	1
+51	247	8	quotat	2
+52	285	11	dog	2
+53	47	1	amus	3
+54	931	34		2
+55	215	8	import	2
+56	620	23	like go hous parti watch host defend froth exgirlfriend	1
+57	809	29	schnitzler	2
+58	575	22	oddest coupl	2
+59	375	14	say	2
+60	658	24	grenad	1
+61	348	12		2
+62	594	22	gambl	2
+63	210	7	plod mess	1
+64	475	18	like less dizzili gorgeou companion mr	3
+65	564	22	hatfield hick make oddest coupl in thi sens movi becom studi gambl publish world offer case studi exist apart movi polit ramif	3
+66	198	6	crisi	2
+67	411	15	like moonlight mile better judgment damn	2
+68	312	12	oedekerk realiz hi childhood dream in martialart flick prove sometim dream youth remain	0
+69	73	2	introspect	2
+70	822	30	wellconstruct narr	4
+71	137	4	betray	2
+72	766	28	give	3
+73	279	11	littl	2
+74	435	16	tri too hard mythic	1
+75	428	16	welcom	2
+76	930	34	go	2
+77	638	23	defend froth exgirlfriend	2
+78	113	3	thi one	2
+79	334	12	martialart	2
+80	89	3	ismail merchant	2
+81	50	1	none amount much stori	1
+82	960	35	hi first film full monti	2
+83	640	23	defend	2
+84	257	9	leav	1
+85	758	28	smile	2
+86	556	21	indi year	3
+87	259	9	much	2
+88	359	13	absolut joy	4
+89	544	20		2
+90	895	33	computergener featur cartoon	2
+91	412	15	like moonlight mile better judgment damn	2
+92	309	12	kung	2
+93	33	1	gander occasion amus none amount much stori	2
+94	479	18	less dizzili gorgeou	2
+95	944	34	dash	2
+96	939	34	clich	1
+97	7	1		2
+98	582	22	thi sens	2
+99	978	36	unnam easili substitut forc	2

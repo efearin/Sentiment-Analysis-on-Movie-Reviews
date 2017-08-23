@@ -1,89 +1,91 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	616	22	movi	2.0
-1	696	25	comedi boilerpl	2.0
-2	374	14	say way in extravag chanc distort perspect throw us path good sens	2.0
-3	557	21	indi year	3.0
-4	50	1	none amount much stori	1.0
-5	896	33	computergener	2.0
-6	957	35	success	3.0
-7	690	25	romant comedi boilerpl start finish	2.0
-8	142	4	murder	1.0
-9	823	30	wellconstruct	3.0
-10	439	16	too	2.0
-11	148	4	shakespearean	2.0
-12	194	6	undergo midlif crisi	2.0
-13	281	11	recommend snow dog	4.0
-14	192	6	titl	2.0
-15	155	4	soap	2.0
-16	195	6	undergo	2.0
-17	800	29	appropri structur	2.0
-18	244	8	bartlett	2.0
-19	545	20	expect noth	2.0
-20	611	22	apart	2.0
-21	531	19	aveng	2.0
-22	646	23	froth	1.0
-23	275	11	littl recommend snow dog unless one consid clich dialogu pervers escap sourc high hilar	1.0
-24	389	14	distort perspect throw us path good sens	2.0
-25	870	32	aim poetri	2.0
-26	657	24	grenad gag	2.0
-27	839	30	rather	2.0
-28	640	23	defend	2.0
-29	725	26	complic	1.0
-30	522	19	bigscreen remak aveng wild wild west	1.0
-31	938	34	clich consider dash	1.0
-32	849	32	hamper no paralyz selfindulg script aim poetri end up sound like satir	0.0
-33	826	30	term	2.0
-34	967	35	monti	2.0
-35	262	10	could hate reason	0.5
-36	447	16	sweet modest ultim win stori	3.0
-37	566	22	hatfield hick make oddest coupl	2.0
-38	349	12	remain	2.0
-39	569	22	hatfield hick	2.0
-40	102	3	would hard time sit thi one	0.0
-41	384	14	extravag chanc	2.0
-42	251	9	doe nt leav much	1.0
-43	836	30	inoffens	1.0
-44	883	33	ice age first computergener featur cartoon feel like movi make glacial pace earli	2.0
-45	15	1	adag	2.0
-46	573	22	make oddest coupl	2.0
-47	47	1	amus	3.0
-48	354	13	perform	2.0
-49	899	33	cartoon	2.0
-50	787	29	latest vapid actor exercis appropri structur arthur schnitzler reigen	1.0
-51	118	4	posit thrill combin ethnographi intrigu betray deceit murder shakespearean tragedi juici soap opera	4.0
-52	564	22	hatfield hick make oddest coupl in thi sens movi becom studi gambl publish world offer case studi exist apart movi polit ramif	3.0
-53	490	18	in mood love veri much hong kong movi despit mainland set	2.0
-54	772	28	in theater	2.0
-55	94	3	work	2.0
-56	339	12	sometim dream youth remain	1.0
-57	263	10	could	2.0
-58	472	17	inspir	2.0
-59	411	15	like moonlight mile better judgment damn	2.0
-60	750	28	offer opportun occasion smile	3.0
-61	667	24	7 time	2.0
-62	635	23	host defend froth exgirlfriend	2.0
-63	11	1	demonstr adag	2.0
-64	806	29	arthur schnitzler	2.0
-65	766	28	give	3.0
-66	765	28	give us	2.0
-67	756	28	occasion smile	3.0
-68	206	7	everi	2.0
-69	431	16	basebal movi tri too hard mythic	0.0
-70	181	6	in sincer perform	4.0
-71	651	24	chuck norri grenad gag	2.0
-72	701	25	finish	2.0
-73	511	18	despit	2.0
-74	698	25	boilerpl	2.0
-75	144	4	shakespearean tragedi juici soap opera	2.0
-76	908	33	make glacial pace	1.0
-77	64	2	thi quiet introspect entertain independ worth seek	4.0
-78	775	28	beyond wild wit actor perform	2.0
-79	764	28	give us reason in theater beyond wild wit actor perform	1.0
-80	838	30	rather sweet	3.0
-81	458	16	win	3.0
-82	934	34	maker	2.0
-83	620	23	like go hous parti watch host defend froth exgirlfriend	1.0
-84	508	18	kong	2.0
-85	582	22	thi sens	2.0
-86	924	34	veri littl sens	1.0
-87	368	14	ha	2.0
+0	903	33	like movi	2.0
+1	987	36	serv whatev terror hero horror movi tri avoid	2.0
+2	874	32	end up sound like satir	1.0
+3	429	16	relief	2.0
+4	800	29	appropri structur	2.0
+5	574	22	make	2.0
+6	519	19	inept	1.0
+7	597	22	publish world	2.0
+8	130	4	intrigu betray deceit murder	2.0
+9	899	33	cartoon	2.0
+10	483	18	gorgeou	3.0
+11	395	14	perspect	2.0
+12	426	16	welcom relief	3.0
+13	345	12	youth	2.0
+14	908	33	make glacial pace	1.0
+15	282	11	recommend	3.0
+16	203	7	troubl everi day	2.0
+17	914	33	pace	2.0
+18	434	16	movi	2.0
+19	321	12	realiz	2.0
+20	368	14	ha	2.0
+21	305	11	high	3.0
+22	263	10	could	2.0
+23	730	27	clearli mean	2.0
+24	552	21	best indi year far	4.0
+25	671	24	dure windtalk	2.0
+26	446	16	sweet modest ultim win stori	3.5
+27	712	26	impecc pedigre mongrel pep	3.0
+28	295	11	clich	1.0
+29	242	8	bartlett familiar quotat	2.0
+30	494	18	mood	2.5
+31	524	19	bigscreen remak	2.0
+32	623	23	like go hous parti watch host defend froth exgirlfriend	1.0
+33	897	33	featur cartoon	2.0
+34	983	36	easili	3.0
+35	543	20	expect noth	1.5
+36	911	33	glacial pace	2.0
+37	811	30	vaudevil show wellconstruct narr term inoffens actual rather sweet	2.0
+38	467	17	woman inspir	2.0
+39	881	32	satir	2.0
+40	965	35	full monti	2.0
+41	319	12	oedekerk	2.0
+42	851	32	hamper no paralyz selfindulg script	1.0
+43	267	10	reason	2.0
+44	64	2	thi quiet introspect entertain independ worth seek	4.0
+45	230	8	wit	2.0
+46	128	4	ethnographi	2.0
+47	989	36	whatev terror hero horror movi tri avoid	1.0
+48	23	1	good	3.0
+49	442	16	mythic	2.0
+50	832	30	inoffens actual rather sweet	3.0
+51	802	29	structur	2.0
+52	361	13	absolut joy	3.0
+53	191	6	titl charact	2.0
+54	287	11	unless	2.0
+55	715	26	pedigre mongrel pep	2.0
+56	864	32	selfindulg	1.0
+57	52	1	amount much stori	2.0
+58	761	28	doe nt give us reason in theater beyond wild wit actor perform	2.0
+59	630	23	hous parti	2.0
+60	608	22	exist apart movi polit ramif	2.0
+61	926	34	go	2.0
+62	529	19	aveng	2.0
+63	157	5	aggress selfglorif manipul whitewash	1.0
+64	350	12	remain	2.0
+65	557	21	indi year	3.0
+66	222	8	earnest	3.0
+67	66	2	thi	2.0
+68	593	22	gambl publish world	2.0
+69	707	26	impecc pedigre mongrel pep almost indecipher plot complic	2.0
+70	537	20	everyth expect noth	2.0
+71	797	29	exercis	2.0
+72	37	1	gander	2.0
+73	318	12	oedekerk realiz	2.0
+74	527	19	aveng wild wild west	2.0
+75	294	11	clich dialogu	1.0
+76	979	36	unnam easili substitut	1.0
+77	664	24	occur	2.0
+78	75	2	entertain	4.0
+79	112	3	sit	2.0
+80	476	18	less dizzili gorgeou companion mr	2.0
+81	768	28	reason in theater beyond wild wit actor perform	2.0
+82	307	12	kung pow oedekerk realiz hi childhood dream in martialart flick prove sometim dream youth remain	1.0
+83	111	3	sit thi one	1.0
+84	472	17	inspir	2.0
+85	595	22	gambl	2.0
+86	410	15	still	2.0
+87	662	24	occur 7 time dure windtalk good indic seriousmind film	2.0
+88	783	28	actor	2.0
+89	80	2	worth	2.0

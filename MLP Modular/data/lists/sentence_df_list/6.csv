@@ -1,35 +1,33 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	158.0	5	aggress selfglorif manipul whitewash	0.5
-1	856.0	32	no paralyz	2.0
-2	104.0	3	hard time sit thi one	0.0
-3	622.0	23	like go hous parti watch host defend froth exgirlfriend	1.0
-4	231.0	8	play like read bartlett familiar quotat	2.0
-5	468.0	17	woman	2.0
-6	391.0	14	distort perspect	2.0
-7	814.0	30	vaudevil show wellconstruct narr	1.5
-8	767.0	28	reason in theater beyond wild wit actor perform	2.0
-9	408.0	15	still like moonlight mile better judgment damn	3.0
-10	311.0	12	oedekerk realiz hi childhood dream in martialart flick prove sometim dream youth remain	2.0
-11	456.0	16	ultim	2.0
-12	552.0	21	best indi year far	4.0
-13	959.0	35	hi first film full monti	2.0
-14	727.0	27	film clearli mean	2.0
-15	693.0	25	romant comedi boilerpl start	2.0
-16	272.0	11	littl recommend snow dog unless one consid clich dialogu pervers escap sourc high hilar	1.0
-17	28.0	1	also good gander occasion amus none amount much stori	2.0
-18	256.0	9	leav	2.0
-19	517.0	19	inept bigscreen remak aveng wild wild west	1.0
-20	799.0	29	appropri structur arthur schnitzler reigen	2.0
-21	147.0	4	shakespearean tragedi	2.0
-22	680.0	24	seriousmind film	3.0
-23	492.0	18	in mood love veri much hong kong movi	3.0
-24	184.0	6	sincer perform	4.0
-25	68.0	2	quiet introspect entertain	3.0
-26	359.0	13	absolut joy	4.0
-27	923.0	34	veri littl sens go	1.0
-28	203.0	7	troubl everi day	2.0
-29	550.0	20	noth	1.0
-30	580.0	22	in thi sens movi becom studi gambl publish world offer case studi exist apart movi polit ramif	3.0
-31	713.0	26	impecc pedigre mongrel pep	3.0
-32	897.0	33	featur cartoon	2.0
-33	976.0	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	1.0
+0	160.0	5	selfglorif manipul whitewash	0.0
+1	964.0	35	full monti	2.0
+2	545.0	20	expect noth	2.0
+3	885.0	33	ice age first computergener featur cartoon feel like movi	2.5
+4	262.0	10	could hate reason	0.0
+5	79.0	2	worth	2.0
+6	459.0	17	bilingu charmer like woman inspir	3.0
+7	794.0	29	actor exercis	2.0
+8	438.0	16	too hard mythic	1.0
+9	173.0	6	nearli epic	4.0
+10	560.0	21	year	2.0
+11	735.0	27	preach exclus convert	2.0
+12	922.0	34	veri littl sens go	1.0
+13	974.0	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	2.0
+14	833.0	30	inoffens actual rather sweet	3.0
+15	756.0	28	occasion smile	3.0
+16	709.0	26	impecc pedigre mongrel pep almost	2.0
+17	364.0	14	fresnadillo ha someth seriou say way in extravag chanc distort perspect throw us path good sens	3.0
+18	849.0	32	hamper no paralyz selfindulg script aim poetri end up sound like satir	0.0
+19	106.0	3	hard time sit thi one	1.0
+20	487.0	18	wong in mood love veri much hong kong movi despit mainland set	2.0
+21	274.0	11	littl recommend snow dog unless one consid clich dialogu pervers escap sourc high hilar	1.0
+22	314.0	12	oedekerk realiz hi childhood dream in martialart flick	2.0
+23	701.0	25	finish	2.0
+24	214.0	8	import earnest thick wit play like read bartlett familiar quotat	3.0
+25	517.0	19	inept bigscreen remak aveng wild wild west	1.0
+26	573.0	22	make oddest coupl	2.0
+27	621.0	23	like go hous parti watch host defend froth exgirlfriend	1.0
+28	418.0	15	better judgment	2.0
+29	133.0	4	intrigu betray deceit murder	2.0
+30	8.0	1	escapad demonstr adag good goos	2.0
+31	654.0	24	norri	2.0

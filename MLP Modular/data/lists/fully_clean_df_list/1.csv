@@ -1,90 +1,89 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	116	3	one	2.0
-1	625	23	go hous parti	2.0
-2	831	30	inoffens actual rather sweet	3.0
-3	880	32	like satir	2.0
-4	539	20	everyth expect noth	2.0
-5	758	28	smile	2.0
-6	834	30	inoffens actual	2.0
-7	342	12	dream youth	3.0
-8	435	16	tri too hard mythic	1.0
-9	996	36	hero	3.0
-10	807	29	arthur	2.0
-11	769	28	in theater beyond wild wit actor perform	2.0
-12	392	14	distort	2.0
-13	901	33	feel like movi	2.0
-14	932	34	maker serv up clich consider dash	2.0
-15	830	30	term	2.0
-16	202	7	troubl everi day plod mess	0.0
-17	614	22	movi polit ramif	2.0
-18	939	34	clich	1.5
-19	223	8	thick wit play like read bartlett familiar quotat	2.5
-20	952	35	follow	2.0
-21	385	14	extravag	4.0
-22	670	24	time	2.0
-23	486	18	mr	2.0
-24	145	4	shakespearean tragedi	2.0
-25	331	12	in martialart flick	2.0
-26	24	1	goos	2.0
-27	958	35	hi first film full monti	1.0
-28	907	33	make glacial pace earli	1.0
-29	393	14	perspect	2.0
-30	474	18	like less dizzili gorgeou companion mr wong in mood love veri much hong kong movi despit mainland set	2.0
-31	416	15	mile better judgment	2.0
-32	858	32	no	1.0
-33	757	28	occasion	2.0
-34	606	22	case	2.0
-35	587	22	becom studi gambl publish world	2.0
-36	850	32	hamper no paralyz selfindulg script aim poetri end up sound like satir	1.0
-37	811	30	vaudevil show wellconstruct narr term inoffens actual rather sweet	2.0
-38	470	17	inspir	2.0
-39	423	15	damn	1.0
-40	172	6	nearli epic proport	2.0
-41	489	18	in mood love veri much hong kong movi despit mainland set	2.0
-42	687	25	plot romant comedi boilerpl start finish	2.0
-43	493	18	mood love veri much hong kong movi	2.0
-44	695	25	romant	2.0
-45	327	12	dream	2.3333333333333335
-46	429	16	relief	2.0
-47	402	14	path good sens	2.0
-48	22	1	good goos	3.0
-49	639	23	defend	3.0
-50	546	20	expect noth	2.0
-51	943	34	consider	3.0
-52	835	30	inoffens	2.0
-53	754	28	opportun	2.0
-54	296	11	dialogu	2.0
-55	409	15	still like moonlight mile better judgment damn	3.0
-56	190	6	titl charact	2.0
-57	685	24	film	2.0
-58	410	15	still	2.0
-59	894	33	first	2.0
-60	589	22	studi gambl publish world	2.0
-61	159	5	aggress	2.0
-62	601	22	offer case studi exist apart movi polit ramif	2.0
-63	617	22	polit ramif	2.0
-64	355	13	perform	2.0
-65	366	14	ha someth seriou say way in extravag chanc distort perspect throw us path good sens	3.0
-66	987	36	serv whatev terror hero horror movi tri avoid	2.0
-67	452	16	sweet	3.0
-68	13	1	adag	2.0
-69	51	1	none	2.0
-70	876	32	end	2.0
-71	965	35	full monti	2.0
-72	178	6	root in sincer perform titl charact undergo midlif crisi	3.0
-73	71	2	introspect entertain	3.0
-74	592	22	gambl publish world	2.0
-75	292	11	clich dialogu pervers escap	1.0
-76	167	6	comedydrama nearli epic proport root in sincer perform titl charact undergo midlif crisi	4.0
-77	213	7	mess	1.0
-78	291	11	clich dialogu pervers escap sourc high hilar	1.0
-79	480	18	less	2.0
-80	218	8	earnest thick wit play like read bartlett familiar quotat	3.0
-81	706	26	arriv	2.0
-82	212	7	plod	1.0
-83	135	4	betray deceit murder	2.0
-84	794	29	actor exercis	2.0
-85	732	27	mean	2.0
-86	302	11	sourc	2.0
-87	432	16	basebal movi	2.0
-88	156	4	opera	2.0
+0	332	12	martialart flick	2.0
+1	3	1	seri	2.0
+2	604	22	case studi	2.0
+3	750	28	offer opportun occasion smile	3.0
+4	190	6	titl charact	2.0
+5	937	34	serv	2.0
+6	763	28	doe nt give us reason in theater beyond wild wit actor perform	1.5
+7	898	33	featur	2.0
+8	977	36	unnam easili substitut forc	1.0
+9	787	29	latest vapid actor exercis appropri structur arthur schnitzler reigen	1.0
+10	166	5	whitewash	2.0
+11	491	18	in mood love veri much hong kong movi	2.0
+12	646	23	froth	1.0
+13	865	32	script	2.0
+14	547	20	expect	2.0
+15	509	18	movi	2.0
+16	847	31	action	2.0
+17	637	23	host	2.0
+18	669	24	7	2.0
+19	374	14	say way in extravag chanc distort perspect throw us path good sens	2.0
+20	839	30	rather	2.0
+21	408	15	still like moonlight mile better judgment damn	3.0
+22	639	23	defend	3.0
+23	649	24	chuck norri grenad gag	2.0
+24	276	11	littl recommend snow dog	1.5
+25	588	22	becom	2.0
+26	729	27	clearli mean	2.0
+27	652	24	chuck	2.0
+28	56	1	much stori	2.0
+29	207	7	day	2.0
+30	158	5	aggress selfglorif manipul whitewash	0.0
+31	293	11	clich dialogu	1.0
+32	77	2	worth seek	3.0
+33	221	8	earnest	3.0
+34	143	4	shakespearean tragedi juici soap opera	2.0
+35	353	13	perform absolut joy	4.0
+36	252	9	doe nt	1.0
+37	480	18	less	2.0
+38	774	28	theater	3.0
+39	281	11	recommend snow dog	4.0
+40	72	2	introspect	3.0
+41	742	28	import earnest offer opportun occasion smile chuckl doe nt give us reason in theater beyond wild wit actor perform	1.0
+42	187	6	titl charact undergo midlif crisi	2.0
+43	967	35	monti	2.0
+44	417	15	mile	2.0
+45	496	18	love veri much hong kong movi	2.0
+46	673	24	windtalk	2.0
+47	260	10	could hate reason	1.0
+48	704	26	arriv impecc pedigre mongrel pep almost indecipher plot complic	2.0
+49	813	30	vaudevil show wellconstruct narr	1.5
+50	567	22	hatfield hick make oddest coupl	2.0
+51	817	30	vaudevil	2.0
+52	451	16	sweet modest	3.0
+53	699	25	start	2.0
+54	879	32	sound	3.0
+55	945	35	cattaneo follow runaway success hi first film full monti someth differ	2.0
+56	609	22	exist apart	2.0
+57	208	7	plod mess	1.0
+58	118	4	posit thrill combin ethnographi intrigu betray deceit murder shakespearean tragedi juici soap opera	4.0
+59	591	22	studi	2.0
+60	292	11	clich dialogu pervers escap	1.0
+61	891	33	first computergener featur cartoon feel like movi	4.0
+62	218	8	earnest thick wit play like read bartlett familiar quotat	3.0
+63	370	14	someth	2.0
+64	288	11	one consid clich dialogu pervers escap sourc high hilar	2.0
+65	176	6	proport	2.0
+66	689	25	plot	2.0
+67	541	20	everyth	2.0
+68	376	14	way in extravag chanc distort perspect throw us path good sens	2.0
+69	869	32	aim poetri	2.0
+70	205	7	everi day	2.0
+71	958	35	hi first film full monti	1.0
+72	894	33	first	2.0
+73	702	25	finish	2.0
+74	589	22	studi gambl publish world	2.0
+75	610	22	exist	2.0
+76	402	14	path good sens	2.0
+77	269	10	reason	2.0
+78	405	14	good sens	3.0
+79	947	35	follow runaway success hi first film full monti someth differ	2.0
+80	714	26	impecc	4.0
+81	696	25	comedi boilerpl	2.0
+82	782	28	actor perform	2.0
+83	121	4	posit thrill combin	3.0
+84	532	19	wild wild west	3.0
+85	912	33	glacial pace	2.0
+86	197	6	midlif	2.0
+87	523	19	bigscreen remak aveng wild wild west	2.0

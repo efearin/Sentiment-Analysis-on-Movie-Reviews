@@ -1,33 +1,32 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	559.0	21	year	2.0
-1	252.0	9	doe nt	1.0
-2	868.0	32	aim poetri end up sound like satir	1.0
-3	841.0	31	runofthemil action flick	2.0
-4	892.0	33	first computergener featur cartoon	2.0
-5	674.0	24	good indic seriousmind film	3.0
-6	201.0	7	troubl everi day plod mess	1.0
-7	491.0	18	in mood love veri much hong kong movi	2.0
-8	631.0	23	hous	2.0
-9	187.0	6	titl charact undergo midlif crisi	2.0
-10	438.0	16	too hard mythic	1.0
-11	29.0	1	also good gander occasion amus none amount much stori	2.0
-12	396.0	14	throw us path good sens	2.0
-13	268.0	10	reason	2.0
-14	540.0	20	everyth expect noth	1.5
-15	227.0	8	wit play like read bartlett familiar quotat	3.0
-16	312.0	12	oedekerk realiz hi childhood dream in martialart flick prove sometim dream youth remain	0.0
-17	166.0	5	whitewash	2.0
-18	700.0	25	start	2.0
-19	742.0	28	import earnest offer opportun occasion smile chuckl doe nt give us reason in theater beyond wild wit actor perform	1.0
-20	297.0	11	pervers escap	2.0
-21	598.0	22	publish world	2.0
-22	414.0	15	moonlight mile better judgment	2.0
-23	361.0	13	absolut joy	3.0
-24	953.0	35	runaway success hi first film full monti	4.0
-25	812.0	30	vaudevil show wellconstruct narr term inoffens actual rather sweet	3.0
-26	127.0	4	ethnographi intrigu betray deceit murder	2.0
-27	935.0	34	serv up clich consider dash	2.0
-28	95.0	3	suspect would hard time sit thi one	1.0
-29	791.0	29	vapid actor exercis appropri structur arthur schnitzler reigen	1.0
-30	735.0	27	preach exclus convert	2.0
-31	705.0	26	arriv impecc pedigre mongrel pep almost indecipher plot complic	2.0
+0	98.0	3	suspect	2.0
+1	918.0	34	veri littl sens go maker serv up clich consider dash	1.0
+2	820.0	30	wellconstruct narr	3.0
+3	868.0	32	aim poetri end up sound like satir	1.0
+4	174.0	6	nearli	2.0
+5	708.0	26	impecc pedigre mongrel pep almost indecipher plot complic	1.0
+6	764.0	28	give us reason in theater beyond wild wit actor perform	1.0
+7	892.0	33	first computergener featur cartoon	2.0
+8	740.0	27	convert	2.0
+9	633.0	23	watch host defend froth exgirlfriend	2.0
+10	971.0	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	1.0
+11	799.0	29	appropri structur arthur schnitzler reigen	2.0
+12	663.0	24	occur 7 time dure windtalk good indic seriousmind film	3.0
+13	409.0	15	still like moonlight mile better judgment damn	3.0
+14	585.0	22	becom studi gambl publish world offer case studi exist apart movi polit ramif	2.0
+15	842.0	31	runofthemil action	3.0
+16	950.0	35	follow runaway success hi first film full monti someth differ	2.0
+17	32.0	1	good gander occasion amus none amount much stori	2.0
+18	425.0	16	welcom relief basebal movi tri too hard mythic	3.0
+19	357.0	13	absolut joy	3.0
+20	477.0	18	less dizzili gorgeou companion	2.0
+21	400.0	14	path good sens	1.0
+22	338.0	12	sometim dream youth remain	1.0
+23	162.0	5	selfglorif	2.0
+24	148.0	4	shakespearean	2.0
+25	229.0	8	wit play like read bartlett familiar quotat	2.0
+26	538.0	20	everyth expect noth	1.0
+27	522.0	19	bigscreen remak aveng wild wild west	1.0
+28	68.0	2	quiet introspect entertain	3.0
+29	265.0	10	hate	0.0
+30	289.0	11	consid clich dialogu pervers escap sourc high hilar	2.0

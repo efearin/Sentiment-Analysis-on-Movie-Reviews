@@ -39,9 +39,9 @@ for x in range(0, data_divide_constant):
             train_df_list, train_sentence_df_list, train_word_df_list, y)
         # train w2v algorithm
         fake_w2v_model = func_repo.get_w2v_model(fake_train_sentence_df)
-        calculate_repo(fake_test_df, fake_train_df, fake_train_word_df, fake_w2v_model)
-
-
+        # normalization for feature vector parameters needed output returns already normalized
+        partial_mlp_train_input, partial_mlp_train_output = calculate_repo.get_matrix(fake_test_df, fake_train_df,
+                                                                      fake_train_word_df, fake_w2v_model)
         a=5
 
 
