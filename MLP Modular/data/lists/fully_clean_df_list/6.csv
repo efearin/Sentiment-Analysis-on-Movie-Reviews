@@ -1,88 +1,90 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	308	12	kung pow	2.0
-1	160	5	selfglorif manipul whitewash	0.0
-2	992	36	terror	1.0
-3	627	23	go	2.0
-4	964	35	full monti	2.0
-5	515	18	mainland	2.0
-6	942	34	consider dash	2.0
-7	175	6	epic	3.0
-8	463	17	bilingu	2.0
-9	747	28	earnest	2.0
-10	58	1	much stori	2.0
-11	545	20	expect noth	2.0
-12	304	11	high hilar	4.0
-13	863	32	selfindulg script	2.0
-14	885	33	ice age first computergener featur cartoon feel like movi	2.5
-15	262	10	could hate reason	0.0
-16	31	1	also	2.0
-17	79	2	worth	2.0
-18	62	1	stori	2.0
-19	605	22	case studi	2.0
-20	459	17	bilingu charmer like woman inspir	3.0
-21	713	26	impecc pedigre mongrel pep	3.0
-22	794	29	actor exercis	2.0
-23	788	29	latest	2.0
-24	438	16	too hard mythic	1.0
-25	88	3	ismail merchant work	2.0
-26	731	27	clearli	2.0
-27	173	6	nearli epic	4.0
-28	560	21	year	2.0
-29	720	26	pep	2.0
-30	735	27	preach exclus convert	2.0
-31	957	35	success	3.0
-32	922	34	veri littl sens go	1.0
-33	135	4	betray deceit murder	2.0
-34	974	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	2.0
-35	84	3	even fan	2.0
-36	81	2	seek	2.0
-37	406	14	good sens	3.0
-38	833	30	inoffens actual rather sweet	3.0
-39	867	32	aim poetri end up sound like satir	1.0
-40	372	14	seriou	2.0
-41	333	12	martialart flick	2.0
-42	756	28	occasion smile	3.0
-43	709	26	impecc pedigre mongrel pep almost	2.0
-44	92	3	merchant	2.0
-45	421	15	judgment	2.0
-46	403	14	path	2.0
-47	934	34	maker	2.0
-48	243	8	bartlett	2.0
-49	364	14	fresnadillo ha someth seriou say way in extravag chanc distort perspect throw us path good sens	3.0
-50	223	8	thick wit play like read bartlett familiar quotat	2.0
-51	803	29	structur	2.0
-52	396	14	throw us path good sens	2.0
-53	849	32	hamper no paralyz selfindulg script aim poetri end up sound like satir	0.0
-54	465	17	like woman inspir	2.0
-55	733	27	mean	2.0
-56	686	24	film	2.0
-57	613	22	movi polit ramif	2.0
-58	106	3	hard time sit thi one	1.0
-59	317	12	oedekerk realiz hi childhood dream	2.0
-60	487	18	wong in mood love veri much hong kong movi despit mainland set	2.0
-61	274	11	littl recommend snow dog unless one consid clich dialogu pervers escap sourc high hilar	1.0
-62	314	12	oedekerk realiz hi childhood dream in martialart flick	2.0
-63	701	25	finish	2.0
-64	214	8	import earnest thick wit play like read bartlett familiar quotat	3.0
-65	994	36	hero horror movi	2.0
-66	439	16	too	2.0
-67	995	36	hero	2.0
-68	152	4	juici soap opera	3.0
-69	618	22	polit	2.0
-70	443	16	mythic	2.0
-71	837	30	actual	2.0
-72	725	26	complic	1.0
-73	301	11	sourc	2.0
-74	517	19	inept bigscreen remak aveng wild wild west	1.0
-75	573	22	make oddest coupl	2.0
-76	621	23	like go hous parti watch host defend froth exgirlfriend	1.0
-77	418	15	better judgment	2.0
-78	819	30	show	2.0
-79	234	8	play	2.0
-80	133	4	intrigu betray deceit murder	2.0
-81	153	4	juici	3.0
-82	297	11	pervers escap	2.0
-83	8	1	escapad demonstr adag good goos	2.0
-84	940	34	clich	2.0
-85	654	24	norri	2.0
-86	835	30	inoffens	2.0
+0	240	8	bartlett familiar quotat	2.0
+1	65	2	thi quiet introspect entertain independ	3.0
+2	854	32	hamper	2.0
+3	406	14	good sens	3.0
+4	75	2	entertain	4.0
+5	959	35	hi first film full monti	1.5
+6	200	7	narr	2.0
+7	763	28	doe nt give us reason in theater beyond wild wit actor perform	1.5
+8	640	23	defend	2.0
+9	462	17	bilingu charmer	3.0
+10	820	30	wellconstruct narr	3.0
+11	294	11	clich dialogu	1.0
+12	290	11	consid	2.0
+13	73	2	introspect	2.0
+14	434	16	movi	2.0
+15	292	11	clich dialogu pervers escap	1.0
+16	743	28	import earnest offer opportun occasion smile chuckl	3.0
+17	231	8	play like read bartlett familiar quotat	2.0
+18	264	10	hate reason	1.0
+19	665	24	7 time dure windtalk good indic seriousmind film	2.0
+20	46	1	amus none amount much stori	2.0
+21	649	24	chuck norri grenad gag	2.0
+22	71	2	introspect entertain	3.0
+23	541	20	everyth	2.0
+24	741	27	convert	2.0
+25	279	11	littl	2.0
+26	934	34	maker	2.0
+27	983	36	easili	3.0
+28	626	23	go hous parti	2.0
+29	622	23	like go hous parti watch host defend froth exgirlfriend	1.0
+30	174	6	nearli	2.0
+31	770	28	in theater beyond wild wit actor perform	2.0
+32	790	29	vapid actor exercis appropri structur arthur schnitzler reigen	1.5
+33	998	36	horror movi	2.0
+34	848	31	flick	2.0
+35	658	24	grenad	1.0
+36	969	35	someth differ	3.0
+37	794	29	actor exercis	2.0
+38	44	1	occasion amus none amount much stori	2.0
+39	61	1	stori	2.0
+40	918	34	veri littl sens go maker serv up clich consider dash	1.0
+41	579	22	coupl	2.0
+42	287	11	unless	2.0
+43	979	36	unnam easili substitut	1.0
+44	398	14	throw	2.0
+45	941	34	consider dash	2.0
+46	285	11	dog	2.0
+47	863	32	selfindulg script	2.0
+48	590	22	studi	2.0
+49	137	4	betray	2.0
+50	784	28	actor	2.0
+51	935	34	serv up clich consider dash	2.0
+52	393	14	perspect	2.0
+53	18	1	good goos	2.0
+54	28	1	also good gander occasion amus none amount much stori	2.0
+55	222	8	earnest	3.0
+56	445	16	thi one sweet modest ultim win stori	4.0
+57	725	26	complic	1.0
+58	249	9	doe nt leav much	1.0
+59	563	21	far	2.0
+60	439	16	too	2.0
+61	151	4	juici soap opera	3.0
+62	112	3	sit	2.0
+63	675	24	good indic seriousmind film	3.0
+64	692	25	romant comedi boilerpl start finish	2.0
+65	855	32	no paralyz	2.0
+66	325	12	childhood dream	2.0
+67	956	35	runaway	2.0
+68	55	1	amount	2.0
+69	84	3	even fan	2.0
+70	699	25	start	2.0
+71	440	16	hard mythic	1.0
+72	244	8	bartlett	2.0
+73	289	11	consid clich dialogu pervers escap sourc high hilar	2.0
+74	588	22	becom	2.0
+75	166	5	whitewash	2.0
+76	599	22	publish	2.0
+77	718	26	mongrel pep	2.0
+78	172	6	nearli epic proport	2.0
+79	756	28	occasion smile	3.0
+80	356	13	absolut joy	4.0
+81	227	8	wit play like read bartlett familiar quotat	3.0
+82	999	36	horror	1.0
+83	982	36	easili substitut	2.0
+84	255	9	leav much	2.0
+85	627	23	go	2.0
+86	469	17	woman	2.0
+87	275	11	littl recommend snow dog unless one consid clich dialogu pervers escap sourc high hilar	1.0
+88	556	21	indi year	3.0

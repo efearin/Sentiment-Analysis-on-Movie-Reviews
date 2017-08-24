@@ -1,33 +1,32 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	760.0	28	doe nt give us reason in theater beyond wild wit actor perform	2.0
-1	935.0	34	serv up clich consider dash	2.0
-2	732.0	27	mean	2.0
-3	841.0	31	runofthemil action flick	2.0
-4	988.0	36	whatev terror hero horror movi tri avoid	2.0
-5	167.0	6	comedydrama nearli epic proport root in sincer perform titl charact undergo midlif crisi	4.0
-6	164.0	5	manipul whitewash	1.0
-7	888.0	33	ice	2.0
-8	1.0	1	seri escapad demonstr adag good goos also good gander occasion amus none amount much stori	1.0
-9	126.0	4	ethnographi intrigu betray deceit murder	2.0
-10	235.0	8	like read bartlett familiar quotat	2.0
-11	861.0	32	selfindulg script	1.0
-12	447.0	16	sweet modest ultim win stori	3.0
-13	67.0	2	quiet introspect entertain independ	4.0
-14	416.0	15	mile better judgment	2.0
-15	209.0	7	plod mess	0.0
-16	460.0	17	bilingu charmer	3.0
-17	518.0	19	inept bigscreen remak aveng wild wild west	2.0
-18	724.0	26	plot complic	2.0
-19	948.0	35	follow runaway success hi first film full monti someth differ	2.0
-20	313.0	12	oedekerk realiz hi childhood dream in martialart flick	2.0
-21	291.0	11	clich dialogu pervers escap sourc high hilar	1.0
-22	555.0	21	indi year far	4.0
-23	665.0	24	7 time dure windtalk good indic seriousmind film	2.0
-24	261.0	10	could hate reason	1.0
-25	690.0	25	romant comedi boilerpl start finish	2.0
-26	478.0	18	less dizzili gorgeou companion	2.0
-27	363.0	13	joy	4.0
-28	397.0	14	throw us	2.0
-29	565.0	22	hatfield hick make oddest coupl in thi sens movi becom studi gambl publish world offer case studi exist apart movi polit ramif	3.0
-30	825.0	30	term inoffens actual rather sweet	3.0
-31	87.0	3	ismail merchant work	2.0
+0	950.0	35	follow runaway success hi first film full monti someth differ	2.0
+1	304.0	11	high hilar	4.0
+2	223.0	8	thick wit play like read bartlett familiar quotat	2.0
+3	528.0	19	aveng wild wild west	2.0
+4	703.0	26	arriv impecc pedigre mongrel pep almost indecipher plot complic	2.0
+5	210.0	7	plod mess	1.0
+6	727.0	27	film clearli mean	2.0
+7	869.0	32	aim poetri	2.0
+8	647.0	23	exgirlfriend	2.0
+9	376.0	14	way in extravag chanc distort perspect throw us path good sens	2.0
+10	498.0	18	love veri much	4.0
+11	890.0	33	first computergener featur cartoon feel like movi	3.0
+12	70.0	2	introspect entertain	3.0
+13	418.0	15	better judgment	2.0
+14	651.0	24	chuck norri grenad gag	2.0
+15	191.0	6	titl charact	2.0
+16	811.0	30	vaudevil show wellconstruct narr term inoffens actual rather sweet	2.0
+17	565.0	22	hatfield hick make oddest coupl in thi sens movi becom studi gambl publish world offer case studi exist apart movi polit ramif	3.0
+18	425.0	16	welcom relief basebal movi tri too hard mythic	3.0
+19	461.0	17	bilingu charmer	3.0
+20	113.0	3	thi one	2.0
+21	262.0	10	could hate reason	0.0
+22	558.0	21	indi	2.0
+23	925.0	34	veri littl	2.0
+24	976.0	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	1.0
+25	2.0	1	seri escapad demonstr adag good goos	2.0
+26	158.0	5	aggress selfglorif manipul whitewash	0.0
+27	133.0	4	intrigu betray deceit murder	2.0
+28	690.0	25	romant comedi boilerpl start finish	2.0
+29	806.0	29	arthur schnitzler	2.0
+30	775.0	28	beyond wild wit actor perform	2.0

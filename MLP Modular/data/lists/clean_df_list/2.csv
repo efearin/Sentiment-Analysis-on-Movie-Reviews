@@ -1,101 +1,101 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	755	28	occasion smile	3
-1	751	28	offer opportun occasion smile	3
-2	893	33	first computergener featur cartoon	3
-3	668	24	7 time	2
-4	481	18	dizzili gorgeou	4
-5	558	21	indi	2
-6	290	11	consid	2
-7	866	32		2
-8	371	14	seriou say way in extravag chanc distort perspect throw us path good sens	2
-9	53	1	amount much stori	2
-10	568	22	hatfield hick make oddest coupl	2
-11	340	12	sometim	2
-12	852	32	hamper no paralyz selfindulg script	1
-13	299	11	escap	2
-14	172	6	nearli epic proport	2
-15	576	22	oddest	2
-16	859	32	paralyz	1
-17	616	22	movi	2
-18	49	1		2
-19	146	4	shakespearean tragedi	1
-20	941	34	consider dash	2
-21	896	33	computergener	2
-22	698	25	boilerpl	2
-23	962	35	hi first film	2
-24	791	29	vapid actor exercis appropri structur arthur schnitzler reigen	1
-25	138	4	deceit murder	1
-26	563	21	far	2
-27	220	8	earnest thick wit play like read bartlett familiar quotat	2
-28	870	32	aim poetri	2
-29	603	22	case studi exist apart movi polit ramif	3
-30	493	18	mood love veri much hong kong movi	2
-31	838	30	rather sweet	3
-32	14	1		2
-33	204	7	troubl	1
-34	298	11	pervers	1
-35	999	36	horror	1
-36	871	32	aim	2
-37	413	15	moonlight mile better judgment damn	2
-38	920	34	veri littl sens go	0
-39	917	34	veri littl sens go maker serv up clich consider dash	2
-40	266	10	hate	0
-41	996	36	hero	3
-42	202	7	troubl everi day plod mess	0
-43	771	28	in theater	2
-44	497	18	love veri much hong kong movi	3
-45	508	18	kong	2
-46	328	12	in martialart flick	2
-47	366	14	ha someth seriou say way in extravag chanc distort perspect throw us path good sens	3
-48	705	26	arriv impecc pedigre mongrel pep almost indecipher plot complic	2
-49	856	32	no paralyz	2
-50	848	31	flick	2
-51	933	34	maker	2
-52	697	25	comedi	3
-53	39	1	occasion amus none amount much stori	2
-54	587	22	becom studi gambl publish world	2
-55	645	23	froth exgirlfriend	2
-56	63	1		2
-57	680	24	seriousmind film	3
-58	986	36	serv whatev terror hero horror movi tri avoid	2
-59	949	35	follow runaway success hi first film full monti someth differ	2
-60	216	8	import	3
-61	578	22	coupl	2
-62	753	28	opportun occasion smile	2
-63	13	1	adag	2
-64	754	28	opportun	2
-65	968	35	someth differ	2
-66	22	1	good goos	3
-67	843	31	runofthemil action	2
-68	82	3	even fan ismail merchant work suspect would hard time sit thi one	1
-69	614	22	movi polit ramif	2
-70	775	28	beyond wild wit actor perform	2
-71	253	9	doe	2
-72	104	3	hard time sit thi one	0
-73	28	1	also good gander occasion amus none amount much stori	2
-74	961	35	hi first film	2
-75	177	6	root in sincer perform titl charact undergo midlif crisi	4
-76	539	20	everyth expect noth	2
-77	170	6	comedydrama	2
-78	55	1	amount	2
-79	700	25	start	2
-80	123	4	thrill combin	3
-81	336	12	prove sometim dream youth remain	1
-82	946	35	cattaneo	2
-83	423	15	damn	1
-84	860	32	paralyz	2
-85	626	23	go hous parti	2
-86	830	30	term	2
-87	296	11	dialogu	2
-88	134	4	intrigu	3
-89	385	14	extravag	4
-90	249	9	doe nt leav much	1
-91	414	15	moonlight mile better judgment	2
-92	97	3	suspect	2
-93	550	20	noth	1
-94	516	18	set	2
-95	16	1	good goos	2
-96	887	33	ice age	2
-97	736	27	preach exclus	2
-98	337	12	prove	2
-99	840	31	noth runofthemil action flick	2
+0	308	12	kung pow	2
+1	390	14	distort perspect	2
+2	202	7	troubl everi day plod mess	0
+3	877	32	up	2
+4	341	12	dream youth remain	2
+5	828	30	term	2
+6	961	35	hi first film	2
+7	843	31	runofthemil action	2
+8	671	24	dure windtalk	2
+9	190	6	titl charact	2
+10	601	22	offer case studi exist apart movi polit ramif	2
+11	203	7	troubl everi day	2
+12	924	34	veri littl sens	1
+13	117	4	posit thrill combin ethnographi intrigu betray deceit murder shakespearean tragedi juici soap opera	3
+14	194	6	undergo midlif crisi	2
+15	738	27	exclus	2
+16	635	23	host defend froth exgirlfriend	2
+17	906	33	make glacial pace earli	2
+18	824	30	narr	2
+19	121	4	posit thrill combin	3
+20	593	22	gambl publish world	2
+21	946	35	cattaneo	2
+22	533	19	wild wild west	2
+23	432	16	basebal movi	2
+24	76	2	independ	2
+25	367	14	ha someth seriou say way in extravag chanc distort perspect throw us path good sens	3
+26	329	12	in martialart flick	2
+27	199	7	narr troubl everi day plod mess	1
+28	650	24	chuck norri grenad gag	2
+29	795	29	actor	2
+30	451	16	sweet modest	3
+31	23	1	good	3
+32	792	29	vapid actor exercis	1
+33	343	12	dream	2
+34	895	33	computergener featur cartoon	2
+35	987	36	serv whatev terror hero horror movi tri avoid	2
+36	641	23		2
+37	670	24	time	2
+38	813	30	vaudevil show wellconstruct narr	2
+39	782	28	actor perform	2
+40	701	25	finish	2
+41	516	18	set	2
+42	369	14	someth seriou say way in extravag chanc distort perspect throw us path good sens	3
+43	889	33	age	2
+44	250	9	doe nt leav much	1
+45	613	22	movi polit ramif	2
+46	62	1	stori	2
+47	221	8	earnest	3
+48	300	11	sourc high hilar	3
+49	911	33	glacial pace	2
+50	162	5	selfglorif	2
+51	698	25	boilerpl	2
+52	508	18	kong	2
+53	177	6	root in sincer perform titl charact undergo midlif crisi	4
+54	187	6	titl charact undergo midlif crisi	2
+55	452	16	sweet	3
+56	745	28	import earnest offer opportun occasion smile chuckl	3
+57	423	15	damn	1
+58	404	14	path	2
+59	54	1	amount much stori	2
+60	535	19	wild west	2
+61	674	24	good indic seriousmind film	3
+62	686	24	film	2
+63	615	22	movi	2
+64	722	26	indecipher plot complic	1
+65	422	15	damn	2
+66	436	16	tri too hard mythic	1
+67	496	18	love veri much hong kong movi	2
+68	246	8	familiar	2
+69	994	36	hero horror movi	2
+70	891	33	first computergener featur cartoon feel like movi	4
+71	783	28	actor	2
+72	888	33	ice	2
+73	421	15	judgment	2
+74	64	2	thi quiet introspect entertain independ worth seek	4
+75	676	24	good indic	3
+76	585	22	becom studi gambl publish world offer case studi exist apart movi polit ramif	2
+77	124	4	thrill	4
+78	978	36	unnam easili substitut forc	2
+79	879	32	sound	3
+80	874	32	end up sound like satir	1
+81	850	32	hamper no paralyz selfindulg script aim poetri end up sound like satir	1
+82	88	3	ismail merchant work	2
+83	644	23	froth exgirlfriend	2
+84	307	12	kung pow oedekerk realiz hi childhood dream in martialart flick prove sometim dream youth remain	1
+85	295	11	clich	1
+86	944	34	dash	2
+87	865	32	script	2
+88	471	17		2
+89	103	3	would	2
+90	768	28	reason in theater beyond wild wit actor perform	2
+91	965	35	full monti	2
+92	135	4	betray deceit murder	2
+93	225	8	thick wit play like read bartlett familiar quotat	3
+94	198	6	crisi	2
+95	136	4	betray deceit murder	1
+96	392	14	distort	2
+97	340	12	sometim	2
+98	602	22	offer	2
+99	589	22	studi gambl publish world	2

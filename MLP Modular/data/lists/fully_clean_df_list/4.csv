@@ -1,95 +1,90 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	1000	36	tri avoid	1.0
-1	44	1	occasion amus none amount much stori	2.0
-2	6	1	escapad demonstr adag good goos	2.0
-3	760	28	doe nt give us reason in theater beyond wild wit actor perform	2.0
-4	982	36	easili substitut	2.0
-5	109	3	hard	2.0
-6	935	34	serv up clich consider dash	2.0
-7	732	27	mean	2.0
-8	323	12	hi childhood dream	2.0
-9	688	25	plot	2.0
-10	841	31	runofthemil action flick	2.0
-11	988	36	whatev terror hero horror movi tri avoid	2.0
-12	473	17	inspir	3.0
-13	115	3	thi one	2.0
-14	167	6	comedydrama nearli epic proport root in sincer perform titl charact undergo midlif crisi	4.0
-15	164	5	manipul whitewash	1.0
-16	666	24	7 time dure windtalk	2.0
-17	346	12	youth	2.0
-18	888	33	ice	2.0
-19	1	1	seri escapad demonstr adag good goos also good gander occasion amus none amount much stori	1.0
-20	10	1	demonstr adag good goos	2.0
-21	126	4	ethnographi intrigu betray deceit murder	2.0
-22	235	8	like read bartlett familiar quotat	2.0
-23	861	32	selfindulg script	1.0
-24	531	19	aveng	2.0
-25	447	16	sweet modest ultim win stori	3.0
-26	67	2	quiet introspect entertain independ	4.0
-27	416	15	mile better judgment	2.0
-28	226	8	thick	2.0
-29	717	26	mongrel pep	2.0
-30	209	7	plod mess	0.0
-31	534	19	wild	3.0
-32	503	18	veri	2.0
-33	404	14	path	2.0
-34	990	36	whatev	1.0
-35	154	4	soap opera	1.0
-36	460	17	bilingu charmer	3.0
-37	667	24	7 time	2.0
-38	320	12	oedekerk	2.0
-39	144	4	shakespearean tragedi juici soap opera	2.0
-40	302	11	sourc	2.0
-41	518	19	inept bigscreen remak aveng wild wild west	2.0
-42	959	35	hi first film full monti	2.0
-43	724	26	plot complic	2.0
-44	955	35	runaway success	3.0
-45	612	22	movi polit ramif	2.0
-46	948	35	follow runaway success hi first film full monti someth differ	2.0
-47	770	28	in theater beyond wild wit actor perform	2.0
-48	559	21	year	2.0
-49	313	12	oedekerk realiz hi childhood dream in martialart flick	2.0
-50	291	11	clich dialogu pervers escap sourc high hilar	1.0
-51	555	21	indi year far	4.0
-52	765	28	give us	2.0
-53	525	19	bigscreen	2.0
-54	178	6	root in sincer perform titl charact undergo midlif crisi	3.0
-55	836	30	inoffens	1.0
-56	921	34	veri littl sens go	1.0
-57	246	8	familiar	2.0
-58	54	1	amount much stori	2.0
-59	660	24	gag	1.0
-60	615	22	movi	2.0
-61	51	1	none	2.0
-62	161	5	selfglorif	1.0
-63	34	1	gander occasion amus none amount much stori	1.0
-64	30	1	also	2.0
-65	665	24	7 time dure windtalk good indic seriousmind film	2.0
-66	261	10	could hate reason	1.0
-67	277	11	littl recommend snow dog	1.0
-68	136	4	betray deceit murder	1.0
-69	268	10	reason	2.0
-70	956	35	runaway	2.0
-71	690	25	romant comedi boilerpl start finish	2.0
-72	655	24	grenad gag	2.0
-73	129	4	ethnographi	2.0
-74	478	18	less dizzili gorgeou companion	2.0
-75	363	13	joy	4.0
-76	96	3	suspect	2.0
-77	397	14	throw us	2.0
-78	565	22	hatfield hick make oddest coupl in thi sens movi becom studi gambl publish world offer case studi exist apart movi polit ramif	3.0
-79	236	8	like	2.0
-80	184	6	sincer perform	4.0
-81	194	6	undergo midlif crisi	2.0
-82	825	30	term inoffens actual rather sweet	3.0
-83	59	1	much	2.0
-84	335	12	flick	2.0
-85	721	26	almost	2.0
-86	553	21	best	4.0
-87	29	1	also good gander occasion amus none amount much stori	2.0
-88	87	3	ismail merchant work	2.0
-89	670	24	time	2.0
-90	179	6	root in sincer perform	3.0
-91	601	22	offer case studi exist apart movi polit ramif	2.0
-92	872	32	poetri	2.0
-93	969	35	someth differ	3.0
+0	36	1	gander	2.0
+1	950	35	follow runaway success hi first film full monti someth differ	2.0
+2	710	26	impecc pedigre mongrel pep	2.5
+3	532	19	wild wild west	3.0
+4	304	11	high hilar	4.0
+5	876	32	end	2.0
+6	110	3	time	2.0
+7	223	8	thick wit play like read bartlett familiar quotat	2.0
+8	457	16	win stori	3.0
+9	528	19	aveng wild wild west	2.0
+10	169	6	comedydrama	2.0
+11	703	26	arriv impecc pedigre mongrel pep almost indecipher plot complic	2.0
+12	210	7	plod mess	1.0
+13	727	27	film clearli mean	2.0
+14	163	5	manipul whitewash	1.0
+15	859	32	paralyz	1.0
+16	875	32	end up	2.0
+17	869	32	aim poetri	2.0
+18	901	33	feel like movi	2.0
+19	657	24	grenad gag	2.0
+20	647	23	exgirlfriend	2.0
+21	376	14	way in extravag chanc distort perspect throw us path good sens	2.0
+22	857	32	no paralyz	1.0
+23	519	19	inept	1.0
+24	773	28	theater	2.0
+25	684	24	seriousmind	2.0
+26	433	16	basebal	2.0
+27	498	18	love veri much	4.0
+28	890	33	first computergener featur cartoon feel like movi	3.0
+29	15	1	adag	2.0
+30	688	25	plot	2.0
+31	59	1	much	2.0
+32	207	7	day	2.0
+33	887	33	ice age	2.0
+34	449	16	sweet modest	3.0
+35	11	1	demonstr adag	2.0
+36	721	26	almost	2.0
+37	694	25	romant comedi boilerpl	1.0
+38	693	25	romant comedi boilerpl start	2.0
+39	730	27	clearli mean	2.0
+40	70	2	introspect entertain	3.0
+41	418	15	better judgment	2.0
+42	594	22	gambl	2.0
+43	20	1	good goos	2.0
+44	651	24	chuck norri grenad gag	2.0
+45	180	6	root	3.0
+46	237	8	read bartlett familiar quotat	2.0
+47	191	6	titl charact	2.0
+48	811	30	vaudevil show wellconstruct narr term inoffens actual rather sweet	2.0
+49	881	32	satir	2.0
+50	714	26	impecc	4.0
+51	525	19	bigscreen	2.0
+52	565	22	hatfield hick make oddest coupl in thi sens movi becom studi gambl publish world offer case studi exist apart movi polit ramif	3.0
+53	425	16	welcom relief basebal movi tri too hard mythic	3.0
+54	461	17	bilingu charmer	3.0
+55	185	6	sincer	3.0
+56	818	30	show wellconstruct narr	3.0
+57	149	4	tragedi	1.0
+58	113	3	thi one	2.0
+59	441	16	mythic	2.0
+60	156	4	opera	2.0
+61	262	10	could hate reason	0.0
+62	558	21	indi	2.0
+63	925	34	veri littl	2.0
+64	405	14	good sens	3.0
+65	707	26	impecc pedigre mongrel pep almost indecipher plot complic	2.0
+66	646	23	froth	1.0
+67	559	21	year	2.0
+68	976	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	1.0
+69	2	1	seri escapad demonstr adag good goos	2.0
+70	158	5	aggress selfglorif manipul whitewash	0.0
+71	212	7	plod	1.0
+72	702	25	finish	2.0
+73	133	4	intrigu betray deceit murder	2.0
+74	873	32	poetri	3.0
+75	836	30	inoffens	1.0
+76	455	16	ultim win stori	4.0
+77	428	16	welcom	2.0
+78	690	25	romant comedi boilerpl start finish	2.0
+79	575	22	oddest coupl	2.0
+80	758	28	smile	2.0
+81	500	18	love	4.0
+82	80	2	worth	2.0
+83	964	35	full monti	2.0
+84	806	29	arthur schnitzler	2.0
+85	672	24	dure	2.0
+86	155	4	soap	2.0
+87	395	14	perspect	2.0
+88	775	28	beyond wild wit actor perform	2.0

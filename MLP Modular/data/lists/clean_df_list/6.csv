@@ -1,101 +1,101 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	308	12	kung pow	2
-1	160	5	selfglorif manipul whitewash	0
-2	992	36	terror	1
-3	627	23	go	2
-4	964	35	full monti	2
-5	515	18	mainland	2
-6	219	8		2
-7	942	34	consider dash	2
-8	175	6	epic	3
-9	463	17	bilingu	2
-10	747	28	earnest	2
-11	58	1	much stori	2
-12	545	20	expect noth	2
-13	304	11	high hilar	4
-14	863	32	selfindulg script	2
-15	885	33	ice age first computergener featur cartoon feel like movi	2
-16	262	10	could hate reason	0
-17	31	1	also	2
-18	79	2	worth	2
-19	62	1	stori	2
-20	605	22	case studi	2
-21	929	34	go	2
-22	459	17	bilingu charmer like woman inspir	3
-23	713	26	impecc pedigre mongrel pep	3
-24	794	29	actor exercis	2
-25	501	18		2
-26	788	29	latest	2
-27	438	16	too hard mythic	1
-28	88	3	ismail merchant work	2
-29	731	27	clearli	2
-30	173	6	nearli epic	4
-31	560	21	year	2
-32	720	26	pep	2
-33	735	27	preach exclus convert	2
-34	957	35	success	3
-35	922	34	veri littl sens go	1
-36	561	21	year	2
-37	135	4	betray deceit murder	2
-38	974	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	2
-39	84	3	even fan	2
-40	81	2	seek	2
-41	406	14	good sens	3
-42	833	30	inoffens actual rather sweet	3
-43	867	32	aim poetri end up sound like satir	1
-44	372	14	seriou	2
-45	333	12	martialart flick	2
-46	756	28	occasion smile	3
-47	709	26	impecc pedigre mongrel pep almost	2
-48	92	3	merchant	2
-49	421	15	judgment	2
-50	403	14	path	2
-51	188	6		2
-52	934	34	maker	2
-53	243	8	bartlett	2
-54	364	14	fresnadillo ha someth seriou say way in extravag chanc distort perspect throw us path good sens	3
-55	223	8	thick wit play like read bartlett familiar quotat	2
-56	919	34	veri littl sens go	1
-57	803	29	structur	2
-58	396	14	throw us path good sens	2
-59	849	32	hamper no paralyz selfindulg script aim poetri end up sound like satir	0
-60	465	17	like woman inspir	2
-61	733	27	mean	2
-62	686	24	film	2
-63	613	22	movi polit ramif	2
-64	106	3	hard time sit thi one	1
-65	43	1		2
-66	317	12	oedekerk realiz hi childhood dream	2
-67	487	18	wong in mood love veri much hong kong movi despit mainland set	2
-68	274	11	littl recommend snow dog unless one consid clich dialogu pervers escap sourc high hilar	1
-69	114	3		2
-70	314	12	oedekerk realiz hi childhood dream in martialart flick	2
-71	275	11	littl recommend snow dog unless one consid clich dialogu pervers escap sourc high hilar	1
-72	701	25	finish	2
-73	214	8	import earnest thick wit play like read bartlett familiar quotat	3
-74	994	36	hero horror movi	2
-75	439	16	too	2
-76	995	36	hero	2
-77	152	4	juici soap opera	3
-78	618	22	polit	2
-79	443	16	mythic	2
-80	837	30	actual	2
-81	725	26	complic	1
-82	301	11	sourc	2
-83	517	19	inept bigscreen remak aveng wild wild west	1
-84	241	8		2
-85	573	22	make oddest coupl	2
-86	886	33	ice age first computergener featur cartoon feel like movi	3
-87	621	23	like go hous parti watch host defend froth exgirlfriend	1
-88	513	18		2
-89	418	15	better judgment	2
-90	819	30	show	2
-91	234	8	play	2
-92	133	4	intrigu betray deceit murder	2
-93	153	4	juici	3
-94	297	11	pervers escap	2
-95	8	1	escapad demonstr adag good goos	2
-96	940	34	clich	2
-97	654	24	norri	2
-98	272	11	littl recommend snow dog unless one consid clich dialogu pervers escap sourc high hilar	1
-99	835	30	inoffens	2
+0	240	8	bartlett familiar quotat	2
+1	520	19		2
+2	65	2	thi quiet introspect entertain independ	3
+3	854	32	hamper	2
+4	406	14	good sens	3
+5	75	2	entertain	4
+6	388	14		2
+7	959	35	hi first film full monti	2
+8	200	7	narr	2
+9	763	28	doe nt give us reason in theater beyond wild wit actor perform	1
+10	358	13		2
+11	640	23	defend	2
+12	462	17	bilingu charmer	3
+13	820	30	wellconstruct narr	3
+14	294	11	clich dialogu	1
+15	290	11	consid	2
+16	73	2	introspect	2
+17	434	16	movi	2
+18	292	11	clich dialogu pervers escap	1
+19	743	28	import earnest offer opportun occasion smile chuckl	3
+20	360	13		2
+21	460	17	bilingu charmer	3
+22	958	35	hi first film full monti	1
+23	231	8	play like read bartlett familiar quotat	2
+24	264	10	hate reason	1
+25	665	24	7 time dure windtalk good indic seriousmind film	2
+26	46	1	amus none amount much stori	2
+27	649	24	chuck norri grenad gag	2
+28	71	2	introspect entertain	3
+29	541	20	everyth	2
+30	741	27	convert	2
+31	279	11	littl	2
+32	934	34	maker	2
+33	983	36	easili	3
+34	626	23	go hous parti	2
+35	622	23	like go hous parti watch host defend froth exgirlfriend	1
+36	761	28	doe nt give us reason in theater beyond wild wit actor perform	2
+37	174	6	nearli	2
+38	770	28	in theater beyond wild wit actor perform	2
+39	790	29	vapid actor exercis appropri structur arthur schnitzler reigen	2
+40	998	36	horror movi	2
+41	848	31	flick	2
+42	658	24	grenad	1
+43	93	3		2
+44	969	35	someth differ	3
+45	794	29	actor exercis	2
+46	44	1	occasion amus none amount much stori	2
+47	61	1	stori	2
+48	918	34	veri littl sens go maker serv up clich consider dash	1
+49	579	22	coupl	2
+50	287	11	unless	2
+51	979	36	unnam easili substitut	1
+52	398	14	throw	2
+53	941	34	consider dash	2
+54	285	11	dog	2
+55	863	32	selfindulg script	2
+56	590	22	studi	2
+57	137	4	betray	2
+58	784	28	actor	2
+59	791	29	vapid actor exercis appropri structur arthur schnitzler reigen	1
+60	935	34	serv up clich consider dash	2
+61	393	14	perspect	2
+62	18	1	good goos	2
+63	28	1	also good gander occasion amus none amount much stori	2
+64	222	8	earnest	3
+65	445	16	thi one sweet modest ultim win stori	4
+66	725	26	complic	1
+67	249	9	doe nt leav much	1
+68	563	21	far	2
+69	439	16	too	2
+70	151	4	juici soap opera	3
+71	112	3	sit	2
+72	675	24	good indic seriousmind film	3
+73	692	25	romant comedi boilerpl start finish	2
+74	855	32	no paralyz	2
+75	325	12	childhood dream	2
+76	956	35	runaway	2
+77	4	1		2
+78	55	1	amount	2
+79	84	3	even fan	2
+80	699	25	start	2
+81	440	16	hard mythic	1
+82	351	12		2
+83	244	8	bartlett	2
+84	289	11	consid clich dialogu pervers escap sourc high hilar	2
+85	588	22	becom	2
+86	166	5	whitewash	2
+87	599	22	publish	2
+88	718	26	mongrel pep	2
+89	172	6	nearli epic proport	2
+90	756	28	occasion smile	3
+91	356	13	absolut joy	4
+92	227	8	wit play like read bartlett familiar quotat	3
+93	999	36	horror	1
+94	982	36	easili substitut	2
+95	255	9	leav much	2
+96	627	23	go	2
+97	469	17	woman	2
+98	275	11	littl recommend snow dog unless one consid clich dialogu pervers escap sourc high hilar	1
+99	556	21	indi year	3

@@ -1,93 +1,84 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	183	6	sincer perform	4.0
-1	390	14	distort perspect	2.0
-2	845	31	runofthemil action	1.0
-3	510	18	despit mainland set	2.0
-4	902	33	feel	2.0
-5	437	16	tri	2.0
-6	703	26	arriv impecc pedigre mongrel pep almost indecipher plot complic	2.0
-7	378	14	way in extravag chanc distort perspect throw us path good sens	1.0
-8	196	6	midlif crisi	1.0
-9	119	4	posit thrill combin ethnographi intrigu betray deceit murder	4.0
-10	484	18	companion	3.0
-11	599	22	publish	2.0
-12	110	3	time	2.0
-13	450	16	sweet modest	4.0
-14	407	14	sens	2.0
-15	890	33	first computergener featur cartoon feel like movi	3.0
-16	469	17	woman	2.0
-17	804	29	arthur schnitzler reigen	2.0
-18	900	33	feel like movi	2.5
-19	212	7	plod	1.0
-20	117	4	posit thrill combin ethnographi intrigu betray deceit murder shakespearean tragedi juici soap opera	3.0
-21	251	9	doe nt leav much	1.0
-22	386	14	chanc	2.0
-23	796	29	actor	2.0
-24	427	16	welcom relief	3.0
-25	790	29	vapid actor exercis appropri structur arthur schnitzler reigen	2.0
-26	927	34	go	1.0
-27	69	2	quiet	2.0
-28	818	30	show wellconstruct narr	3.0
-29	779	28	wild wit	2.0
-30	145	4	shakespearean tragedi	2.0
-31	238	8	read	2.0
-32	932	34	maker serv up clich consider dash	2.0
-33	342	12	dream youth	3.0
-34	486	18	mr	2.0
-35	482	18	dizzili	2.0
-36	776	28	beyond	2.0
-37	675	24	good indic seriousmind film	3.0
-38	466	17	like woman inspir	2.0
-39	624	23	go hous parti watch host defend froth exgirlfriend	1.0
-40	980	36	unnam	2.0
-41	12	1	demonstr	2.0
-42	617	22	polit ramif	2.0
-43	985	36	forc	2.0
-44	237	8	read bartlett familiar quotat	2.0
-45	635	23	host defend froth exgirlfriend	2.0
-46	132	4	intrigu betray deceit murder	1.0
-47	379	14	way	2.0
-48	398	14	throw	2.0
-49	488	18	wong	2.0
-50	140	4	deceit	2.0
-51	823	30	wellconstruct	3.0
-52	200	7	narr	2.0
-53	399	14	us	3.0
-54	125	4	combin	2.0
-55	280	11	recommend snow dog	2.0
-56	102	3	would hard time sit thi one	0.0
-57	127	4	ethnographi intrigu betray deceit murder	2.0
-58	432	16	basebal movi	2.0
-59	772	28	in theater	2.0
-60	45	1	occasion	2.0
-61	11	1	demonstr adag	2.0
-62	976	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	1.0
-63	878	32	sound like satir	2.0
-64	606	22	case	2.0
-65	877	32	up	2.0
-66	86	3	fan	3.0
-67	694	25	romant comedi boilerpl	1.0
-68	201	7	troubl everi day plod mess	1.0
-69	383	14	extravag chanc distort perspect throw us path good sens	2.0
-70	984	36	substitut	1.0
-71	185	6	sincer	3.0
-72	562	21	far	2.0
-73	343	12	dream	2.0
-74	943	34	consider	3.0
-75	2	1	seri escapad demonstr adag good goos	2.0
-76	828	30	term	2.0
-77	500	18	love	4.0
-78	676	24	good indic	3.0
-79	492	18	in mood love veri much hong kong movi	3.0
-80	514	18	mainland set	2.0
-81	718	26	mongrel pep	2.0
-82	535	19	wild west	2.0
-83	554	21	indi year far	3.0
-84	711	26	impecc pedigre mongrel pep	2.0
-85	938	34	clich consider dash	1.0
-86	580	22	in thi sens movi becom studi gambl publish world offer case studi exist apart movi polit ramif	3.0
-87	536	19	west	2.0
-88	458	16	win	3.0
-89	367	14	ha someth seriou say way in extravag chanc distort perspect throw us path good sens	3.0
-90	858	32	no	1.0
-91	685	24	film	2.0
+0	540	20	everyth expect noth	1.3333333333333333
+1	321	12	realiz	2.0
+2	586	22	becom studi gambl publish world	2.0
+3	815	30	vaudevil show wellconstruct narr	1.0
+4	147	4	shakespearean tragedi	2.0
+5	737	27	preach	2.0
+6	357	13	absolut joy	3.0
+7	154	4	soap opera	1.0
+8	286	11	unless one consid clich dialogu pervers escap sourc high hilar	1.0
+9	184	6	sincer perform	4.0
+10	382	14	in	2.0
+11	350	12	remain	2.0
+12	739	27	convert	2.0
+13	30	1	also	2.0
+14	368	14	ha	2.0
+15	639	23	defend	3.0
+16	570	22	hatfield	2.0
+17	315	12	oedekerk realiz hi childhood dream in martialart flick	2.0
+18	454	16	modest	3.0
+19	720	26	pep	2.0
+20	67	2	quiet introspect entertain independ	4.0
+21	363	13	joy	4.0
+22	691	25	romant comedi boilerpl start finish	3.0
+23	574	22	make	2.0
+24	170	6	comedydrama	2.0
+25	81	2	seek	2.0
+26	847	31	action	2.0
+27	919	34	veri littl sens go	1.0
+28	766	28	give	3.0
+29	878	32	sound like satir	2.0
+30	993	36	hero horror movi tri avoid	1.0
+31	567	22	hatfield hick make oddest coupl	2.0
+32	470	17	inspir	2.0
+33	852	32	hamper no paralyz selfindulg script	1.0
+34	487	18	wong in mood love veri much hong kong movi despit mainland set	2.0
+35	165	5	manipul	2.0
+36	130	4	intrigu betray deceit murder	2.0
+37	620	23	like go hous parti watch host defend froth exgirlfriend	1.0
+38	711	26	impecc pedigre mongrel pep	2.0
+39	6	1	escapad demonstr adag good goos	2.0
+40	205	7	everi day	2.0
+41	858	32	no	1.0
+42	120	4	posit thrill combin	3.0
+43	592	22	gambl publish world	2.0
+44	668	24	7 time	2.0
+45	569	22	hatfield hick	2.0
+46	785	28	actor	2.0
+47	561	21	year	2.0
+48	955	35	runaway success	3.0
+49	478	18	less dizzili gorgeou companion	2.0
+50	548	20	expect	2.0
+51	283	11	snow dog	2.0
+52	268	10	reason	2.0
+53	68	2	quiet introspect entertain	3.0
+54	772	28	in theater	2.0
+55	446	16	sweet modest ultim win stori	4.0
+56	430	16	basebal movi tri too hard mythic	1.0
+57	939	34	clich	1.0
+58	310	12	pow	3.0
+59	438	16	too hard mythic	1.0
+60	996	36	hero	3.0
+61	552	21	best indi year far	4.0
+62	396	14	throw us path good sens	2.0
+63	679	24	seriousmind film	2.5
+64	148	4	shakespearean	2.0
+65	413	15	moonlight mile better judgment damn	2.0
+66	444	16	thi one sweet modest ultim win stori	3.0
+67	1	1	seri escapad demonstr adag good goos also good gander occasion amus none amount much stori	1.0
+68	840	31	noth runofthemil action flick	2.0
+69	751	28	offer opportun occasion smile	3.0
+70	379	14	way	2.0
+71	629	23	hous parti	2.0
+72	611	22	apart	2.0
+73	464	17	charmer	3.0
+74	206	7	everi	2.0
+75	83	3	even fan ismail merchant work	2.0
+76	235	8	like read bartlett familiar quotat	2.0
+77	51	1	none	2.0
+78	153	4	juici	3.0
+79	966	35	full	3.0
+80	947	35	follow runaway success hi first film full monti someth differ	2.0
+81	397	14	throw us	2.0
+82	301	11	sourc	2.0

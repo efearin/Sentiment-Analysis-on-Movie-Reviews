@@ -156,7 +156,16 @@ def get_matrix(test_df_inp, train_df_inp, train_word_df_inp, w2v_model_inp):
             out.append(float(row.Sentiment)/4)
     return inp, out
 
-
+def calculate_test(test_df, train_df, train_word_df, w2v_model, mlp_model):
+    test_feature_vectors, test_real_scores = get_matrix(test_df, train_df, train_word_df, w2v_model)
+    calculated_scores = mlp_model.predict(test_feature_vectors)
+    error = []
+    for x in range(0,len(test_real_scores)):
+        error.append(abs(test_real_scores[x]-(4*calculated_scores[x]))/4)
+    result_df = pd.DataFrame({'sentiment': pd.Series(test_real_scores),
+                              'calculation': pd.Series(calculated_scores),
+                              'error': pd.Series(error)})
+    return result_df
 # if __name__ == "__main__":
 #     closest_attribution_count = 0
 #     closest_attribution_sum = 0

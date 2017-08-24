@@ -1,31 +1,32 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	751.0	28	offer opportun occasion smile	3.0
-1	893.0	33	first computergener featur cartoon	3.0
-2	558.0	21	indi	2.0
-3	852.0	32	hamper no paralyz selfindulg script	1.0
-4	146.0	4	shakespearean tragedi	1.0
-5	698.0	25	boilerpl	2.0
-6	791.0	29	vapid actor exercis appropri structur arthur schnitzler reigen	1.0
-7	220.0	8	earnest thick wit play like read bartlett familiar quotat	2.0
-8	603.0	22	case studi exist apart movi polit ramif	3.0
-9	493.0	18	mood love veri much hong kong movi	2.0
-10	838.0	30	rather sweet	3.0
-11	298.0	11	pervers	1.0
-12	413.0	15	moonlight mile better judgment damn	2.0
-13	917.0	34	veri littl sens go maker serv up clich consider dash	2.0
-14	266.0	10	hate	0.0
-15	202.0	7	troubl everi day plod mess	0.0
-16	366.0	14	ha someth seriou say way in extravag chanc distort perspect throw us path good sens	3.0
-17	705.0	26	arriv impecc pedigre mongrel pep almost indecipher plot complic	2.0
-18	645.0	23	froth exgirlfriend	2.0
-19	680.0	24	seriousmind film	3.0
-20	986.0	36	serv whatev terror hero horror movi tri avoid	2.0
-21	949.0	35	follow runaway success hi first film full monti someth differ	2.0
-22	82.0	3	even fan ismail merchant work suspect would hard time sit thi one	1.0
-23	28.0	1	also good gander occasion amus none amount much stori	2.0
-24	177.0	6	root in sincer perform titl charact undergo midlif crisi	4.0
-25	539.0	20	everyth expect noth	2.0
-26	336.0	12	prove sometim dream youth remain	1.0
-27	249.0	9	doe nt leav much	1.0
-28	736.0	27	preach exclus	2.0
-29	840.0	31	noth runofthemil action flick	2.0
+0	961.0	35	hi first film	2.0
+1	843.0	31	runofthemil action	2.0
+2	924.0	34	veri littl sens	1.0
+3	117.0	4	posit thrill combin ethnographi intrigu betray deceit murder shakespearean tragedi juici soap opera	3.0
+4	738.0	27	exclus	2.0
+5	635.0	23	host defend froth exgirlfriend	2.0
+6	533.0	19	wild wild west	2.0
+7	367.0	14	ha someth seriou say way in extravag chanc distort perspect throw us path good sens	3.0
+8	199.0	7	narr troubl everi day plod mess	1.0
+9	792.0	29	vapid actor exercis	1.0
+10	987.0	36	serv whatev terror hero horror movi tri avoid	2.0
+11	813.0	30	vaudevil show wellconstruct narr	2.0
+12	250.0	9	doe nt leav much	1.0
+13	300.0	11	sourc high hilar	3.0
+14	162.0	5	selfglorif	2.0
+15	698.0	25	boilerpl	2.0
+16	177.0	6	root in sincer perform titl charact undergo midlif crisi	4.0
+17	745.0	28	import earnest offer opportun occasion smile chuckl	3.0
+18	54.0	1	amount much stori	2.0
+19	674.0	24	good indic seriousmind film	3.0
+20	722.0	26	indecipher plot complic	1.0
+21	436.0	16	tri too hard mythic	1.0
+22	496.0	18	love veri much hong kong movi	2.0
+23	891.0	33	first computergener featur cartoon feel like movi	4.0
+24	421.0	15	judgment	2.0
+25	64.0	2	thi quiet introspect entertain independ worth seek	4.0
+26	585.0	22	becom studi gambl publish world offer case studi exist apart movi polit ramif	2.0
+27	850.0	32	hamper no paralyz selfindulg script aim poetri end up sound like satir	1.0
+28	88.0	3	ismail merchant work	2.0
+29	307.0	12	kung pow oedekerk realiz hi childhood dream in martialart flick prove sometim dream youth remain	1.0
+30	225.0	8	thick wit play like read bartlett familiar quotat	3.0

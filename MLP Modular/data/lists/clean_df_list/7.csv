@@ -1,101 +1,101 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	628	23	hous parti	2
-1	951	35	follow runaway success hi first film full monti	3
-2	759	28	chuckl	1
-3	195	6	undergo	2
-4	719	26	mongrel	1
-5	433	16	basebal	2
-6	723	26	indecipher	2
-7	57	1		2
-8	827	30		2
-9	244	8	bartlett	2
-10	805	29	arthur schnitzler reigen	3
-11	213	7	mess	1
-12	4	1		2
-13	327	12	dream	3
-14	142	4	murder	1
-15	857	32	no paralyz	1
-16	330	12		2
-17	151	4	juici soap opera	3
-18	583	22	movi becom studi gambl publish world offer case studi exist apart movi polit ramif	2
-19	326	12	childhood	2
-20	512	18	mainland set	3
-21	46	1	amus none amount much stori	2
-22	182	6	in	2
-23	738	27	exclus	2
-24	163	5	manipul whitewash	1
-25	464	17	charmer	3
-26	461	17	bilingu charmer	3
-27	691	25	romant comedi boilerpl start finish	3
-28	844	31	runofthemil action	2
-29	728	27	film	2
-30	648	24	chuck norri grenad gag occur 7 time dure windtalk good indic seriousmind film	2
-31	440	16	hard mythic	1
-32	656	24		2
-33	36	1	gander	2
-34	631	23	hous	2
-35	430	16	basebal movi tri too hard mythic	1
-36	365	14	fresnadillo	2
-37	789	29	latest	2
-38	355	13	perform	2
-39	168	6	comedydrama nearli epic proport	3
-40	186	6	perform	2
-41	392	14	distort	2
-42	716	26	pedigre	2
-43	373	14	say way in extravag chanc distort perspect throw us path good sens	3
-44	211	7	plod mess	0
-45	812	30	vaudevil show wellconstruct narr term inoffens actual rather sweet	3
-46	245	8	familiar quotat	2
-47	590	22	studi	2
-48	909	33	make	2
-49	889	33	age	2
-50	192	6	titl	2
-51	737	27	preach	2
-52	369	14	someth seriou say way in extravag chanc distort perspect throw us path good sens	3
-53	284	11	snow	2
-54	431	16	basebal movi tri too hard mythic	0
-55	634	23	watch	2
-56	231	8	play like read bartlett familiar quotat	2
-57	923	34	veri littl sens go	1
-58	528	19	aveng wild wild west	2
-59	248	9	doe nt leav much	1
-60	227	8	wit play like read bartlett familiar quotat	3
-61	533	19	wild wild west	2
-62	641	23		2
-63	726	27	film clearli mean preach exclus convert	2
-64	424	16	welcom relief basebal movi tri too hard mythic thi one sweet modest ultim win stori	3
-65	131	4		2
-66	354	13	perform	2
-67	171	6	nearli epic proport	3
-68	387	14	distort perspect throw us path good sens	2
-69	682	24	seriousmind film	2
-70	232	8		2
-71	882	33	ice age first computergener featur cartoon feel like movi make glacial pace earli	2
-72	453	16	sweet	4
-73	116	3	one	2
-74	661	24		2
-75	71	2	introspect entertain	3
-76	422	15	damn	2
-77	643	23		2
-78	18	1	good goos	2
-79	149	4	tragedi	1
-80	415	15	moonlight	2
-81	924	34	veri littl sens	1
-82	954	35	runaway success	4
-83	904	33	movi	2
-84	382	14	in	2
-85	808	29	schnitzler	2
-86	570	22	hatfield	2
-87	884	33	ice age first computergener featur cartoon feel like movi	3
-88	684	24	seriousmind	2
-89	998	36	horror movi	2
-90	65	2	thi quiet introspect entertain independ	3
-91	283	11	snow dog	2
-92	420	15	better	4
-93	155	4	soap	2
-94	502	18	veri much	2
-95	141	4	deceit	1
-96	619	22	ramif	2
-97	767	28	reason in theater beyond wild wit actor perform	2
-98	20	1	good goos	2
-99	793	29	vapid	1
+0	816	30	vaudevil	2
+1	841	31	runofthemil action flick	2
+2	805	29	arthur schnitzler reigen	3
+3	884	33	ice age first computergener featur cartoon feel like movi	3
+4	706	26	arriv	2
+5	907	33	make glacial pace earli	1
+6	578	22	coupl	2
+7	189	6	titl charact undergo midlif crisi	2
+8	957	35	success	3
+9	546	20	expect noth	2
+10	904	33	movi	2
+11	320	12	oedekerk	2
+12	181	6	in sincer perform	4
+13	577	22	oddest	1
+14	576	22	oddest	2
+15	610	22	exist	2
+16	871	32	aim	2
+17	327	12	dream	3
+18	442	16	mythic	2
+19	247	8	quotat	2
+20	254	9	nt	2
+21	789	29	latest	2
+22	903	33	like movi	2
+23	263	10	could	2
+24	736	27	preach exclus	2
+25	554	21	indi year far	3
+26	228	8		2
+27	524	19	bigscreen remak	2
+28	400	14	path good sens	1
+29	609	22	exist apart	2
+30	157	5	aggress selfglorif manipul whitewash	1
+31	131	4		2
+32	678	24	indic	2
+33	597	22	publish world	2
+34	12	1	demonstr	2
+35	607	22	exist apart movi polit ramif	2
+36	591	22	studi	2
+37	973	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	1
+38	138	4	deceit murder	1
+39	215	8	import	2
+40	474	18	like less dizzili gorgeou companion mr wong in mood love veri much hong kong movi despit mainland set	2
+41	38	1		2
+42	636	23	host	2
+43	348	12		2
+44	696	25	comedi boilerpl	2
+45	664	24	occur	2
+46	146	4	shakespearean tragedi	1
+47	580	22	in thi sens movi becom studi gambl publish world offer case studi exist apart movi polit ramif	3
+48	800	29	appropri structur	2
+49	245	8	familiar quotat	2
+50	22	1	good goos	3
+51	347	12	remain	2
+52	459	17	bilingu charmer like woman inspir	3
+53	224	8		2
+54	677	24	good indic	3
+55	299	11	escap	2
+56	211	7	plod mess	0
+57	182	6	in	2
+58	251	9	doe nt leav much	1
+59	270	10		2
+60	186	6	perform	2
+61	509	18	movi	2
+62	637	23	host	2
+63	920	34	veri littl sens go	0
+64	536	19	west	2
+65	867	32	aim poetri end up sound like satir	1
+66	7	1		2
+67	645	23	froth exgirlfriend	2
+68	926	34	go	2
+69	522	19	bigscreen remak aveng wild wild west	1
+70	733	27	mean	2
+71	842	31	runofthemil action	3
+72	936	34	serv up	2
+73	954	35	runaway success	4
+74	111	3	sit thi one	1
+75	723	26	indecipher	2
+76	179	6	root in sincer perform	3
+77	984	36	substitut	1
+78	453	16	sweet	4
+79	777	28	wild wit actor perform	2
+80	596	22	publish world	2
+81	638	23	defend froth exgirlfriend	2
+82	493	18	mood love veri much hong kong movi	2
+83	214	8	import earnest thick wit play like read bartlett familiar quotat	3
+84	344	12	dream	2
+85	278	11	littl recommend snow dog	2
+86	383	14	extravag chanc distort perspect throw us path good sens	2
+87	424	16	welcom relief basebal movi tri too hard mythic thi one sweet modest ultim win stori	3
+88	812	30	vaudevil show wellconstruct narr term inoffens actual rather sweet	3
+89	167	6	comedydrama nearli epic proport root in sincer perform titl charact undergo midlif crisi	4
+90	336	12	prove sometim dream youth remain	1
+91	962	35	hi first film	2
+92	666	24	7 time dure windtalk	2
+93	85	3	even	2
+94	354	13	perform	2
+95	173	6	nearli epic	4
+96	529	19	aveng	2
+97	970	35	differ	2
+98	753	28	opportun occasion smile	2
+99	282	11	recommend	3

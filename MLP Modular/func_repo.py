@@ -11,9 +11,6 @@ from sklearn.externals import joblib
 
 
 
-
-
-
 # Manipulate 'df', no return
 # PURPOSE OF CODE
 # Cleaning meaningless words and punctuations to prepare data
@@ -151,8 +148,6 @@ def get_fully_cleaned_df_list (main_df_list):
 
 
 
-
-
 # PURPOSE OF CODE
 # From train dataset create a new one which contains only full sentences not their phrases to prevent over-fit on further word2vec train
 # using dataset's sentenceId attributes. Get only full sentences to feed word2vec.
@@ -224,12 +219,20 @@ def get_required_df_lists (clean_df_list, fully_clean_df_list, sentence_df_list,
 # get list of df and return df
 # by assingning index element of inputs as fake test and remaninf fake train
 # used to collect partial train feature vectors
-def get_required_dfs (train_df_list, train_sentence_df_list, train_word_df_list, index):
+def get_required_fake_dfs (train_df_list, train_sentence_df_list, train_word_df_list, index):
     fake_test_df = train_df_list[index].reset_index(drop=True)
     fake_train_df = pd.concat([k for i, k in enumerate(train_df_list) if i != index], ignore_index=True).reset_index(drop=True)
     fake_train_sentence_df = pd.concat([k for i, k in enumerate(train_sentence_df_list) if i != index], ignore_index=True).reset_index(drop=True)
     fake_train_word_df = pd.concat([k for i, k in enumerate(train_word_df_list) if i != index], ignore_index=True).reset_index(drop=True)
     return fake_test_df, fake_train_df, fake_train_sentence_df, fake_train_word_df
+
+def dflists_to_dfs (test_df_list,train_df_list, train_sentence_df_list,train_word_df_list):
+    test_df = pd.concat(test_df_list, ignore_index=True).reset_index(drop=True)
+    train_df = pd.concat(train_df_list, ignore_index=True).reset_index(drop=True)
+    train_sentence_df = pd.concat(train_sentence_df_list, ignore_index=True).reset_index(drop=True)
+    train_word_df = pd.concat(train_word_df_list, ignore_index=True).reset_index(drop=True)
+    return test_df, train_df, train_sentence_df, train_word_df
+
 
 
 

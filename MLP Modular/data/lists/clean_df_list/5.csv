@@ -1,101 +1,101 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	94	3	work	2
-1	801	29	appropri	3
-2	98	3	suspect	2
-3	322	12	hi childhood dream	2
-4	78	2	worth seek	4
-5	549	20	noth	2
-6	918	34	veri littl sens go maker serv up clich consider dash	1
-7	820	30	wellconstruct narr	3
-8	239	8	read	2
-9	41	1		2
-10	520	19		2
-11	498	18	love veri much	4
-12	632	23	parti	2
-13	868	32	aim poetri end up sound like satir	1
-14	773	28	theater	2
-15	174	6	nearli	2
-16	708	26	impecc pedigre mongrel pep almost indecipher plot complic	1
-17	485	18	mr	2
-18	764	28	give us reason in theater beyond wild wit actor perform	1
-19	456	16	ultim	2
-20	892	33	first computergener featur cartoon	2
-21	953	35	runaway success hi first film full monti	4
-22	740	27	convert	2
-23	449	16	sweet modest	3
-24	633	23	watch host defend froth exgirlfriend	2
-25	810	29	reigen	2
-26	846	31	runofthemil	1
-27	971	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	1
-28	572	22	hick	2
-29	799	29	appropri structur arthur schnitzler reigen	2
-30	579	22	coupl	2
-31	798	29	appropri structur arthur schnitzler reigen	2
-32	928	34	go	2
-33	663	24	occur 7 time dure windtalk good indic seriousmind film	3
-34	76	2	independ	2
-35	507	18	kong movi	2
-36	546	20	expect noth	2
-37	644	23	froth exgirlfriend	2
-38	409	15	still like moonlight mile better judgment damn	3
-39	585	22	becom studi gambl publish world offer case studi exist apart movi polit ramif	2
-40	341	12	dream youth remain	2
-41	842	31	runofthemil action	3
-42	706	26	arriv	2
-43	907	33	make glacial pace earli	1
-44	300	11	sourc high hilar	3
-45	672	24	dure	2
-46	380	14	way	2
-47	347	12	remain	2
-48	739	27	convert	2
-49	625	23	go hous parti	2
-50	303	11	high hilar	3
-51	950	35	follow runaway success hi first film full monti someth differ	2
-52	393	14	perspect	2
-53	27	1	goos	2
-54	444	16	thi one sweet modest ultim win stori	3
-55	32	1	good gander occasion amus none amount much stori	2
-56	425	16	welcom relief basebal movi tri too hard mythic	3
-57	357	13	absolut joy	3
-58	26	1	goos	2
-59	180	6	root	3
-60	477	18	less dizzili gorgeou companion	2
-61	824	30	narr	2
-62	400	14	path good sens	1
-63	338	12	sometim dream youth remain	1
-64	165	5	manipul	2
-65	419	15	better judgment	2
-66	906	33	make glacial pace earli	2
-67	162	5	selfglorif	2
-68	24	1	goos	2
-69	148	4	shakespearean	2
-70	61	1	stori	2
-71	5	1	seri	2
-72	596	22	publish world	2
-73	925	34	veri littl	2
-74	349	12	remain	2
-75	229	8	wit play like read bartlett familiar quotat	2
-76	752	28	offer	2
-77	607	22	exist apart movi polit ramif	2
-78	538	20	everyth expect noth	1
-79	331	12	in martialart flick	2
-80	522	19	bigscreen remak aveng wild wild west	1
-81	991	36	terror hero horror movi tri avoid	1
-82	834	30	inoffens actual	2
-83	749	28	offer opportun occasion smile chuckl	2
-84	506	18	hong	2
-85	746	28	import earnest	3
-86	653	24	norri grenad gag	2
-87	745	28	import earnest offer opportun occasion smile chuckl	3
-88	647	23	exgirlfriend	2
-89	875	32	end up	2
-90	551	20		2
-91	68	2	quiet introspect entertain	3
-92	265	10	hate	0
-93	352	12		2
-94	15	1	adag	2
-95	611	22	apart	2
-96	600	22	world	2
-97	124	4	thrill	4
-98	855	32	no paralyz	2
-99	289	11	consid clich dialogu pervers escap sourc high hilar	2
+0	402	14	path good sens	2
+1	437	16	tri	2
+2	545	20	expect noth	2
+3	821	30		2
+4	312	12	oedekerk realiz hi childhood dream in martialart flick prove sometim dream youth remain	0
+5	32	1	good gander occasion amus none amount much stori	2
+6	281	11	recommend snow dog	4
+7	551	20		2
+8	765	28	give us	2
+9	339	12	sometim dream youth remain	1
+10	930	34	go	2
+11	571	22	hatfield	2
+12	458	16	win	3
+13	324	12	hi	2
+14	476	18	less dizzili gorgeou companion mr	2
+15	141	4	deceit	1
+16	870	32	aim poetri	2
+17	159	5	aggress	2
+18	126	4	ethnographi intrigu betray deceit murder	2
+19	631	23	hous	2
+20	808	29	schnitzler	2
+21	160	5	selfglorif manipul whitewash	0
+22	335	12	flick	2
+23	801	29	appropri	3
+24	57	1		2
+25	298	11	pervers	1
+26	731	27	clearli	2
+27	407	14	sens	2
+28	729	27	clearli mean	2
+29	912	33	glacial pace	2
+30	543	20	expect noth	2
+31	86	3	fan	3
+32	328	12	in martialart flick	2
+33	1000	36	tri avoid	1
+34	648	24	chuck norri grenad gag occur 7 time dure windtalk good indic seriousmind film	2
+35	832	30	inoffens actual rather sweet	3
+36	886	33	ice age first computergener featur cartoon feel like movi	3
+37	796	29	actor	2
+38	226	8	thick	2
+39	463	17	bilingu	2
+40	831	30	inoffens actual rather sweet	3
+41	43	1		2
+42	885	33	ice age first computergener featur cartoon feel like movi	2
+43	333	12	martialart flick	2
+44	102	3	would hard time sit thi one	0
+45	16	1	good goos	2
+46	435	16	tri too hard mythic	1
+47	403	14	path	2
+48	479	18	less dizzili gorgeou	2
+49	114	3		2
+50	960	35	hi first film full monti	2
+51	391	14	distort perspect	2
+52	503	18	veri	2
+53	555	21	indi year far	4
+54	175	6	epic	3
+55	8	1	escapad demonstr adag good goos	2
+56	489	18	in mood love veri much hong kong movi despit mainland set	2
+57	826	30	term	2
+58	90	3	ismail	2
+59	272	11	littl recommend snow dog unless one consid clich dialogu pervers escap sourc high hilar	1
+60	909	33	make	2
+61	355	13	perform	2
+62	793	29	vapid	1
+63	553	21	best	4
+64	760	28	doe nt give us reason in theater beyond wild wit actor perform	2
+65	252	9	doe nt	1
+66	689	25	plot	2
+67	515	18	mainland	2
+68	835	30	inoffens	2
+69	603	22	case studi exist apart movi polit ramif	3
+70	431	16	basebal movi tri too hard mythic	0
+71	330	12		2
+72	995	36	hero	2
+73	77	2	worth seek	3
+74	625	23	go hous parti	2
+75	531	19	aveng	2
+76	106	3	hard time sit thi one	1
+77	550	20	noth	1
+78	3	1	seri	2
+79	997	36	horror movi	2
+80	253	9	doe	2
+81	371	14	seriou say way in extravag chanc distort perspect throw us path good sens	2
+82	378	14	way in extravag chanc distort perspect throw us path good sens	1
+83	501	18		2
+84	196	6	midlif crisi	1
+85	896	33	computergener	2
+86	505	18	hong kong movi	2
+87	482	18	dizzili	2
+88	494	18	mood	3
+89	991	36	terror hero horror movi tri avoid	1
+90	21	1		2
+91	746	28	import earnest	3
+92	642	23	froth exgirlfriend	2
+93	374	14	say way in extravag chanc distort perspect throw us path good sens	2
+94	521	19	inept	1
+95	943	34	consider	3
+96	883	33	ice age first computergener featur cartoon feel like movi make glacial pace earli	2
+97	724	26	plot complic	2
+98	968	35	someth differ	2
+99	98	3	suspect	2

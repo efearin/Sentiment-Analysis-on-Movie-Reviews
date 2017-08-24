@@ -1,89 +1,94 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	332	12	martialart flick	2.0
-1	3	1	seri	2.0
-2	604	22	case studi	2.0
-3	750	28	offer opportun occasion smile	3.0
-4	190	6	titl charact	2.0
-5	937	34	serv	2.0
-6	763	28	doe nt give us reason in theater beyond wild wit actor perform	1.5
-7	898	33	featur	2.0
-8	977	36	unnam easili substitut forc	1.0
-9	787	29	latest vapid actor exercis appropri structur arthur schnitzler reigen	1.0
-10	166	5	whitewash	2.0
-11	491	18	in mood love veri much hong kong movi	2.0
-12	646	23	froth	1.0
-13	865	32	script	2.0
-14	547	20	expect	2.0
-15	509	18	movi	2.0
-16	847	31	action	2.0
-17	637	23	host	2.0
-18	669	24	7	2.0
-19	374	14	say way in extravag chanc distort perspect throw us path good sens	2.0
-20	839	30	rather	2.0
-21	408	15	still like moonlight mile better judgment damn	3.0
-22	639	23	defend	3.0
-23	649	24	chuck norri grenad gag	2.0
-24	276	11	littl recommend snow dog	1.5
-25	588	22	becom	2.0
-26	729	27	clearli mean	2.0
-27	652	24	chuck	2.0
-28	56	1	much stori	2.0
-29	207	7	day	2.0
-30	158	5	aggress selfglorif manipul whitewash	0.0
-31	293	11	clich dialogu	1.0
-32	77	2	worth seek	3.0
-33	221	8	earnest	3.0
-34	143	4	shakespearean tragedi juici soap opera	2.0
-35	353	13	perform absolut joy	4.0
-36	252	9	doe nt	1.0
-37	480	18	less	2.0
-38	774	28	theater	3.0
-39	281	11	recommend snow dog	4.0
-40	72	2	introspect	3.0
-41	742	28	import earnest offer opportun occasion smile chuckl doe nt give us reason in theater beyond wild wit actor perform	1.0
-42	187	6	titl charact undergo midlif crisi	2.0
-43	967	35	monti	2.0
-44	417	15	mile	2.0
-45	496	18	love veri much hong kong movi	2.0
-46	673	24	windtalk	2.0
-47	260	10	could hate reason	1.0
-48	704	26	arriv impecc pedigre mongrel pep almost indecipher plot complic	2.0
-49	813	30	vaudevil show wellconstruct narr	1.5
-50	567	22	hatfield hick make oddest coupl	2.0
-51	817	30	vaudevil	2.0
-52	451	16	sweet modest	3.0
-53	699	25	start	2.0
-54	879	32	sound	3.0
-55	945	35	cattaneo follow runaway success hi first film full monti someth differ	2.0
-56	609	22	exist apart	2.0
-57	208	7	plod mess	1.0
-58	118	4	posit thrill combin ethnographi intrigu betray deceit murder shakespearean tragedi juici soap opera	4.0
-59	591	22	studi	2.0
-60	292	11	clich dialogu pervers escap	1.0
-61	891	33	first computergener featur cartoon feel like movi	4.0
-62	218	8	earnest thick wit play like read bartlett familiar quotat	3.0
-63	370	14	someth	2.0
-64	288	11	one consid clich dialogu pervers escap sourc high hilar	2.0
-65	176	6	proport	2.0
-66	689	25	plot	2.0
-67	541	20	everyth	2.0
-68	376	14	way in extravag chanc distort perspect throw us path good sens	2.0
-69	869	32	aim poetri	2.0
-70	205	7	everi day	2.0
-71	958	35	hi first film full monti	1.0
-72	894	33	first	2.0
-73	702	25	finish	2.0
-74	589	22	studi gambl publish world	2.0
-75	610	22	exist	2.0
-76	402	14	path good sens	2.0
-77	269	10	reason	2.0
-78	405	14	good sens	3.0
-79	947	35	follow runaway success hi first film full monti someth differ	2.0
-80	714	26	impecc	4.0
-81	696	25	comedi boilerpl	2.0
-82	782	28	actor perform	2.0
-83	121	4	posit thrill combin	3.0
-84	532	19	wild wild west	3.0
-85	912	33	glacial pace	2.0
-86	197	6	midlif	2.0
-87	523	19	bigscreen remak aveng wild wild west	2.0
+0	716	26	pedigre	2.0
+1	499	18	love	3.0
+2	305	11	high	3.0
+3	34	1	gander occasion amus none amount much stori	1.0
+4	92	3	merchant	2.0
+5	547	20	expect	2.0
+6	844	31	runofthemil action	2.0
+7	803	29	structur	2.0
+8	922	34	veri littl sens go	1.0
+9	164	5	manipul whitewash	1.0
+10	276	11	littl recommend snow dog	1.0
+11	108	3	hard time	1.0
+12	860	32	paralyz	2.0
+13	456	16	ultim	2.0
+14	123	4	thrill combin	3.0
+15	614	22	movi polit ramif	2.0
+16	468	17	woman	2.0
+17	143	4	shakespearean tragedi juici soap opera	2.0
+18	767	28	reason in theater beyond wild wit actor perform	2.0
+19	56	1	much stori	2.0
+20	429	16	relief	2.0
+21	480	18	less	2.0
+22	284	11	snow	2.0
+23	372	14	seriou	2.0
+24	125	4	combin	2.0
+25	346	12	youth	2.0
+26	880	32	like satir	2.0
+27	69	2	quiet	2.0
+28	39	1	occasion amus none amount much stori	2.0
+29	414	15	moonlight mile better judgment	2.0
+30	506	18	hong	2.0
+31	384	14	extravag chanc	2.0
+32	632	23	parti	2.0
+33	804	29	arthur schnitzler reigen	2.0
+34	616	22	movi	2.0
+35	375	14	say	2.0
+36	234	8	play	2.0
+37	573	22	make oddest coupl	2.0
+38	526	19	remak	2.0
+39	619	22	ramif	2.0
+40	204	7	troubl	1.0
+41	617	22	polit ramif	2.0
+42	448	16	sweet modest ultim win stori	3.0
+43	229	8	wit play like read bartlett familiar quotat	2.0
+44	322	12	hi childhood dream	2.0
+45	338	12	sometim dream youth remain	1.0
+46	953	35	runaway success hi first film full monti	4.0
+47	659	24	gag	2.0
+48	485	18	mr	2.0
+49	797	29	exercis	2.0
+50	750	28	offer opportun occasion smile	3.0
+51	510	18	despit mainland set	2.0
+52	897	33	featur cartoon	2.0
+53	539	20	everyth expect noth	2.0
+54	900	33	feel like movi	3.0
+55	673	24	windtalk	2.0
+56	715	26	pedigre mongrel pep	2.0
+57	974	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	1.5
+58	669	24	7	2.0
+59	654	24	norri	2.0
+60	662	24	occur 7 time dure windtalk good indic seriousmind film	2.0
+61	236	8	like	2.0
+62	605	22	case studi	2.0
+63	562	21	far	2.0
+64	481	18	dizzili gorgeou	4.0
+65	415	15	moonlight	2.0
+66	735	27	preach exclus convert	2.0
+67	717	26	mongrel pep	2.0
+68	116	3	one	2.0
+69	192	6	titl	2.0
+70	652	24	chuck	2.0
+71	630	23	hous parti	2.0
+72	260	10	could hate reason	1.0
+73	399	14	us	3.0
+74	477	18	less dizzili gorgeou companion	2.0
+75	504	18	hong kong movi	2.0
+76	332	12	martialart flick	2.0
+77	296	11	dialogu	2.0
+78	420	15	better	4.0
+79	864	32	selfindulg	1.0
+80	115	3	thi one	2.0
+81	35	1	gander	2.0
+82	764	28	give us reason in theater beyond wild wit actor perform	1.0
+83	152	4	juici soap opera	3.0
+84	495	18	mood	2.0
+85	326	12	childhood	2.0
+86	230	8	wit	2.0
+87	899	33	cartoon	2.0
+88	122	4	posit	3.0
+89	473	17	inspir	3.0
+90	364	14	fresnadillo ha someth seriou say way in extravag chanc distort perspect throw us path good sens	3.0
+91	209	7	plod mess	0.0
+92	823	30	wellconstruct	3.0

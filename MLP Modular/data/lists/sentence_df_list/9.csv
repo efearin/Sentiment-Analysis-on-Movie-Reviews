@@ -1,30 +1,33 @@
 	PhraseId	SentenceId	Phrase	Sentiment
-0	183.0	6	sincer perform	4.0
-1	845.0	31	runofthemil action	1.0
-2	703.0	26	arriv impecc pedigre mongrel pep almost indecipher plot complic	2.0
-3	890.0	33	first computergener featur cartoon feel like movi	3.0
-4	117.0	4	posit thrill combin ethnographi intrigu betray deceit murder shakespearean tragedi juici soap opera	3.0
-5	251.0	9	doe nt leav much	1.0
-6	427.0	16	welcom relief	3.0
-7	790.0	29	vapid actor exercis appropri structur arthur schnitzler reigen	2.0
-8	69.0	2	quiet	2.0
-9	818.0	30	show wellconstruct narr	3.0
-10	932.0	34	maker serv up clich consider dash	2.0
-11	342.0	12	dream youth	3.0
-12	675.0	24	good indic seriousmind film	3.0
-13	466.0	17	like woman inspir	2.0
-14	624.0	23	go hous parti watch host defend froth exgirlfriend	1.0
-15	237.0	8	read bartlett familiar quotat	2.0
-16	280.0	11	recommend snow dog	2.0
-17	102.0	3	would hard time sit thi one	0.0
-18	772.0	28	in theater	2.0
-19	976.0	36	unnam easili substitut forc serv whatev terror hero horror movi tri avoid	1.0
-20	878.0	32	sound like satir	2.0
-21	694.0	25	romant comedi boilerpl	1.0
-22	201.0	7	troubl everi day plod mess	1.0
-23	2.0	1	seri escapad demonstr adag good goos	2.0
-24	492.0	18	in mood love veri much hong kong movi	3.0
-25	535.0	19	wild west	2.0
-26	554.0	21	indi year far	3.0
-27	580.0	22	in thi sens movi becom studi gambl publish world offer case studi exist apart movi polit ramif	3.0
-28	367.0	14	ha someth seriou say way in extravag chanc distort perspect throw us path good sens	3.0
+0	540.0	20	everyth expect noth	1.3333333333333333
+1	586.0	22	becom studi gambl publish world	2.0
+2	815.0	30	vaudevil show wellconstruct narr	1.0
+3	357.0	13	absolut joy	3.0
+4	286.0	11	unless one consid clich dialogu pervers escap sourc high hilar	1.0
+5	184.0	6	sincer perform	4.0
+6	739.0	27	convert	2.0
+7	315.0	12	oedekerk realiz hi childhood dream in martialart flick	2.0
+8	67.0	2	quiet introspect entertain independ	4.0
+9	691.0	25	romant comedi boilerpl start finish	3.0
+10	919.0	34	veri littl sens go	1.0
+11	993.0	36	hero horror movi tri avoid	1.0
+12	852.0	32	hamper no paralyz selfindulg script	1.0
+13	487.0	18	wong in mood love veri much hong kong movi despit mainland set	2.0
+14	165.0	5	manipul	2.0
+15	130.0	4	intrigu betray deceit murder	2.0
+16	620.0	23	like go hous parti watch host defend froth exgirlfriend	1.0
+17	711.0	26	impecc pedigre mongrel pep	2.0
+18	205.0	7	everi day	2.0
+19	268.0	10	reason	2.0
+20	552.0	21	best indi year far	4.0
+21	396.0	14	throw us path good sens	2.0
+22	679.0	24	seriousmind film	2.5
+23	413.0	15	moonlight mile better judgment damn	2.0
+24	444.0	16	thi one sweet modest ultim win stori	3.0
+25	1.0	1	seri escapad demonstr adag good goos also good gander occasion amus none amount much stori	1.0
+26	840.0	31	noth runofthemil action flick	2.0
+27	751.0	28	offer opportun occasion smile	3.0
+28	464.0	17	charmer	3.0
+29	83.0	3	even fan ismail merchant work	2.0
+30	235.0	8	like read bartlett familiar quotat	2.0
+31	947.0	35	follow runaway success hi first film full monti someth differ	2.0

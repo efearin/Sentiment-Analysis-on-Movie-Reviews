@@ -42,11 +42,29 @@ def save_df_list (df_list,directory):
 def save_w2v_model (model,path):
     model.save(path)
 
+def save_mlp_feed_df (lst, path):
+    temp = path.split("/")
+    del temp[-1]
+    directory = '/'.join(temp)
+    open_folder(directory)
+    mlp_train_input = lst[0]
+    mlp_train_output = lst[1]
+    mlp_feed_df = pd.DataFrame({'length_of_phrase': pd.Series([item[0] for item in mlp_train_input]),
+                                'direct_sum': pd.Series([item[1] for item in mlp_train_input]),
+                                'direct_count': pd.Series([item[2] for item in mlp_train_input]),
+                                'closest_sum': pd.Series([item[3] for item in mlp_train_input]),
+                                'closest_count': pd.Series([item[4] for item in mlp_train_input]),
+                                'output': pd.Series(mlp_train_output)})
+    mlp_feed_df.to_csv(path, sep='\t')
+
 def save (object, path):
     if isinstance(object, pd.core.frame.DataFrame):
         save_df(object,path)
     elif isinstance(object, list):
-        save_df_list(object,path)
+        if len(object) > 2:
+            save_df_list(object,path)
+        elif len(object) == 2:
+            save_mlp_feed_df(object,path)
     elif isinstance(object, gensim.models.word2vec.Word2Vec):
         save_w2v_model(object, path)
     else:
