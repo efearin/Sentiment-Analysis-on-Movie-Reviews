@@ -38,7 +38,7 @@ def draw(tmpdf, title, path):
         plt.xlabel('error -4 to 4')
         plt.ylabel('percent in total error')
         plt.savefig(path + title + ".png")
-        plt.show()
+        # plt.show()
         plt.clf()
 
 #
