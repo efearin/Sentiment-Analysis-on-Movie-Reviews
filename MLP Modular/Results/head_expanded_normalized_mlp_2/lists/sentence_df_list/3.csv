@@ -1,0 +1,406 @@
+	PhraseId	SentenceId	Phrase	Sentiment
+0	9619.0	400	almost everi turn	2.0
+1	8995.0	375	movi suck in despit flaw	2.0
+2	825.0	30	term inoffens actual rather sweet	3.0
+3	3396.0	127	eye idealist kid choos champion hi ultim lose caus	3.0
+4	9309.0	388	rank three multilay sympathet femal charact year	4.0
+5	5180.0	205	feel slight	2.0
+6	4936.0	192	play dramat even dramat thing happen peopl	2.0
+7	950.0	35	follow runaway success hi first film full monti someth differ	2.0
+8	5754.0	228	one could rent origin get love stori parabl	1.0
+9	3138.0	118	evanesc seamless sumptuou stream conscious	4.0
+10	6391.0	254	comput anim handsom variou amus sidekick add muchneed leviti otherwis bleak tale overal film never rise abov mediocr	1.0
+11	6684.0	267	prove movi formula nt need mess like bigbug movi	2.0
+12	518.0	19	inept bigscreen remak aveng wild wild west	2.0
+13	6352.0	253	not scare mood in omin pervas unknown threat lurk proceed add almost constant mindset suspens	3.0
+14	2370.0	91	lazi movi avoid solv one problem tri distract us solut anoth	1.0
+15	3632.0	136	weirdli engag unpredict charact piec	2.6666666666666665
+16	705.0	26	arriv impecc pedigre mongrel pep almost indecipher plot complic	2.0
+17	4692.0	179	attract upscal audienc hungri qualiti nostalg twisti yarn keep guess	3.0
+18	790.0	29	vapid actor exercis appropri structur arthur schnitzler reigen	2.0
+19	1308.0	49	ha tackl meati subject drawn engag charact pepper page memor zinger	3.0
+20	5548.0	220	n safe often play like milquetoast movi week blown up big screen	1.0
+21	4337.0	165	befor take sudden turn devolv bizarr sort romant comedi steven shainberg adapt mari gaitskil harrow short stori brilliantli play deepli unsettl experi	3.0
+22	5863.0	234	would fight urg doze	0.0
+23	2617.0	101	rrb comedi equival saddam hussein readi go un ask permiss preemptiv strike	0.0
+24	665.0	24	7 time dure windtalk good indic seriousmind film	2.0
+25	2459.0	94	emphas q in quirki mix result	1.5
+26	1035.0	38	give new mean phrase fatal script error	1.5
+27	4474.0	169	love cinema paradiso find new scene interest few find movi improv	2.0
+28	5271.0	209	save us latest eccentr superwealthi megalomaniac bent world domin destruct	2.0
+29	6131.0	244	cuss out sever bungl big stuff	1.0
+30	4604.0	175	ha imax film nt chimp lot chimp blown up size hous	1.5
+31	6780.0	272	first 10 minut worth see	2.0
+32	7658.0	310	intim sensual funni psycholog selfrev make pass sex in movi look like cheap hyster	4.0
+33	5160.0	204	sophist liter pictur usual amus littl catch	3.0
+34	7144.0	290	slight sweet	3.0
+35	4236.0	161	stori	2.0
+36	3505.0	130	world	2.0
+37	4278.0	163	ani creaturefeatur fan know cross toxic chemic bunch exot creatur get lot run around scream death	2.0
+38	2683.0	103	epic also tragedi record tenaci human fighter wa also prison lrb ultim victim rrb histori	3.0
+39	9820.0	409	skim fat 1972 film	2.0
+40	5956.0	238	thought whatif	3.0
+41	425.0	16	welcom relief basebal movi tri too hard mythic	3.0
+42	729.0	27	clearli mean	2.0
+43	6817.0	274	screenwrit chri ver weil direct debut goodnatur never dull	4.0
+44	1967.0	73	lrb rrb absorb documentari	3.0
+45	9881.0	414	cremast 3 onc tough pill swallow minor miracl selfexpress	3.0
+46	8276.0	343	labour storytel	1.0
+47	7110.0	288	flamelik	2.0
+48	2327.0	89	veri differ yet instantli recogniz	3.0
+49	6241.0	248	lrb best rememb rrb	2.0
+50	3229.0	121	better ani summer blockbust endur last summer hope set tone summer good stuff	4.0
+51	8356.0	347	hohum affair	1.0
+52	2088.0	80	unsettl memor cinemat experi	4.0
+53	4331.0	164	thi rather convolut journey	1.0
+54	4393.0	166	lrb emot least rrb adolesc audienc demand regular shock bout bare defens sexual violenc keep interest	1.0
+55	4119.0	155	stale uninspir	0.0
+56	919.0	34	veri littl sens go	0.6666666666666666
+57	167.0	6	comedydrama nearli epic proport root in sincer perform titl charact undergo midlif crisi	4.0
+58	7123.0	289	robinson web suspens match pageturn frenzi clanci creat	4.0
+59	8594.0	357	go motion zip gone	2.0
+60	6298.0	251	beauti sung holiday carol	3.0
+61	7225.0	294	right stuff silli summer entertain	3.0
+62	3516.0	131	everyon involv seem coast	1.0
+63	3428.0	128	get detail right promenad bare clad bodi in myrtl beach sc adrenalin jolt sudden lunch rush diner	3.0
+64	2498.0	95	grace compani	2.0
+65	6320.0	252	paper bag wear over hi head goe out public avoid recogn man bilk unsuspect moviego	0.0
+66	5367.0	215	director bori von sychowski instead opt routin slasher film wa probabl fun make sit	2.0
+67	4144.0	156	also fulli exampl kind lush allenvelop movi experi rhapsod	4.0
+68	68.0	2	quiet introspect entertain	3.0
+69	8582.0	355	too clever ninetenth	2.0
+70	8800.0	367	though goe anyon ha seen hunger cat peopl find littl new	2.0
+71	2224.0	84	intoxicatingli sexi violent selfindulg madden	3.0
+72	3890.0	148	too clumsi in key moment make big splash	1.0
+73	7428.0	302	boy inject enough fresh proceed provid enjoy 100 minut in movi theater	3.0
+74	7730.0	314	clariti matter in break code make movi	2.0
+75	2600.0	100	may plough furrow onc too often	1.0
+76	1225.0	46	less sensat truecrim helljaunt purist might like experiment in storytel lrb though no less horrifi rrb	3.0
+77	8653.0	360	moviego would automat bypass hiphop documentari	3.0
+78	6731.0	269	realli special walk	4.0
+79	3151.0	119	filmmak want noth els show us good time in cheap b movi way succeed	3.0
+80	7072.0	285	nt sharp origin despit visual virtu blade ii doe nt cut	2.0
+81	5569.0	221	hi work transcend boymeetsgirl postur typic love stori	3.0
+82	1447.0	53	thank larg william interest develop process in 60 minut rest overexpos wast film	1.0
+83	8367.0	348	saw thi movi well probabl not accur call movi	1.0
+84	1506.0	55	perhap clich call film refresh	3.5
+85	2789.0	107	art ethic cost moral compromis	3.0
+86	8560.0	354	hollywood satir wind up kind film target someth	1.0
+87	8612.0	358	script snazzi dialogu establish realist atmospher involv us in unfold crisi	3.0
+88	4255.0	162	filmmak postcamp comprehens made oldtim b movi goodbad make eight leg freak perfectli entertain summer divers	3.0
+89	7884.0	321	origin in base concept not help get caught up	4.0
+90	3039.0	114	stir visual sequenc like surg swirl rapid leap pinnacl pinnacl	3.0
+91	4880.0	189	result	2.0
+92	8910.0	372	offer chill much like get sit around campfir around midnight tell creepi stori give willi	4.0
+93	9870.0	412	veri least	1.5
+94	411.0	15	like moonlight mile better judgment damn	2.0
+95	7153.0	292	earnest tent even aim shock	2.0
+96	1524.0	56	lead perform	2.0
+97	9357.0	390	one peopl stand out everybodi els in background seem manufactur artifici	1.0
+98	3647.0	137	downright intox	4.0
+99	7808.0	318	happi headi jumbl thought storytel insan comic undertak ultim coher sane breathtakingli creativ film	4.0
+100	1840.0	68	like drivebi	1.0
+101	9652.0	403	notwithstand problem movi final half hour go recommend secretari base wonder act clinic put spader gyllenha also uniqu way shainberg goe tell heart sweet littl girl	3.0
+102	6847.0	275	too much storytel move away solondz social critiqu cast audienc intellectu lector in contempl auteur profession injuri	1.0
+103	6599.0	262	humor	2.6666666666666665
+104	367.0	14	ha someth seriou say way in extravag chanc distort perspect throw us path good sens	3.0
+105	1532.0	57	run live	0.0
+106	7175.0	293	day concentr element reveal alien among cultur peopl sadli hostil odd one anoth reckless retali	1.0
+107	2195.0	83	pianist lack quick emot connect steven spielberg schindler list	2.0
+108	9584.0	399	oblivi exist thi film	1.0
+109	2558.0	98	report card doe nt live up exalt taglin	1.0
+110	7324.0	299	dreari movi	0.0
+111	1.0	1	seri escapad demonstr adag good goos also good gander occasion amus none amount much stori	1.0
+112	5108.0	200	navig fast fade pompos pretenti	1.0
+113	2505.0	96	invigor surreal reson rainbow emot	4.0
+114	1121.0	41	five writer	2.0
+115	6199.0	246	artist one whose view america histori awkward human life gener deep	3.0
+116	1276.0	47	cinemat shell game	2.0
+117	6930.0	277	joke flat action look fake	0.0
+118	9938.0	416	hi perform noth els	2.0
+119	4657.0	177	children film in truest sens	3.0
+120	5520.0	219	familiar antifeminist equat lrb career kid miseri rrb in tiresom romanticcomedi dud	0.0
+121	5121.0	201	littl weak nt funni	1.0
+122	3905.0	149	becaus eight leg freak partli homag tarantula low budget bmovi thriller 1950 60 movi silli lrb not sophomor rrb romp horror hellish condit	2.0
+123	4748.0	181	threetoon	2.0
+124	6674.0	266	touch john woo bullet ballet	2.0
+125	1907.0	70	struggl furious fear foibl	2.0
+126	1287.0	48	filmmak would disagre honestli nt see point	1.0
+127	6985.0	280	overcook hamfist direct ha actor reach back row	0.0
+128	1614.0	60	lrb shakespear rrb deepest tragedi	2.0
+129	3181.0	120	mr polanski in hi element alon abandon still consol hi art ha ever reveal befor sourc hi spiritu surviv	3.0
+130	697.0	25	comedi	2.5
+131	5056.0	198	get impress writer director burr steer know territori hi sens humor ha yet lose smug selfsatisfact usual associ better privat school	1.0
+132	9802.0	407	someth akin act cinemat penanc	2.0
+133	9082.0	379	come even easier	2.0
+134	1552.0	58	kooki overeag spooki subtli in love myth	3.0
+135	9738.0	405	barbershop goodheart ensembl comedi varieti quirki charact engag stori	3.5
+136	7070.0	284	humbuggeri	1.0
+137	3547.0	132	lurid fiction	2.0
+138	5698.0	226	much even wa onli made teenag boy wrestl fan	2.0
+139	3348.0	126	mostli martha mostli unsurpris	2.0
+140	4201.0	159	wear out welcom tryingli titl charact	1.0
+141	2263.0	86	someth mari cowrit ed decter	2.0
+142	7102.0	287	lrb rrb rather thinlyconceiv movi	0.0
+143	6222.0	247	feral uncomfort	1.0
+144	2274.0	87	highli recommend view courag idea technic profici great act	4.0
+145	8896.0	371	translat nt need tri veri hard	1.0
+146	5186.0	206	smartli emphas wellwrought stori omit needless chase scene swordfight reveng unfold	3.0
+147	8106.0	334	act heart soul cinema	2.0
+148	6702.0	268	uplift larg bogu stori	3.0
+149	8159.0	336	downright creepi	1.0
+150	2659.0	102	surprisingli solid	3.0
+151	6283.0	250	blackandwhit unrealist	1.0
+152	101.0	3	would hard time sit thi one	1.0
+153	2422.0	93	music comic antic pervers pleasur watch disney scrape bottom cracker barrel	0.0
+154	3659.0	138	film doe nt end up much fresh say grow up cathol realli anyth	1.0
+155	6536.0	260	one joyou film leap over nation boundari celebr univers human natur	3.0
+156	7799.0	317	except much much better	4.0
+157	2756.0	106	religi civic virtu hold societi in place in tatter	2.0
+158	1992.0	75	clip film still look common throughlin	1.0
+159	4055.0	153	one few cool actor never seem awar hi cool	3.0
+160	1372.0	51	clunki tvmovi approach	2.0
+161	7624.0	309	see film lack momentum posit remain mostli undetermin director experi success one	3.0
+162	1481.0	54	come across relic bygon era convolut feel silli rather plausibl	1.0
+163	9626.0	401	without sex scene	2.0
+164	218.0	8	earnest thick wit play like read bartlett familiar quotat	2.5
+165	559.0	21	year	2.0
+166	4590.0	174	lrb ultim silli rrb movi	2.0
+167	8050.0	331	provid strong itch explor	3.0
+168	4749.0	182	like smoke signal film also imbu strong theme famili tie spiritu power move without stoop base melodrama	3.0
+169	4666.0	178	horrend amateurish filmmak plainli dull visual ugli nt incomprehens	0.0
+170	165.0	5	manipul	2.0
+171	5040.0	197	probabl turn convinc alreadi seen movi	1.0
+172	5343.0	212	downright movi penanc	3.0
+173	8033.0	330	hey arnold	2.0
+174	4224.0	160	relay univers point	2.0
+175	8687.0	361	fortifi thi turgid fabl	1.0
+176	9237.0	386	bear bear like human onli hairier would tax einstein brain	1.0
+177	6956.0	279	fester in dungpil swear watch monkey fling fece	0.0
+178	1165.0	43	horror movi primari goal frighten disturb work spectacularli well shiverinduc nerverattl ride	4.0
+179	852.0	32	hamper no paralyz selfindulg script	1.0
+180	1089.0	40	could young romant out date	2.5
+181	7281.0	297	thi sad occasion horrifi often inspir film among wiseman warmest	3.5
+182	1778.0	66	reek script rewrit design garner film cooler pg13 rate	1.0
+183	7146.0	291	got david lynch jone	2.0
+184	9511.0	396	laugh tubaplay dwarf roll down hill in trash	1.0
+185	1673.0	62	offer flicker remind tie bind us	2.0
+186	1982.0	74	work start finish	2.0
+187	4003.0	151	master	4.0
+188	2903.0	111	anoth nt believ put battl imposs care nt veri funni	0.0
+189	9630.0	402	play up cartoon obviou strength snazzi neglect less conspicu write strength	2.0
+190	6490.0	257	nt get recreat famou moment show	1.0
+191	4908.0	190	insan violent	1.0
+192	9057.0	378	offer desper ingrati perform	3.0
+193	8060.0	332	band perform featur in drumlin red hot lrb rrb mere stori point view film ice cold	2.0
+194	9962.0	418	walk away thi new version et hope would moist eye	4.0
+195	1003.0	37	almost feel movi interest in entertain in amus us	1.0
+196	9829.0	410	hilari music comedi though stymi accent thick mud	2.0
+197	6797.0	273	ha becom appar franchis best year long past	0.0
+198	9085.0	380	nice combin enigmat featur memento hallucinatori drug cultur requiem dream	3.0
+199	126.0	4	ethnographi intrigu betray deceit murder	2.0
+200	7930.0	323	ignor clich concentr citi sea interperson drama	3.0
+201	2866.0	110	mawkish selfparodi play like weird masterpiec theater sketch neither point view compel reason	0.0
+202	8884.0	370	make movi depth man lack ani	1.5
+203	7981.0	327	guilti pleasur best not worth see unless want laugh	2.0
+204	7474.0	303	in favor gag reli strength clever	2.0
+205	4628.0	176	start out mediocr spiral downward thud bottom pool utterli incompet conclus	0.0
+206	5008.0	195	might inadvert evok memori emot anyth humor	2.0
+207	2342.0	90	shock curios factor	2.0
+208	7262.0	296	filmmak might want look up	2.0
+209	7525.0	305	buy popcorn	2.0
+210	1875.0	69	love stori sanguin titl	3.0
+211	7974.0	326	noth episod smackdown	1.0
+212	8696.0	362	scifi drama take too serious	1.0
+213	267.0	10	reason	2.0
+214	9419.0	392	must given watercamera oper team king sonni miller michael stewart	1.0
+215	8178.0	338	misfortun watch in quit time	1.0
+216	642.0	23	froth exgirlfriend	2.0
+217	9195.0	384	shallow offens redund	0.0
+218	8705.0	363	stupid infantil redund sloppi overthetop amateurish	0.0
+219	1920.0	71	ha ambit say someth subject not willing	1.0
+220	4185.0	158	eerili accur depict depress	1.0
+221	3616.0	135	reveal effort toward closur onli open new wound	3.0
+222	9982.0	419	attal push too hard make thi comedi seriou drama	0.0
+223	9210.0	385	leguizamo jone	2.0
+224	4164.0	157	ha rare capabl sooth break heart singl stroke	3.0
+225	1726.0	64	in rightthink film	2.0
+226	8191.0	339	rock standup magic wane	1.0
+227	8349.0	346	goofi grandeur	2.0
+228	6001.0	240	man singlehandedli turn plane full hardbitten cynic journalist wa essenti campaign end extend public depart	2.0
+229	9758.0	406	soulless jumbl ineptli assembl clich pabulum play like 95minut commerci nba properti	1.0
+230	8288.0	345	otherwis goodnatured mr deed embrac sheer goofi cameo less thanlik new york celebr	2.0
+231	5489.0	218	serv workabl primer region recent histori would make terrif 10thgrade learn tool	3.0
+232	6073.0	242	emot core	2.0
+233	2819.0	108	save film aid wisecrack mysteri scienc theater 3000 guy	3.0
+234	3794.0	144	mystic tender	2.0
+235	3268.0	123	vulgar forgett	2.0
+236	8872.0	369	even funniest idea nt funni	1.5
+237	8438.0	351	idea white man arriv foreign shore show wari nativ true light abhorr	2.0
+238	4872.0	188	uneven lot fun	3.0
+239	8285.0	344	actual thrill	3.0
+240	6087.0	243	life out whatev ideal american moviemak ever	1.0
+241	5220.0	207	renown indian film cultur allow american final revel in splendor	4.0
+242	4866.0	187	corni dialogu preposter moment	0.0
+243	3867.0	147	give best perform sinc abel ferrara beaten pulp in hi danger game	3.5
+244	5844.0	233	evok bottom tier blaxploit flick 1970	0.0
+245	2931.0	112	appreci onesid theme lawrenc overindulg tirad knock out enjoy big screen postcard selfglorifi martin lawrenc lovefest	1.0
+246	9177.0	383	wind up look like bunch talent thesp slum	1.0
+247	5670.0	225	doe nt improv upon experi stare blank screen	0.0
+248	4914.0	191	dragon real star reign fire	3.0
+249	5590.0	222	clicheridden	1.0
+250	2304.0	88	wonder big screen	3.0
+251	4467.0	168	give hi heart onli dog	2.0
+252	9024.0	377	twenti year first releas et remain wondrou hollywood fantasi apex steven spielberg misunderstood career	4.0
+253	8776.0	366	without sex wonder tale love destini told well master storytel	4.0
+254	7712.0	312	soulsearch	3.0
+255	9553.0	398	thi mistyey southern nostalgia piec in tread line sappi sanguin	3.0
+256	9115.0	381	everi individu see movi prism hi belief prejudic	3.0
+257	1199.0	44	thi 100minut movi onli ha 25 minut decent materi	1.0
+258	5131.0	202	nt fit well togeth neither well told	1.0
+259	1799.0	67	smart provoc drama doe nearli imposs get under skin man onli know evil monstrou lunat	4.0
+260	8722.0	364	resid evil come take john carpent ghost mar elimin behead	2.0
+261	2102.0	81	in pretti good execut stori lot richer one hollywood action screenwrit usual come up	3.0
+262	7501.0	304	begin convent thriller evolv gorgeous atmospher medit lifechang chanc encount	3.5
+263	6757.0	270	like mainstream audienc rare seen	3.0
+264	5154.0	203	hardli enough	1.0
+265	3963.0	150	feel like veri light errol morri focus eccentr fail ultim make someth bigger out scrapbook oddbal	1.0
+266	580.0	22	in thi sens movi becom studi gambl publish world offer case studi exist apart movi polit ramif	3.0
+267	6450.0	256	breezi blend art histori esoter muse philosophi	3.0
+268	201.0	7	troubl everi day plod mess	1.0
+269	6608.0	263	dark littl moral tale disguis romant comedi	3.0
+270	3095.0	116	entir unprepar	1.0
+271	3102.0	117	deliv perfect perform captur innoc bud demon within wallflow	4.0
+272	5097.0	199	thi superior horror flick	4.0
+273	7718.0	313	solid spooki entertain	3.0
+274	4821.0	184	funni uplift move	4.0
+275	7973.0	325	see	4.0
+276	2072.0	79	thi heartfelt stori nt veri involv one	1.0
+277	8250.0	342	acknowledg silent scream workaday inertia stop short indulg charact strive solips	2.0
+278	9150.0	382	bunch good actor flail around in caper neither origin terribl funni	3.0
+279	462.0	17	bilingu charmer	3.0
+280	3817.0	145	without make ani less psycho	2.0
+281	978.0	36	unnam easili substitut forc	2.0
+282	7369.0	301	filmmak ivan princ fellow come across shallow glib though not meanspirit no indic respons put togeth ani movi particular valu merit	1.0
+283	2730.0	105	stop tri pleas hi mom	1.0
+284	9401.0	391	prove onc ego doe nt alway go hand in hand talent	1.0
+285	5362.0	214	singularli	2.0
+286	5605.0	223	overrip episod tv dawson creek recycl dumbeddown version love stori	0.0
+287	5318.0	211	damon bring proper convict hi role lrb jason bourn rrb	3.0
+288	3077.0	115	hobbi attract young fit	2.0
+289	8029.0	329	rel letdown	0.0
+290	9458.0	393	notquitedead career	2.0
+291	1943.0	72	ha made movi leav wonder charact live clever credit roll	4.0
+292	4437.0	167	employ hollywood kid	2.0
+293	7096.0	286	arch rather coldblood comedi	0.0
+294	7690.0	311	uneven perform spotti script add up bite satir ha no teeth	1.0
+295	2045.0	78	goe overboard looni melodramat denouement in high school swim pool substitut bathtub	2.0
+296	4951.0	193	pleas intend audienc children without place parent in comalik state	3.0
+297	8945.0	373	shape twohour version releas in 1990	2.0
+298	2013.0	77	major problem windtalk bulk movi center wrong charact	1.0
+299	2978.0	113	thi sneaki feel director tri dupe viewer take veri import simpli becaus movi ugli look not hollywood product	0.0
+300	6038.0	241	provid kind laugh therapi need movi comedi offbeat humor amus charact happi end	4.0
+301	4005.0	152	scientif law discern produc would well heed mediocr movi start drag soon action speed up explos start fall piec	0.0
+302	5298.0	210	depress ruthlessli pain deprav	3.0
+303	5780.0	229	sizzl old news	1.0
+304	3714.0	141	poor edit bad bluescreen ultracheesi dialogu	0.0
+305	7055.0	283	wa sent copyof thi film review dvd	2.0
+306	1687.0	63	gener villain lack ani intrigu lrb funni accent rrb action scene poorli deliv	1.0
+307	307.0	12	kung pow oedekerk realiz hi childhood dream in martialart flick prove sometim dream youth remain	1.0
+308	1628.0	61	screenplay jame eric jame horton director peter ofallon pat make teeth hurt	1.0
+309	9709.0	404	despit slick product valu director roger michel ticktock pace	2.0
+310	8846.0	368	terrif date movi	3.0
+311	3736.0	142	face rrb amaz slapstick instrument creat scrapbook live mug shot	2.0
+312	6506.0	258	unnerv	2.0
+313	2410.0	92	nontechi enjoy	3.0
+314	6276.0	249	fairli basic comed construct	3.0
+315	4800.0	183	mamet hous game	2.0
+316	8419.0	350	resurrect dead man hard copi come aknock no	2.0
+317	1403.0	52	come down miramax deep shelv coupl abort attempt wake up in reno make strong case let sleep dog lie	1.0
+318	5739.0	227	could possibl come down road in 2002	2.0
+319	6143.0	245	robert harmon lessismor approach deliv real bumpin thenight chill hi greatest triumph keep creepi crawli hidden in film thick shadow	3.0
+320	2859.0	109	visual master	4.0
+321	9539.0	397	fail joke twitchi act gener boorish	0.0
+322	2144.0	82	phillip noyc hi actor well hi cinematograph christoph doyl understand delic forc green prose	3.0
+323	3481.0	129	paid pay see	2.0
+324	882.0	33	ice age first computergener featur cartoon feel like movi make glacial pace earli	2.0
+325	7602.0	308	may hi way say piffl airhead movi busi deserv right	1.0
+326	5799.0	231	play sy anoth hi openfac smile madmen like killer in insomnia	2.0
+327	2010.0	76	pastich	2.0
+328	4828.0	185	brief 42 minut need x less blab	2.0
+329	9270.0	387	ha make interest medit ether natur internet otherworldli energi could channel	2.0
+330	9847.0	411	whi film critic consid work	1.0
+331	8208.0	340	surgeon mend broken heart	2.5
+332	9469.0	394	usual feelgood followyourdream hollywood fantasi	3.0
+333	6767.0	271	mesmer cinemat poem first frame last	4.0
+334	7840.0	319	one joke put toilet seat down	2.0
+335	2235.0	85	tell fascin compel stori	4.0
+336	7569.0	307	offbeat sensibl earnest emot core emerg ani degre access	1.0
+337	4847.0	186	spald gray equival teen grossout comedi	1.0
+338	7784.0	316	make undemand action movi alacr hollywood counterpart	3.0
+339	5406.0	216	screenwrit trust audienc understand complex stori left film predict denouement	2.0
+340	1356.0	50	make one best war movi ever made	4.0
+341	277.0	11	littl recommend snow dog	1.0
+342	8957.0	374	ambiti movi like shiner organ big fight pull enough effect make up one nt come	4.0
+343	6514.0	259	ha creat film one honestli describ look sound simpli feel like no film in recent histori	3.0
+344	1576.0	59	ha way gentli sway back forth cradl charact veil tension beneath otherwis tender movement	3.0
+345	3833.0	146	creat monster nt know handl	1.0
+346	8390.0	349	especi young ballesta galan lrb firsttim actor rrb writerdirector achero mana film schemat obviou	2.0
+347	4719.0	180	awkwardli contriv exercis in magic realism	1.0
+348	5351.0	213	thi rich lusciou	3.0
+349	6557.0	261	difficult worthi film bite chew link massacr armenian in 1915 difficult relationship in present	2.0
+350	3275.0	124	unsettl imag warravag land prove potent rivet unlik stori sarah harrison	3.0
+351	7868.0	320	sever clich movi structur road movi	1.0
+352	5022.0	196	film depress life	1.0
+353	7753.0	315	seem disappointingli thin slice lowerclass london life despit titl amount surprisingli littl	0.5
+354	4497.0	170	get tone right funni in middl sad in middl hope	3.0
+355	7023.0	281	scummi ripoff david cronenberg brilliant videodrom	0.0
+356	1141.0	42	right home in thi french shocker	2.0
+357	7901.0	322	appear made peopl idea narr logic cohes entir foreign concept	0.0
+358	8588.0	356	no waterboy	2.0
+359	7311.0	298	right question	3.0
+360	9950.0	417	scene jia hi famili	2.0
+361	5434.0	217	superflu sequel plagu old familiar feel let get thi thing over	1.0
+362	6945.0	278	mildli enjoy toothless adapt	2.0
+363	5946.0	237	put hair chest	3.0
+364	3710.0	140	sleek	2.0
+365	9917.0	415	deliv power commentari govern lie no matter run	2.0
+366	9331.0	389	alexand payn ode everyman	3.0
+367	3687.0	139	movi silli beyond comprehens even nt silli would still beyond comprehens	0.0
+368	3263.0	122	absorb charact	2.0
+369	762.0	28	doe nt give us reason in theater beyond wild wit actor perform	2.0
+370	5880.0	235	thoughtless random superfici humour	1.0
+371	5647.0	224	doe nt offer ani insight whi instanc good thing happen bad peopl	1.0
+372	7537.0	306	masquerad thriller ruthless social order govern colleg cliqu	2.0
+373	8221.0	341	sadli garth ha nt progress nice wayn	1.0
+374	6887.0	276	sarah dedic find husband seem psychot romant noth in movi make convinc case one woman broken heart outweigh loss wit	1.0
+375	4078.0	154	like work artist simpli tire fight fight put weight world hi shoulder play narr form	1.0
+376	9012.0	376	written direct brutal honesti respect audienc	4.0
+377	2520.0	97	analyz one crass contriv sequel not onli fail make secondguess affect origin	0.0
+378	7040.0	282	movi tri smart	1.0
+379	8745.0	365	movi resolut avoid comic possibl situat becom one dumb high school comedi sex gag prom date	0.0
+380	5240.0	208	welldon supernatur thriller keen insight parapsycholog phenomena soul nuanc griev process	3.0
+381	9502.0	395	film wellcraft thi one	4.0
+382	1745.0	65	impress upon	2.0
+383	8161.0	337	filmmak heart	2.0
+384	4517.0	171	amiabl unfocus bagatel play like looselyconnect string actingworkshop exercis	2.0
+385	490.0	18	in mood love veri much hong kong movi despit mainland set	2.0
+386	4552.0	173	get bit heavi hand hi messag time ha visual flair wax poetic far too much tast	1.0
+387	1051.0	39	nt judg thi one too soon dark gritti stori take in total unexpect direct keep go	3.0
+388	5969.0	239	one world cinema wondrous gift artist	4.0
+389	8522.0	353	movi audienc hour doe nt connect in neat way introduc charact illumin mysteri sex duti love	2.0
+390	7243.0	295	puzzl lack emphasi music in britney spear first movi	1.0
+391	7347.0	300	ca nt gener enough heat in thi cold vacuum comedi start reaction	0.0
+392	3592.0	134	hard say might enjoy thi	0.0
+393	6431.0	255	offer flash rock video fuse solid perform eeri atmospher	4.0
+394	8480.0	352	hard believ relationship like holli marina could surviv hothous emot teendom longev get inexplic character turn crassli reduct	2.0
+395	3309.0	125	revelatori narcissist achiev honest insight relationship highconcept film candycoat pat storylin preciou circumst beauti star	2.0
+396	3552.0	133	suspect thi kind product would funnier director releas outtak theatric use film bonu featur dvd	2.0
+397	8009.0	328	dismiss hero would film nt thi pain forc fals fabric	0.0
+398	7954.0	324	dread day in irish histori	1.0
+399	3761.0	143	get detail time frame right complet miss emot	2.0
+400	4540.0	172	sharp movi otherwis dull subject	3.0
+401	6636.0	264	bear grievou obscur complaint father circl obsess without make contact	1.0
+402	5913.0	236	strike defiantli retro chord outpac contemporari dare verv	4.0
+403	252.0	9	doe nt	1.0
+404	4970.0	194	movi gener plot point degre random usual achiev onli lotteri draw	1.0

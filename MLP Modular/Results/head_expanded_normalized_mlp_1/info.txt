@@ -1,0 +1,10 @@
+data_divide_constant = 2
+fake_data_divide_constant = 2
+
+df=df.head(n=1000)
+
+inp.append([float(phrase_length),float(direct_attribution_sum),float(direct_attribution_count),
+			float(closest_attribution_sum),float(closest_attribution_count),
+			float(expanded_attribution_sum), float(expanded_attribution_count)])
+
+normalization included

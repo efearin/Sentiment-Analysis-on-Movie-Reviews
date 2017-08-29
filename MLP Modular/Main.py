@@ -17,6 +17,9 @@ import result_repo
 
 t_start=time.time()
 
+# add naive bayes approach
+# add comparable lengths to mlp vectors
+
 # in func repo convert numbers to strings
 # data_divide_constant*fake_data_divide_constant>2 otherwise there will be a problem at io_repo.save()
 data_divide_constant = 2
@@ -27,7 +30,7 @@ main_turn_path = 'data/main_turns/'
 
 # get data
 df=pd.read_csv('data/data.csv',sep="\t")
-df=df.head(n=1000)
+df=df.head(n=10000)
 # clean data
 func_repo.clean_data(df)
 # divide data and get df list
@@ -95,13 +98,3 @@ io_repo.save(total_calculated_test_scores_df, data_path+'result_df.csv')
 result_repo.output_results(total_calculated_test_scores_df,0.5,data_path)
 
 print(time.time()-t_start)
-
-
-
-
-
-
-    # train_df = pd.concat(partial_df_list, ignore_index=True)
-    # train_df = train_df.reset_index(drop=True)
-    # test_df = test_df.reset_index(drop=True)
-    # io_repo.save(fake_w2v_model, 'data/model')
