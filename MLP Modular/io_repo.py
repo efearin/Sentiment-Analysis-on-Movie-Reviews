@@ -42,6 +42,9 @@ def save_df_list (df_list,directory):
 def save_w2v_model (model,path):
     model.save(path)
 
+# # save w2v model to the path given
+# path example 'data/main_turn/1/fake_turns/mlp_feed_df.csv'
+# file name is included to path
 def save_mlp_feed_df (lst, path):
     temp = path.split("/")
     del temp[-1]
@@ -57,6 +60,8 @@ def save_mlp_feed_df (lst, path):
                                 'output': pd.Series(mlp_train_output)})
     mlp_feed_df.to_csv(path, sep='\t')
 
+# save whatever is given as an input
+# mind that seperator of df_list and mlp_feed_df is list object (both are list) length
 def save (object, path):
     if isinstance(object, pd.core.frame.DataFrame):
         save_df(object,path)

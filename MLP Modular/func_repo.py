@@ -226,6 +226,8 @@ def get_required_fake_dfs (train_df_list, train_sentence_df_list, train_word_df_
     fake_train_word_df = pd.concat([k for i, k in enumerate(train_word_df_list) if i != index], ignore_index=True).reset_index(drop=True)
     return fake_test_df, fake_train_df, fake_train_sentence_df, fake_train_word_df
 
+# take df lists in order given
+# then return df versions by concatenating each ofthem
 def dflists_to_dfs (test_df_list,train_df_list, train_sentence_df_list,train_word_df_list):
     test_df = pd.concat(test_df_list, ignore_index=True).reset_index(drop=True)
     train_df = pd.concat(train_df_list, ignore_index=True).reset_index(drop=True)
@@ -237,7 +239,8 @@ def dflists_to_dfs (test_df_list,train_df_list, train_sentence_df_list,train_wor
 
 
 
-# get dataframe and train w2v algorithm then return the related model
+# get dataframe and train w2v algorithm
+# then return the related model
 def get_w2v_model(df):
     tokenized_sentences = df.apply(lambda row: word_tokenize(row['Phrase']), axis=1)
     # logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)

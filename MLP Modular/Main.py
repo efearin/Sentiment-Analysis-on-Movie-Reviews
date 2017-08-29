@@ -8,15 +8,18 @@ from nltk.tokenize import word_tokenize
 import gensim, logging
 from sklearn.neural_network import MLPRegressor
 from sklearn.externals import joblib
+import time
 
 import func_repo
 import io_repo
 import calculate_repo
 import result_repo
 
+t_start=time.time()
+
 # in func repo convert numbers to strings
 # data_divide_constant*fake_data_divide_constant>2 otherwise there will be a problem at io_repo.save()
-data_divide_constant = 5
+data_divide_constant = 2
 fake_data_divide_constant = 2
 data_path = 'data/'
 list_path = 'data/lists/'
@@ -24,7 +27,7 @@ main_turn_path = 'data/main_turns/'
 
 # get data
 df=pd.read_csv('data/data.csv',sep="\t")
-df=df.head(n=1000)
+df=df.head(n=5000)
 # clean data
 func_repo.clean_data(df)
 # divide data and get df list
@@ -78,15 +81,16 @@ for x in range(0, data_divide_constant):
     w2v_model = func_repo.get_w2v_model(train_sentence_df)
     calculated_test_scores_df = calculate_repo.calculate_test (test_df, train_df, train_word_df, w2v_model, mlp_model)
     # save result df
-    io_repo.save(calculated_test_scores_df, main_turn_path+str(x+1)+'result_df.csv')
+    io_repo.save(calculated_test_scores_df, main_turn_path+str(x+1)+'/result_df.csv')
     # output result file
-    result_repo.output_results(calculated_test_scores_df, main_turn_path+str(x+1)+'/')
+    result_repo.output_results(calculated_test_scores_df, 0.5, main_turn_path+str(x+1)+'/')
     calculated_test_scores_df_list.append(calculated_test_scores_df)
 
 total_calculated_test_scores_df = pd.concat(calculated_test_scores_df_list, ignore_index=True).reset_index(drop=True)
 io_repo.save(total_calculated_test_scores_df, data_path+'result_df.csv')
-result_repo.output_results(total_calculated_test_scores_df,data_path)
+result_repo.output_results(total_calculated_test_scores_df,0.5,data_path)
 
+print(time.time()-t_start)
 
 
 

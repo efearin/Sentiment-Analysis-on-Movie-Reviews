@@ -21,6 +21,8 @@ def get_direct_score(phrase):
     else:
         return np.NaN
 
+# return most similar word in train_word_df to given word
+# if exists
 def get_similar_word_score(word):
     # check if input has a proper vector
     try:
@@ -46,6 +48,8 @@ def get_similar_word_score(word):
         return np.NaN
     return train_word_df.loc[similar_index, "Sentiment"]
 
+# for each word given as phrase_word (list)
+# find direct scores of words or closest ones and manipulate vector globals
 def collect_independent_word_scores(phrase_words):
     global direct_attribution_count, direct_attribution_sum, closest_attribution_count, closest_attribution_sum
     for m in phrase_words:
@@ -123,6 +127,8 @@ def collect_phrase_scores(phrase):
                 # no word group direct score found get independent word scores then break
                 collect_independent_word_scores(phrase_words)
 
+# get all neccessary
+# return feature vector matris and their real output values
 def get_matrix(test_df_inp, train_df_inp, train_word_df_inp, w2v_model_inp):
     # list will be returned which has list[0] as input, list[1] as output
     # output is bounded between 0 and 1 by division
@@ -133,6 +139,7 @@ def get_matrix(test_df_inp, train_df_inp, train_word_df_inp, w2v_model_inp):
     # closest_sum
     # closest_count
     global direct_attribution_count, direct_attribution_sum, closest_attribution_count, closest_attribution_sum
+    global expanded_attribution_count, expanded_attribution_sum
     global train_df, train_word_df, w2v_model
     train_df = train_df_inp
     train_word_df = train_word_df_inp
@@ -156,27 +163,25 @@ def get_matrix(test_df_inp, train_df_inp, train_word_df_inp, w2v_model_inp):
             out.append(float(row.Sentiment)/4)
     return inp, out
 
+# get all neccessary dfs and
+# create a df that has results
 def calculate_test(test_df, train_df, train_word_df, w2v_model, mlp_model):
     test_feature_vectors, test_real_scores = get_matrix(test_df, train_df, train_word_df, w2v_model)
     calculated_scores = mlp_model.predict(test_feature_vectors)
     error = []
     for x in range(0,len(test_real_scores)):
-        error.append(abs(test_real_scores[x]-(4*calculated_scores[x]))/4)
+        error.append((4*calculated_scores[x])-test_real_scores[x]/4)
     result_df = pd.DataFrame({'sentiment': pd.Series(test_real_scores),
                               'calculation': pd.Series(calculated_scores),
                               'error': pd.Series(error)})
     return result_df
-# if __name__ == "__main__":
-#     closest_attribution_count = 0
-#     closest_attribution_sum = 0
-#     direct_attribution_count = 0
-#     direct_attribution_sum = 0
-#     test = sys.argv[1]
-#     train = sys.argv[2]
-#     words_df = sys.argv[3]
-#     w2v_model = sys.argv[4]
-#     get_matrix(test)
 
 
-
+def collect_expanded_phrase_scores (phrase):
+    global expanded_attribution_count, expanded_attribution_sum
+    mask = train_df["Phrase"].astype('str').str.contains(phrase)
+    temp_df = train_df[mask]
+    for indx, row in temp_df.iterrows():
+        expanded_attribution_sum += row.Sentiment
+        expanded_attribution_count += 1
 
