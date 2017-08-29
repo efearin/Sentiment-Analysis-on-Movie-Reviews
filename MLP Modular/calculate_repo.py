@@ -7,7 +7,7 @@ from nltk.tokenize import word_tokenize
 import gensim, logging
 from sklearn.neural_network import MLPRegressor
 from sklearn.externals import joblib
-
+import func_repo
 
 ##### Train set construction functions
 
@@ -85,7 +85,7 @@ def collect_phrase_scores(phrase):
         # and it doesn't have direct score since code doesn't return from the above part (already checked case)
         if length == 1:
             similar_word_score = get_similar_word_score(phrase_words)
-            if ~np. isnan(similar_word_score):
+            if ~np.isnan(similar_word_score):
                 closest_attribution_sum += similar_word_score
                 closest_attribution_count += 1
             return
@@ -155,22 +155,28 @@ def get_matrix(test_df_inp, train_df_inp, train_word_df_inp, w2v_model_inp):
             closest_attribution_sum = 0
             direct_attribution_count = 0
             direct_attribution_sum = 0
-            if len(row.Phrase):
+            expanded_attribution_count = 0
+            expanded_attribution_sum = 0
+            if row.Phrase:
                 phrase = row.Phrase
                 collect_phrase_scores(phrase)
+                collect_expanded_phrase_scores(phrase)
             inp.append([float(phrase_length),float(direct_attribution_sum),float(direct_attribution_count),
-                        float(closest_attribution_sum),float(closest_attribution_count)])
-            out.append(float(row.Sentiment)/4)
+                        float(closest_attribution_sum),float(closest_attribution_count),
+                        float(expanded_attribution_sum), float(expanded_attribution_count)])
+            out.append(float(row.Sentiment))
     return inp, out
 
 # get all neccessary dfs and
 # create a df that has results
-def calculate_test(test_df, train_df, train_word_df, w2v_model, mlp_model):
+def calculate_test(test_df, train_df, train_word_df, w2v_model, mlp_model, normalize_constants):
     test_feature_vectors, test_real_scores = get_matrix(test_df, train_df, train_word_df, w2v_model)
+    test_feature_vectors, test_real_scores = func_repo.normalize_inp_out_lists(test_feature_vectors,test_real_scores,
+                                                                               normalize_constants)
     calculated_scores = mlp_model.predict(test_feature_vectors)
     error = []
     for x in range(0,len(test_real_scores)):
-        error.append((4*calculated_scores[x])-test_real_scores[x]/4)
+        error.append(calculated_scores[x]-test_real_scores[x])
     result_df = pd.DataFrame({'sentiment': pd.Series(test_real_scores),
                               'calculation': pd.Series(calculated_scores),
                               'error': pd.Series(error)})

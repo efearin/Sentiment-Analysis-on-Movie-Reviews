@@ -27,7 +27,7 @@ main_turn_path = 'data/main_turns/'
 
 # get data
 df=pd.read_csv('data/data.csv',sep="\t")
-df=df.head(n=5000)
+df=df.head(n=1000)
 # clean data
 func_repo.clean_data(df)
 # divide data and get df list
@@ -58,6 +58,7 @@ for x in range(0, data_divide_constant):
         fake_w2v_model = func_repo.get_w2v_model(fake_train_sentence_df)
         # get partial feature vectors
         # normalization for feature vector parameters needed output returns already normalized
+        # add dimention of relevant length of sounts
         partial_mlp_train_input, partial_mlp_train_output = calculate_repo.get_matrix(fake_test_df, fake_train_df,
                                                                       fake_train_word_df, fake_w2v_model)
         # add the partials to whole set
@@ -65,6 +66,9 @@ for x in range(0, data_divide_constant):
         mlp_train_output += partial_mlp_train_output
     # save feature vectors an normalized output score as df
     io_repo.save([mlp_train_input, mlp_train_output], main_turn_path+str(x+1)+'/mlp_feed_df.csv')
+    # normalize train set
+    mlp_train_input, mlp_train_output, normalize_constants = func_repo.normalize_inp_out_lists(mlp_train_input,
+                                                                                               mlp_train_output, [])
     # create mlp model
     mlp_model = MLPRegressor(hidden_layer_sizes=(20,), activation='identity',
                              alpha=0.001, learning_rate='constant', early_stopping=True)
@@ -79,7 +83,7 @@ for x in range(0, data_divide_constant):
                                                                                   train_sentence_df_list,
                                                                                   train_word_df_list)
     w2v_model = func_repo.get_w2v_model(train_sentence_df)
-    calculated_test_scores_df = calculate_repo.calculate_test (test_df, train_df, train_word_df, w2v_model, mlp_model)
+    calculated_test_scores_df = calculate_repo.calculate_test (test_df, train_df, train_word_df, w2v_model, mlp_model, normalize_constants)
     # save result df
     io_repo.save(calculated_test_scores_df, main_turn_path+str(x+1)+'/result_df.csv')
     # output result file

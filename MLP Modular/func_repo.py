@@ -246,3 +246,31 @@ def get_w2v_model(df):
     # logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
     model = gensim.models.Word2Vec(tokenized_sentences, min_count=1)
     return model
+
+
+
+def normalize_inp_out_lists (mlp_train_input, mlp_train_output,divide_constant_list):
+    if not divide_constant_list:
+        # get max values of mlp_train_inp
+        # then divide each term related to them
+        # for input matrix
+        for x in range (0,len(mlp_train_input[0])):
+            divide_constant = max([item[x] for item in mlp_train_input])
+            divide_constant_list.append(divide_constant)
+            for y in range (0, len(mlp_train_input)):
+                mlp_train_input[y][x] /= divide_constant
+        # for output matrix
+        divide_constant = max(mlp_train_output)
+        divide_constant_list.append(divide_constant)
+        for y in range(0, len(mlp_train_output)):
+            mlp_train_output[y] /= divide_constant
+        return mlp_train_input, mlp_train_output, divide_constant_list
+    else:
+        for x in range (0,len(mlp_train_input[0])):
+            for y in range (0, len(mlp_train_input)):
+                mlp_train_input[y][x] /= divide_constant_list[x]
+        # for output matrix
+        for y in range(0, len(mlp_train_output)):
+            mlp_train_output[y] /= divide_constant_list[-1]
+        return mlp_train_input, mlp_train_output
+

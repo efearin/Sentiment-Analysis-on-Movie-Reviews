@@ -57,6 +57,8 @@ def save_mlp_feed_df (lst, path):
                                 'direct_count': pd.Series([item[2] for item in mlp_train_input]),
                                 'closest_sum': pd.Series([item[3] for item in mlp_train_input]),
                                 'closest_count': pd.Series([item[4] for item in mlp_train_input]),
+                                'expanded_sum': pd.Series([item[5] for item in mlp_train_input]),
+                                'expanded_count': pd.Series([item[6] for item in mlp_train_input]),
                                 'output': pd.Series(mlp_train_output)})
     mlp_feed_df.to_csv(path, sep='\t')
 

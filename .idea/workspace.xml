@@ -2,78 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a42cb5f-feba-458c-9994-0663cab56ba5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MLP Modular/calculate_expand.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MLP Modular/dummy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MLP Modular/multiprocess.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/Calculate.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/clean_df_list/10.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/clean_df_list/5.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/clean_df_list/6.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/clean_df_list/7.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/clean_df_list/8.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/clean_df_list/9.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/fully_clean_df_list/10.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/fully_clean_df_list/5.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/fully_clean_df_list/6.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/fully_clean_df_list/7.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/fully_clean_df_list/8.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/fully_clean_df_list/9.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/sentence_df_list/10.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/sentence_df_list/5.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/sentence_df_list/6.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/sentence_df_list/7.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/sentence_df_list/8.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/sentence_df_list/9.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/word_df_list/10.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/word_df_list/5.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/word_df_list/6.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/word_df_list/7.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/word_df_list/8.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/word_df_list/9.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/1result_df.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/2/results/error of sentiment between 0-1.33 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/2/results/error of sentiment between 1.33-2.66 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/2/results/error of sentiment between 2.66-4 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/2/results/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/2/results/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/2result_df.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/3/mlp_feed_df.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/3/mlp_model.pkl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/3/results/error of sentiment between 0-1.33 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/3/results/error of sentiment between 1.33-2.66 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/3/results/error of sentiment between 2.66-4 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/3/results/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/3/results/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/3result_df.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/4/mlp_feed_df.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/4/mlp_model.pkl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/4/results/error of sentiment between 0-1.33 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/4/results/error of sentiment between 1.33-2.66 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/4/results/error of sentiment between 2.66-4 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/4/results/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/4/results/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/4result_df.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/5/mlp_feed_df.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/5/mlp_model.pkl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/5/results/error of sentiment between 0-1.33 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/5/results/error of sentiment between 1.33-2.66 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/5/results/error of sentiment between 2.66-4 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/5/results/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/5/results/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/5result_df.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/result_df.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/results/error of sentiment between 0-1.33 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/results/error of sentiment between 1.33-2.66 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/results/error of sentiment between 2.66-4 given.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/results/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/results/result.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/Result_view.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/calculate_expand.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/dummyresults/error of sentiment between 0-1.33 given.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/dummyresults/error of sentiment between 1.33-2.66 given.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/dummyresults/error of sentiment between 2.66-4 given.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/dummyresults/error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP Modular/data/dummyresults/result.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/mlp_model.pkl" afterPath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/mlp_model.pkl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/results/error of sentiment between 0-1.33 given.png" afterPath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/results/error of sentiment between 0-1.33 given.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/results/error of sentiment between 1.33-2.66 given.png" afterPath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/results/error of sentiment between 1.33-2.66 given.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/results/error of sentiment between 2.66-4 given.png" afterPath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/results/error of sentiment between 2.66-4 given.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/results/error.png" afterPath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/results/error.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/2/mlp_model.pkl" afterPath="$PROJECT_DIR$/MLP Modular/data/main_turns/2/mlp_model.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/Main.py" afterPath="$PROJECT_DIR$/MLP Modular/Main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/calculate_repo.py" afterPath="$PROJECT_DIR$/MLP Modular/calculate_repo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/clean_df_list/1.csv" afterPath="$PROJECT_DIR$/MLP Modular/data/lists/clean_df_list/1.csv" />
@@ -93,11 +34,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/word_df_list/3.csv" afterPath="$PROJECT_DIR$/MLP Modular/data/lists/word_df_list/3.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/data/lists/word_df_list/4.csv" afterPath="$PROJECT_DIR$/MLP Modular/data/lists/word_df_list/4.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/mlp_feed_df.csv" afterPath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/mlp_feed_df.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/result_df.csv" afterPath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/result_df.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/results/result.txt" afterPath="$PROJECT_DIR$/MLP Modular/data/main_turns/1/results/result.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/data/main_turns/2/mlp_feed_df.csv" afterPath="$PROJECT_DIR$/MLP Modular/data/main_turns/2/mlp_feed_df.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/func_repo.py" afterPath="$PROJECT_DIR$/MLP Modular/func_repo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/io_repo.py" afterPath="$PROJECT_DIR$/MLP Modular/io_repo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP Modular/result_repo.py" afterPath="$PROJECT_DIR$/MLP Modular/result_repo.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -111,12 +52,13 @@
       <file leaf-file-name="result_repo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MLP Modular/result_repo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="275">
+              <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#140#1773#0" expanded="false" />
                 <element signature="e#1833#2854#0" expanded="false" />
+                <element signature="e#2892#2955#0" expanded="false" />
+                <element signature="e#3003#4438#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -125,47 +67,33 @@
       <file leaf-file-name="calculate_repo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MLP Modular/calculate_repo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="185" column="39" lean-forward="false" selection-start-line="185" selection-start-column="39" selection-end-line="185" selection-end-column="39" />
+            <state relative-caret-position="-1016">
+              <caret line="127" column="61" lean-forward="false" selection-start-line="127" selection-start-column="61" selection-end-line="127" selection-end-column="61" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#258#296#0" expanded="false" />
-                <element signature="e#610#773#0" expanded="false" />
-                <element signature="e#773#830#0" expanded="false" />
-                <element signature="e#881#1611#0" expanded="false" />
-                <element signature="e#977#1041#0" expanded="false" />
-                <element signature="e#1180#1458#0" expanded="false" />
-                <element signature="e#1225#1421#0" expanded="false" />
-                <element signature="e#1369#1421#0" expanded="false" />
-                <element signature="e#1495#1554#0" expanded="false" />
-                <element signature="e#1613#1656#0" expanded="false" />
-                <element signature="e#1788#2288#0" expanded="false" />
-                <element signature="e#2000#2073#0" expanded="false" />
-                <element signature="e#2100#2288#0" expanded="false" />
-                <element signature="e#2199#2286#0" expanded="false" />
-                <element signature="e#2288#2344#0" expanded="false" />
-                <element signature="e#2660#5883#0" expanded="false" />
-                <element signature="e#2809#2825#0" expanded="false" />
-                <element signature="e#2929#3013#0" expanded="false" />
-                <element signature="e#3125#5883#0" expanded="false" />
-                <element signature="e#3198#3214#0" expanded="false" />
-                <element signature="e#3404#3636#0" expanded="false" />
-                <element signature="e#3525#3617#0" expanded="false" />
-                <element signature="e#3700#3764#0" expanded="false" />
-                <element signature="e#3830#5883#0" expanded="false" />
-                <element signature="e#3857#3922#0" expanded="false" />
-                <element signature="e#4559#5697#0" expanded="false" />
-                <element signature="e#4716#5017#0" expanded="false" />
-                <element signature="e#4910#5017#0" expanded="false" />
-                <element signature="e#5075#5697#0" expanded="false" />
-                <element signature="e#5075#5146#0" expanded="false" />
-                <element signature="e#5746#5881#0" expanded="false" />
-                <element signature="e#5883#5903#0" expanded="false" />
-                <element signature="e#6045#6114#0" expanded="false" />
-                <element signature="e#7118#7291#0" expanded="false" />
-                <element signature="e#7361#7389#0" expanded="false" />
-                <element signature="e#7501#8016#0" expanded="false" />
-                <element signature="e#7820#7994#0" expanded="false" />
+                <element signature="e#274#312#0" expanded="false" />
+                <element signature="e#789#846#0" expanded="false" />
+                <element signature="e#993#1057#0" expanded="false" />
+                <element signature="e#1629#1672#0" expanded="false" />
+                <element signature="e#1804#2304#0" expanded="false" />
+                <element signature="e#2016#2089#0" expanded="false" />
+                <element signature="e#2116#2304#0" expanded="false" />
+                <element signature="e#2215#2302#0" expanded="false" />
+                <element signature="e#2304#2360#0" expanded="false" />
+                <element signature="e#2825#2841#0" expanded="false" />
+                <element signature="e#2945#3029#0" expanded="false" />
+                <element signature="e#3214#3230#0" expanded="false" />
+                <element signature="e#3715#3779#0" expanded="false" />
+                <element signature="e#3845#5898#0" expanded="false" />
+                <element signature="e#3872#3937#0" expanded="false" />
+                <element signature="e#4574#5712#0" expanded="false" />
+                <element signature="e#4731#5032#0" expanded="false" />
+                <element signature="e#4925#5032#0" expanded="false" />
+                <element signature="e#5090#5712#0" expanded="false" />
+                <element signature="e#5090#5161#0" expanded="false" />
+                <element signature="e#5761#5896#0" expanded="false" />
+                <element signature="e#5898#5918#0" expanded="false" />
+                <element signature="e#6060#6129#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -174,8 +102,8 @@
       <file leaf-file-name="io_repo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MLP Modular/io_repo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="42" column="20" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            <state relative-caret-position="184">
+              <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
               <folding>
                 <element signature="e#305#343#0" expanded="false" />
                 <element signature="e#422#488#0" expanded="false" />
@@ -186,11 +114,8 @@
                 <element signature="e#1245#1279#0" expanded="false" />
                 <element signature="e#1414#1430#0" expanded="false" />
                 <element signature="e#1432#1468#0" expanded="false" />
-                <element signature="e#1600#2359#0" expanded="false" />
-                <element signature="e#1788#2319#0" expanded="false" />
-                <element signature="e#2361#2397#0" expanded="false" />
-                <element signature="e#2514#2906#0" expanded="false" />
-                <element signature="e#2634#2764#0" expanded="false" />
+                <element signature="e#1600#2557#0" expanded="false" />
+                <element signature="e#2559#2595#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -199,8 +124,8 @@
       <file leaf-file-name="func_repo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MLP Modular/func_repo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="96" column="24" lean-forward="false" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
+            <state relative-caret-position="-1037">
+              <caret line="168" column="47" lean-forward="false" selection-start-line="168" selection-start-column="47" selection-end-line="168" selection-end-column="47" />
               <folding>
                 <element signature="e#305#333#0" expanded="false" />
                 <element signature="e#1012#2619#0" expanded="false" />
@@ -221,9 +146,7 @@
                 <element signature="e#5724#5741#0" expanded="false" />
                 <element signature="e#5876#6007#0" expanded="false" />
                 <element signature="e#6013#6030#0" expanded="false" />
-                <element signature="e#6657#7903#0" expanded="false" />
                 <element signature="e#6657#6762#0" expanded="false" />
-                <element signature="e#7201#7833#0" expanded="false" />
                 <element signature="e#7346#7833#0" expanded="false" />
                 <element signature="e#7496#7833#0" expanded="false" />
                 <element signature="e#7614#7740#0" expanded="false" />
@@ -233,7 +156,6 @@
                 <element signature="e#8491#8694#0" expanded="false" />
                 <element signature="e#8565#8652#0" expanded="false" />
                 <element signature="e#8696#8739#0" expanded="false" />
-                <element signature="e#8942#9783#0" expanded="false" />
                 <element signature="e#9785#9815#0" expanded="false" />
                 <element signature="e#10039#10592#0" expanded="false" />
                 <element signature="e#10594#10624#0" expanded="false" />
@@ -244,35 +166,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MLP Modular/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1975">
-              <caret line="92" column="26" lean-forward="false" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+            <state relative-caret-position="160">
+              <caret line="69" column="74" lean-forward="true" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
               <folding>
                 <element signature="e#23#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="multiprocess.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MLP Modular/multiprocess.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dummy.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MLP Modular/dummy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -291,10 +191,13 @@
     <findStrings>
       <find>word</find>
       <find>si</find>
-      <find>calculate</find>
       <find>rese</find>
       <find>reset</find>
       <find>loc</find>
+      <find>calculate</find>
+      <find>~</find>
+      <find>len(</find>
+      <find>if len</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -322,13 +225,13 @@
         <option value="$PROJECT_DIR$/MLP-train.py" />
         <option value="$PROJECT_DIR$/MLPresultview.py" />
         <option value="$PROJECT_DIR$/MLP Modular/Calculate.py" />
-        <option value="$PROJECT_DIR$/MLP Modular/func_repo.py" />
-        <option value="$PROJECT_DIR$/MLP Modular/io_repo.py" />
         <option value="$PROJECT_DIR$/MLP Modular/result_repo.py" />
         <option value="$PROJECT_DIR$/MLP Modular/multiprocess.py" />
-        <option value="$PROJECT_DIR$/MLP Modular/Main.py" />
         <option value="$PROJECT_DIR$/MLP Modular/calculate_expand.py" />
         <option value="$PROJECT_DIR$/MLP Modular/dummy.py" />
+        <option value="$PROJECT_DIR$/MLP Modular/io_repo.py" />
+        <option value="$PROJECT_DIR$/MLP Modular/Main.py" />
+        <option value="$PROJECT_DIR$/MLP Modular/func_repo.py" />
         <option value="$PROJECT_DIR$/MLP Modular/calculate_repo.py" />
       </list>
     </option>
@@ -410,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dummy">
+  <component name="RunManager" selected="Python.modular_main">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -530,7 +433,7 @@
     </task>
     <servers />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -544,14 +447,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22648649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18152174" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18040621" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31660694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31660694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717392" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44683394" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717392" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37275985" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37275985" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24756756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -559,7 +463,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -582,7 +485,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="304" />
+      <option name="time" value="318" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -621,24 +524,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5get-w2v-model.ipynb" />
     <entry file="file://$PROJECT_DIR$/7calculate-test.ipynb" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38950">
-          <caret line="1595" column="0" lean-forward="false" selection-start-line="1595" selection-start-column="0" selection-end-line="1595" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/types/cast.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16875">
           <caret line="697" column="0" lean-forward="false" selection-start-line="697" selection-start-column="0" selection-end-line="697" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/indexes/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="3261" column="0" lean-forward="false" selection-start-line="3261" selection-start-column="0" selection-end-line="3261" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -657,13 +546,6 @@
     <entry file="file://$PROJECT_DIR$/MLP Modular/1clean-data.ipynb" />
     <entry file="file://$PROJECT_DIR$/MLP Modular/2devide-data.ipynb" />
     <entry file="file://$PROJECT_DIR$/MLP Modular/3clean-train.ipynb" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/series.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -713,75 +595,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLP Modular/Result_view.py">
+    <entry file="file://$PROJECT_DIR$/MLP Modular/Calculate.py" />
+    <entry file="file://$PROJECT_DIR$/MLP Modular/multiprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="39" column="78" lean-forward="true" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+        <state relative-caret-position="50">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLP Modular/dummy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/gensim-2.1.0-py3.6-win-amd64.egg/gensim/models/word2vec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="163">
           <caret line="788" column="0" lean-forward="false" selection-start-line="788" selection-start-column="0" selection-end-line="788" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="1595" column="0" lean-forward="false" selection-start-line="1595" selection-start-column="0" selection-end-line="1595" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/gensim-2.1.0-py3.6-win-amd64.egg/gensim/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="163">
           <caret line="859" column="0" lean-forward="false" selection-start-line="859" selection-start-column="0" selection-end-line="859" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7850">
-          <caret line="401" column="0" lean-forward="false" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="4151" column="0" lean-forward="false" selection-start-line="4151" selection-start-column="0" selection-end-line="4151" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="1221" column="18" lean-forward="false" selection-start-line="1221" selection-start-column="18" selection-end-line="1221" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/internals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105050">
+        <state relative-caret-position="153">
           <caret line="4266" column="0" lean-forward="false" selection-start-line="4266" selection-start-column="0" selection-end-line="4266" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLP Modular/Calculate.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MLP Modular/calculate_expand.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="50">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLP Modular/Result_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-516">
+          <caret line="39" column="78" lean-forward="true" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MLP Modular/result_repo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="275">
+          <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
             <element signature="e#140#1773#0" expanded="false" />
             <element signature="e#1833#2854#0" expanded="false" />
+            <element signature="e#2892#2955#0" expanded="false" />
+            <element signature="e#3003#4438#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLP Modular/Main.py">
+    <entry file="file://$PROJECT_DIR$/MLP Modular/calculate_repo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1975">
-          <caret line="92" column="26" lean-forward="false" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+        <state relative-caret-position="-1016">
+          <caret line="127" column="61" lean-forward="false" selection-start-line="127" selection-start-column="61" selection-end-line="127" selection-end-column="61" />
           <folding>
-            <element signature="e#23#41#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#274#312#0" expanded="false" />
+            <element signature="e#789#846#0" expanded="false" />
+            <element signature="e#993#1057#0" expanded="false" />
+            <element signature="e#1629#1672#0" expanded="false" />
+            <element signature="e#1804#2304#0" expanded="false" />
+            <element signature="e#2016#2089#0" expanded="false" />
+            <element signature="e#2116#2304#0" expanded="false" />
+            <element signature="e#2215#2302#0" expanded="false" />
+            <element signature="e#2304#2360#0" expanded="false" />
+            <element signature="e#2825#2841#0" expanded="false" />
+            <element signature="e#2945#3029#0" expanded="false" />
+            <element signature="e#3214#3230#0" expanded="false" />
+            <element signature="e#3715#3779#0" expanded="false" />
+            <element signature="e#3845#5898#0" expanded="false" />
+            <element signature="e#3872#3937#0" expanded="false" />
+            <element signature="e#4574#5712#0" expanded="false" />
+            <element signature="e#4731#5032#0" expanded="false" />
+            <element signature="e#4925#5032#0" expanded="false" />
+            <element signature="e#5090#5712#0" expanded="false" />
+            <element signature="e#5090#5161#0" expanded="false" />
+            <element signature="e#5761#5896#0" expanded="false" />
+            <element signature="e#5898#5918#0" expanded="false" />
+            <element signature="e#6060#6129#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MLP Modular/io_repo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="42" column="20" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        <state relative-caret-position="184">
+          <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
           <folding>
             <element signature="e#305#343#0" expanded="false" />
             <element signature="e#422#488#0" expanded="false" />
@@ -792,26 +754,16 @@
             <element signature="e#1245#1279#0" expanded="false" />
             <element signature="e#1414#1430#0" expanded="false" />
             <element signature="e#1432#1468#0" expanded="false" />
-            <element signature="e#1600#2359#0" expanded="false" />
-            <element signature="e#1788#2319#0" expanded="false" />
-            <element signature="e#2361#2397#0" expanded="false" />
-            <element signature="e#2514#2906#0" expanded="false" />
-            <element signature="e#2634#2764#0" expanded="false" />
+            <element signature="e#1600#2557#0" expanded="false" />
+            <element signature="e#2559#2595#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MLP Modular/func_repo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="96" column="24" lean-forward="false" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
+        <state relative-caret-position="-1037">
+          <caret line="168" column="47" lean-forward="false" selection-start-line="168" selection-start-column="47" selection-end-line="168" selection-end-column="47" />
           <folding>
             <element signature="e#305#333#0" expanded="false" />
             <element signature="e#1012#2619#0" expanded="false" />
@@ -832,9 +784,7 @@
             <element signature="e#5724#5741#0" expanded="false" />
             <element signature="e#5876#6007#0" expanded="false" />
             <element signature="e#6013#6030#0" expanded="false" />
-            <element signature="e#6657#7903#0" expanded="false" />
             <element signature="e#6657#6762#0" expanded="false" />
-            <element signature="e#7201#7833#0" expanded="false" />
             <element signature="e#7346#7833#0" expanded="false" />
             <element signature="e#7496#7833#0" expanded="false" />
             <element signature="e#7614#7740#0" expanded="false" />
@@ -844,7 +794,6 @@
             <element signature="e#8491#8694#0" expanded="false" />
             <element signature="e#8565#8652#0" expanded="false" />
             <element signature="e#8696#8739#0" expanded="false" />
-            <element signature="e#8942#9783#0" expanded="false" />
             <element signature="e#9785#9815#0" expanded="false" />
             <element signature="e#10039#10592#0" expanded="false" />
             <element signature="e#10594#10624#0" expanded="false" />
@@ -854,67 +803,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLP Modular/multiprocess.py">
+    <entry file="file://$PROJECT_DIR$/MLP Modular/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MLP Modular/calculate_repo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="185" column="39" lean-forward="false" selection-start-line="185" selection-start-column="39" selection-end-line="185" selection-end-column="39" />
+        <state relative-caret-position="160">
+          <caret line="69" column="74" lean-forward="true" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#258#296#0" expanded="false" />
-            <element signature="e#610#773#0" expanded="false" />
-            <element signature="e#773#830#0" expanded="false" />
-            <element signature="e#881#1611#0" expanded="false" />
-            <element signature="e#977#1041#0" expanded="false" />
-            <element signature="e#1180#1458#0" expanded="false" />
-            <element signature="e#1225#1421#0" expanded="false" />
-            <element signature="e#1369#1421#0" expanded="false" />
-            <element signature="e#1495#1554#0" expanded="false" />
-            <element signature="e#1613#1656#0" expanded="false" />
-            <element signature="e#1788#2288#0" expanded="false" />
-            <element signature="e#2000#2073#0" expanded="false" />
-            <element signature="e#2100#2288#0" expanded="false" />
-            <element signature="e#2199#2286#0" expanded="false" />
-            <element signature="e#2288#2344#0" expanded="false" />
-            <element signature="e#2660#5883#0" expanded="false" />
-            <element signature="e#2809#2825#0" expanded="false" />
-            <element signature="e#2929#3013#0" expanded="false" />
-            <element signature="e#3125#5883#0" expanded="false" />
-            <element signature="e#3198#3214#0" expanded="false" />
-            <element signature="e#3404#3636#0" expanded="false" />
-            <element signature="e#3525#3617#0" expanded="false" />
-            <element signature="e#3700#3764#0" expanded="false" />
-            <element signature="e#3830#5883#0" expanded="false" />
-            <element signature="e#3857#3922#0" expanded="false" />
-            <element signature="e#4559#5697#0" expanded="false" />
-            <element signature="e#4716#5017#0" expanded="false" />
-            <element signature="e#4910#5017#0" expanded="false" />
-            <element signature="e#5075#5697#0" expanded="false" />
-            <element signature="e#5075#5146#0" expanded="false" />
-            <element signature="e#5746#5881#0" expanded="false" />
-            <element signature="e#5883#5903#0" expanded="false" />
-            <element signature="e#6045#6114#0" expanded="false" />
-            <element signature="e#7118#7291#0" expanded="false" />
-            <element signature="e#7361#7389#0" expanded="false" />
-            <element signature="e#7501#8016#0" expanded="false" />
-            <element signature="e#7820#7994#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MLP Modular/dummy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#23#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
