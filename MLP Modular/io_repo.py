@@ -59,6 +59,9 @@ def save_mlp_feed_df (lst, path):
                                 'closest_count': pd.Series([item[4] for item in mlp_train_input]),
                                 'expanded_sum': pd.Series([item[5] for item in mlp_train_input]),
                                 'expanded_count': pd.Series([item[6] for item in mlp_train_input]),
+                                'dominant_sum': pd.Series([item[7] for item in mlp_train_input]),
+                                'dominant_count': pd.Series([item[8] for item in mlp_train_input]),
+                                'dominant_variance_sum': pd.Series([item[9] for item in mlp_train_input]),
                                 'output': pd.Series(mlp_train_output)})
     mlp_feed_df.to_csv(path, sep='\t')
 

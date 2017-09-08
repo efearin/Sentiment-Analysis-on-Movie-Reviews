@@ -4,7 +4,8 @@ import matplotlib
 import matplotlib.pyplot as plt
 import io_repo
 
-
+# save related plot
+# and manipulate the output file with visual seen
 def draw(tmpdf, title, path):
     tmpsize = len(tmpdf)
     # if there is no data
@@ -25,6 +26,8 @@ def draw(tmpdf, title, path):
             percent_line = ""
             for y in range(0, int(tmppercent / percent_line_divisor)):
                 percent_line += "|"
+            # for the allignment (good seen) in txt file there is one more tab needed in txt file
+            # at the lines incluving '-' (minus) label
             if data_window_list[x] < 0:
                 resultFile.write(
                     "\n" + str(data_window_list[x]) + "/" + str(data_window_list[x + 1]) + "\t" + "%" +
@@ -41,7 +44,11 @@ def draw(tmpdf, title, path):
         # plt.show()
         plt.clf()
 
-#
+
+# error is quantized between -4 and +4 with step size = 'step_size'
+# -10 and +10 is added for the out of range predictions
+# that means prediction errors more than +4 is assigned as +10
+# and less than -4 is -10
 def get_data_window_list_and_xlabel_list (step_size):
     # datas between 2 successive data_window value will be collected
     # and assigned (discretized) as same
@@ -64,13 +71,16 @@ def get_data_window_list_and_xlabel_list (step_size):
     xlabel_list.append(float(10))
     return data_window_list, xlabel_list
 
-
+# i think not used check later if
 def frange(start, stop, step):
     i = start
     while i < stop:
         yield i
         i += step
 
+# only error part of the calculated output dataframe is used
+# df is normalized in all tags so in error
+# so multiply it with 4 to get real value of error
 def output_results (df, step_size, path):
     global data_window_list, xlabel_list, size, resultFile, percent_line_divisor
     percent_line_divisor = 3
@@ -85,6 +95,7 @@ def output_results (df, step_size, path):
     data_window_list, xlabel_list = get_data_window_list_and_xlabel_list(step_size)
     size = len(df)
 
+    # could be written in for loop check if it helps
     draw(df.error,"error", path)
     resultFile.write("\n"+df.error.describe().to_string()+"\n")
     df.error.describe()

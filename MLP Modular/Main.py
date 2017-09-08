@@ -14,11 +14,15 @@ import func_repo
 import io_repo
 import calculate_repo
 import result_repo
+import dominant_word_repo
 
 t_start=time.time()
 
 # add naive bayes approach
 # add comparable lengths to mlp vectors
+# like tree search collect all possible vectors in memory then select
+# add dominant words
+# instead of sum and counts at the feature vectors their ratio could be used for some of them (mostly in variance case)
 
 # in func repo convert numbers to strings
 # data_divide_constant*fake_data_divide_constant>2 otherwise there will be a problem at io_repo.save()
@@ -30,7 +34,7 @@ main_turn_path = 'data/main_turns/'
 
 # get data
 df=pd.read_csv('data/data.csv',sep="\t")
-df=df.head(n=10000)
+df=df.head(n=1000)
 # clean data
 func_repo.clean_data(df)
 # divide data and get df list
@@ -59,11 +63,14 @@ for x in range(0, data_divide_constant):
             train_df_list, train_sentence_df_list, train_word_df_list, y)
         # train w2v algorithm
         fake_w2v_model = func_repo.get_w2v_model(fake_train_sentence_df)
+        # get dominant word df with their linear phrase length dependent equations
+        fake_dominant_word_df = dominant_word_repo.get_dominant_word_df(fake_train_df)
         # get partial feature vectors
         # normalization for feature vector parameters needed output returns already normalized
         # add dimention of relevant length of sounts
         partial_mlp_train_input, partial_mlp_train_output = calculate_repo.get_matrix(fake_test_df, fake_train_df,
-                                                                      fake_train_word_df, fake_w2v_model)
+                                                                                      fake_train_word_df,fake_w2v_model,
+                                                                                      fake_dominant_word_df)
         # add the partials to whole set
         mlp_train_input += partial_mlp_train_input
         mlp_train_output += partial_mlp_train_output
@@ -86,7 +93,9 @@ for x in range(0, data_divide_constant):
                                                                                   train_sentence_df_list,
                                                                                   train_word_df_list)
     w2v_model = func_repo.get_w2v_model(train_sentence_df)
-    calculated_test_scores_df = calculate_repo.calculate_test (test_df, train_df, train_word_df, w2v_model, mlp_model, normalize_constants)
+    dominant_word_df = dominant_word_repo.get_dominant_word_df(train_df)
+    calculated_test_scores_df = calculate_repo.calculate_test(test_df, train_df, train_word_df, w2v_model,
+                                                              dominant_word_df, mlp_model, normalize_constants)
     # save result df
     io_repo.save(calculated_test_scores_df, main_turn_path+str(x+1)+'/result_df.csv')
     # output result file

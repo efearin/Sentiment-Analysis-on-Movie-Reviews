@@ -1,0 +1,17 @@
+data_divide_constant = 2
+fake_data_divide_constant = 2
+
+df=df.head(n=1000)
+
+inp.append([float(phrase_length),
+			float(direct_attribution_sum), float(direct_attribution_count),
+			float(closest_attribution_sum), float(closest_attribution_count),
+			float(expanded_attribution_sum), float(expanded_attribution_count),
+			float(dominant_attribution_sum), float(dominant_attribution_count),
+			float(dominant_attribution_variance_sum)])
+
+normalization included
+
+common_words_list = freq_list.most_common(50)
+length dependent polyfit
+if err_mean < 0.6 and err_variance < 1:

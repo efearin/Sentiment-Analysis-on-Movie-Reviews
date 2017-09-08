@@ -129,7 +129,7 @@ def collect_phrase_scores(phrase):
 
 # get all neccessary
 # return feature vector matris and their real output values
-def get_matrix(test_df_inp, train_df_inp, train_word_df_inp, w2v_model_inp):
+def get_matrix(test_df_inp, train_df_inp, train_word_df_inp, w2v_model_inp, dominant_word_df_inp):
     # list will be returned which has list[0] as input, list[1] as output
     # output is bounded between 0 and 1 by division
     # and features in matrix[0] are as
@@ -138,12 +138,22 @@ def get_matrix(test_df_inp, train_df_inp, train_word_df_inp, w2v_model_inp):
     # direct_count
     # closest_sum
     # closest_count
-    global direct_attribution_count, direct_attribution_sum, closest_attribution_count, closest_attribution_sum
-    global expanded_attribution_count, expanded_attribution_sum
-    global train_df, train_word_df, w2v_model
+    # expanded_count
+    # expanded_sum
+    # dominant_count
+    # dominant_sum
+    global direct_attribution_sum, direct_attribution_count
+    global closest_attribution_sum, closest_attribution_count
+    global expanded_attribution_sum, expanded_attribution_count
+    global dominant_attribution_sum, dominant_attribution_count, dominant_attribution_variance_sum
+
+    global train_df, train_word_df, w2v_model, dominant_word_df
+
     train_df = train_df_inp
     train_word_df = train_word_df_inp
     w2v_model = w2v_model_inp
+    dominant_word_df = dominant_word_df_inp
+
     inp=[]
     out=[]
     for indx, row in test_df_inp.iterrows():
@@ -151,26 +161,34 @@ def get_matrix(test_df_inp, train_df_inp, train_word_df_inp, w2v_model_inp):
             continue
         else:
             phrase_length = len(row.Phrase.split())
-            closest_attribution_count = 0
-            closest_attribution_sum = 0
-            direct_attribution_count = 0
             direct_attribution_sum = 0
-            expanded_attribution_count = 0
+            direct_attribution_count = 0
+            closest_attribution_sum = 0
+            closest_attribution_count = 0
             expanded_attribution_sum = 0
+            expanded_attribution_count = 0
+            dominant_attribution_sum = 0
+            dominant_attribution_count = 0
+            dominant_attribution_variance_sum = 0
+
             if row.Phrase:
                 phrase = row.Phrase
                 collect_phrase_scores(phrase)
                 collect_expanded_phrase_scores(phrase)
-            inp.append([float(phrase_length),float(direct_attribution_sum),float(direct_attribution_count),
-                        float(closest_attribution_sum),float(closest_attribution_count),
-                        float(expanded_attribution_sum), float(expanded_attribution_count)])
+                collect_dominant_word_phrase_scores(phrase)
+            inp.append([float(phrase_length),
+                        float(direct_attribution_sum), float(direct_attribution_count),
+                        float(closest_attribution_sum), float(closest_attribution_count),
+                        float(expanded_attribution_sum), float(expanded_attribution_count),
+                        float(dominant_attribution_sum), float(dominant_attribution_count),
+                        float(dominant_attribution_variance_sum)])
             out.append(float(row.Sentiment))
     return inp, out
 
 # get all neccessary dfs and
 # create a df that has results
-def calculate_test(test_df, train_df, train_word_df, w2v_model, mlp_model, normalize_constants):
-    test_feature_vectors, test_real_scores = get_matrix(test_df, train_df, train_word_df, w2v_model)
+def calculate_test(test_df, train_df, train_word_df, w2v_model, dominant_word_df, mlp_model, normalize_constants):
+    test_feature_vectors, test_real_scores = get_matrix(test_df, train_df, train_word_df, w2v_model, dominant_word_df)
     test_feature_vectors, test_real_scores = func_repo.normalize_inp_out_lists(test_feature_vectors,test_real_scores,
                                                                                normalize_constants)
     calculated_scores = mlp_model.predict(test_feature_vectors)
@@ -190,4 +208,19 @@ def collect_expanded_phrase_scores (phrase):
     for indx, row in temp_df.iterrows():
         expanded_attribution_sum += row.Sentiment
         expanded_attribution_count += 1
+
+def collect_dominant_word_phrase_scores(phrase):
+    global dominant_attribution_count, dominant_attribution_sum, dominant_attribution_variance_sum
+    phrase_words = phrase.split()
+    for x in phrase_words:
+        find = dominant_word_df.word[dominant_word_df.word == x]
+        if len(find.index):
+            dominant_attribution_sum += np.polyval(dominant_word_df.loc[find.index[0], 'equation'],
+                                                   len(phrase_words))
+            dominant_attribution_count += 1
+            dominant_attribution_variance_sum += dominant_word_df.loc[find.index[0], 'variance']
+
+
+
+
 
