@@ -242,10 +242,17 @@ def dflists_to_dfs (test_df_list,train_df_list, train_sentence_df_list,train_wor
 # get dataframe and train w2v algorithm
 # then return the related model
 def get_w2v_model(df):
-    tokenized_sentences = df.apply(lambda row: word_tokenize(row['Phrase']), axis=1)
-    # logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
-    model = gensim.models.Word2Vec(tokenized_sentences, min_count=1)
-    return model
+    try:
+        tokenized_sentences=[]
+        for index, row in df.iterrows():
+            tmp = row.Phrase.split()
+            tokenized_sentences.append(tmp)
+        # tokenized_sentences = df.apply(lambda row: word_tokenize(row['Phrase']), axis=1)
+        # logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+        model = gensim.models.Word2Vec(tokenized_sentences, min_count=1)
+        return model
+    except:
+        print('tokenize sıç')
 
 
 

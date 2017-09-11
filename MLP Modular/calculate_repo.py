@@ -213,12 +213,16 @@ def collect_dominant_word_phrase_scores(phrase):
     global dominant_attribution_count, dominant_attribution_sum, dominant_attribution_variance_sum
     phrase_words = phrase.split()
     for x in phrase_words:
-        find = dominant_word_df.word[dominant_word_df.word == x]
-        if len(find.index):
-            dominant_attribution_sum += np.polyval(dominant_word_df.loc[find.index[0], 'equation'],
-                                                   len(phrase_words))
-            dominant_attribution_count += 1
-            dominant_attribution_variance_sum += dominant_word_df.loc[find.index[0], 'variance']
+        try:
+            find = dominant_word_df.word[dominant_word_df.word == x]
+            if len(find.index):
+                dominant_attribution_sum += np.polyval(dominant_word_df.loc[find.index[0], 'equation'],
+                                                       len(phrase_words))
+                dominant_attribution_count += 1
+                dominant_attribution_variance_sum += dominant_word_df.loc[find.index[0], 'variance']
+        except:
+            print('sıç')
+
 
 
 

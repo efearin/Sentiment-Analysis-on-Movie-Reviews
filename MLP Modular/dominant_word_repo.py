@@ -30,7 +30,7 @@ def get_dominant_word_df (df):
     # get most 500 frequent word list
     # instead if most frequent 'x' words, words with frequency more than 'y' approach might be better
     freq_list = nltk.FreqDist(df_word_list)
-    common_words_list = freq_list.most_common(50)
+    common_words_list = freq_list.most_common(500)
     # min frequency bound could be added instead of getting top X frequent words
     # least frequent word of comman_words_list is around 150
     # might not be enough to decide if it is dominant
@@ -59,7 +59,7 @@ def get_dominant_word_df (df):
         err_variance = np.var(err)
         # err_rate might be high decrease if necessary
         # no sense about varience
-        if err_mean < 0.6 and err_variance < 1:
+        if err_mean < 0.6 and err_variance < 0.8:
             # funcy=[]
             # for x in range (1,25):
             #     funcy.append(np.polyval(eqn,x))

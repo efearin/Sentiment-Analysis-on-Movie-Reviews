@@ -23,6 +23,8 @@ t_start=time.time()
 # like tree search collect all possible vectors in memory then select
 # add dominant words
 # instead of sum and counts at the feature vectors their ratio could be used for some of them (mostly in variance case)
+# if all 0 normalization gets divide by 0 error write an exception
+# invalid type comparison on pandas search of calculate_repo/calculate_dominant_word_phrase_scores
 
 # in func repo convert numbers to strings
 # data_divide_constant*fake_data_divide_constant>2 otherwise there will be a problem at io_repo.save()
@@ -34,7 +36,7 @@ main_turn_path = 'data/main_turns/'
 
 # get data
 df=pd.read_csv('data/data.csv',sep="\t")
-df=df.head(n=1000)
+# df=df.head(n=10000)
 # clean data
 func_repo.clean_data(df)
 # divide data and get df list
