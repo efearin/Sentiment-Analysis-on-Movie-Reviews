@@ -32,6 +32,7 @@ from sklearn.externals import joblib
 def clean_data (df):
     # Replace capitals to non-capitals.
     df.Phrase = df.Phrase.str.lower()
+    # TODO for running machine inputs consider to add isn't to is not conversion
     # There are no 'isn't', 'arent', 'havent' or such words in data,
     # they all have already changed to their not seperated forms like "is not" .
     # Stem the data using nltk PorterStemmer

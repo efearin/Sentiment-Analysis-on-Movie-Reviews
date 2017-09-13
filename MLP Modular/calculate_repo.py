@@ -63,10 +63,8 @@ def collect_independent_word_scores(phrase_words):
                 closest_attribution_sum += closest_score
                 closest_attribution_count += 1
 
-# optimisation needed there exists duplicate code blocks
-# when code hits the longest window phrase it directly calculate it by stoping shift of window
-# in that case for the remaning beginning and end phrase parts there meigth be a miss for longest window phrases
-# at the end there is a need for weighted dominant word calculation
+# TODO optimisation needed there exists duplicate code blocks
+# TODO when code hits the longest window phrase it directly calculate it by stoping shift of window in that case for the remaning beginning and end phrase parts there meigth be a miss for longest window phrases
 def collect_phrase_scores(phrase):
     global direct_attribution_count, direct_attribution_sum, closest_attribution_count, closest_attribution_sum
     score = get_direct_score(phrase)

@@ -18,18 +18,18 @@ import dominant_word_repo
 
 t_start=time.time()
 
-# add naive bayes approach
-# add comparable lengths to mlp vectors
-# like tree search collect all possible vectors in memory then select
-# add dominant words
-# instead of sum and counts at the feature vectors their ratio could be used for some of them (mostly in variance case)
-# if all 0 normalization gets divide by 0 error write an exception
-# invalid type comparison on pandas search of calculate_repo/calculate_dominant_word_phrase_scores
+# TODO add naive bayes approach
+# TODO add comparable lengths to mlp vectors
+# TODO like tree search collect all possible vectors in memory then select the best
+# TODO instead of sum and counts at the feature vectors their ratio could be used for some of them (mostly in variance case)
+# TODO if all 0 normalization gets divide by 0 error write an exception
+# TODO while founding expanded sum and count in feature vectors additionally sticked dominant words should be considered
+
 
 # in func repo convert numbers to strings
 # data_divide_constant*fake_data_divide_constant>2 otherwise there will be a problem at io_repo.save()
-data_divide_constant = 2
-fake_data_divide_constant = 2
+data_divide_constant = 5
+fake_data_divide_constant = 5
 data_path = 'data/'
 list_path = 'data/lists/'
 main_turn_path = 'data/main_turns/'
@@ -94,8 +94,12 @@ for x in range(0, data_divide_constant):
     test_df, train_df, train_sentence_df, train_word_df = func_repo.dflists_to_dfs (test_df_list,train_df_list,
                                                                                   train_sentence_df_list,
                                                                                   train_word_df_list)
+    # get w2v model
     w2v_model = func_repo.get_w2v_model(train_sentence_df)
+    # get dominant word df
     dominant_word_df = dominant_word_repo.get_dominant_word_df(train_df)
+    io_repo.save(dominant_word_df, main_turn_path+str(x+1)+'/dominant_word_df.csv')
+    # calculate for validation set
     calculated_test_scores_df = calculate_repo.calculate_test(test_df, train_df, train_word_df, w2v_model,
                                                               dominant_word_df, mlp_model, normalize_constants)
     # save result df

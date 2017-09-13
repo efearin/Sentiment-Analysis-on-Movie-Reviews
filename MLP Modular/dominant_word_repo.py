@@ -13,22 +13,20 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # linear base function with parameter phrase length is used
-# mlp model structured might be used but how think about it
+# TODO mlp model structured might be used but how think about it
 # train base mlp then extract dominant words with it
 # add new spaces to feature vectors and train new mlp for the final use might be used
 def get_dominant_word_df (df):
-    # get flattened list form of Phrases' of data
-    # df = pd.read_csv('data/train-clean.csv',sep="\t", encoding='latin1')
-    # code overflow over df 2 times for tokenize and get seperate words optimization needed
-    df_tokenized = df.apply(lambda row: nltk.word_tokenize(row['Phrase']), axis=1)
-    df_list=df_tokenized.tolist()
+    # phrase list
+    df_list=[]
+    # word list
     df_word_list = []
-    # get all words
-    for sublist in df_list:
-        for item in sublist:
-            df_word_list.append(item)
+    for index, row in df.iterrows():
+        tmp = row.Phrase.split()
+        df_list.append(tmp)
+        df_word_list += tmp
     # get most 500 frequent word list
-    # instead if most frequent 'x' words, words with frequency more than 'y' approach might be better
+    # TODO instead if most frequent 'x' words, words with frequency more than 'y' approach might be better
     freq_list = nltk.FreqDist(df_word_list)
     common_words_list = freq_list.most_common(500)
     # min frequency bound could be added instead of getting top X frequent words
@@ -49,6 +47,7 @@ def get_dominant_word_df (df):
         # plt.plot(lengths, scores,'ro')
         # plt.savefig(word[0]+".png")
         # plt.clf()
+        # TODO polyfit order might be changed
         eqn = np.polyfit(lengths, scores, 5)
         err=[]
         for indx, length in enumerate(lengths):
@@ -57,8 +56,7 @@ def get_dominant_word_df (df):
             err.append(np.abs(a-b))
         err_mean = np.mean(err)
         err_variance = np.var(err)
-        # err_rate might be high decrease if necessary
-        # no sense about varience
+        # TODO err_rate might be high decrease if necessary, no sense about varience
         if err_mean < 0.6 and err_variance < 0.8:
             # funcy=[]
             # for x in range (1,25):
