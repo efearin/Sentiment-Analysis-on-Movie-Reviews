@@ -104,9 +104,10 @@ def save (object, path, mlp=0):
                 mlp_feed_df.to_csv(path, sep='\t')
                 return mlp_feed_df
         if len(object)==2:
-            for x in range(0,len(object[0])):
-                if isinstance(object[0][0], nn.multilayer_perceptron.MLPRegressor):
-                    joblib.dump(object[0][x], path+ '/model'+str(x)+'.pkl')
+            for x in range(0,len(object[1])):
+                if isinstance(object[0][0][x], nn.multilayer_perceptron.MLPRegressor):
+                    joblib.dump(object[0][0][x], path+ '/mlp_model'+str(x)+'.pkl')
+                    joblib.dump(object[0][1][x], path + '/tree_model' + str(x) + '.pkl')
                     joblib.dump(object[1][x], path + '/scaler' + str(x) + '.pkl')
     elif isinstance(object, gensim.models.word2vec.Word2Vec):
         save_w2v_model(object, path)

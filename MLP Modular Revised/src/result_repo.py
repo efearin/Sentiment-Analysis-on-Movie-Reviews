@@ -82,6 +82,15 @@ def frange(start, stop, step):
 # df is normalized in all tags so in error
 # so multiply it with 4 to get real value of error
 def output_results (df, step_size, path):
+    io_repo.open_folder(path+'/results/')
+    plt.hist(df['nn_error'], bins=100)
+    plt.savefig(path+'/results/nn_error.png')
+    plt.clf()
+    plt.hist(df['tree_error'], bins=100)
+    #plt.xlim(-10, 10)
+    plt.savefig(path+'/results/tree_error.png')
+
+def old_output_results (df, step_size, path):
     global data_window_list, xlabel_list, size, resultFile, percent_line_divisor
     percent_line_divisor = 3
     # open result file at given folder

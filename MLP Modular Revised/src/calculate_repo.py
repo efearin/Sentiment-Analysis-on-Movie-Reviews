@@ -9,6 +9,7 @@ from sklearn.neural_network import MLPRegressor
 from sklearn.externals import joblib
 import func_repo
 from sklearn import preprocessing
+import sklearn.tree as tree
 import sklearn.neural_network as nn
 import io_repo
 
@@ -366,7 +367,7 @@ def get_matrix(test_df_inp, train_df_inp, train_word_df_inp, w2v_model_inp, domi
 
 # get all neccessary dfs and
 # create a df that has results
-def calculate_test(test_df, train_df, train_word_df, w2v_model, dominant_word_df, mlp_model_list, scaler_list):
+def calculate_test(test_df, train_df, train_word_df, w2v_model, dominant_word_df, mlp_model_list, tree_model_list, scaler_list):
 
     test_feature_vectors, test_types, test_real_scores = get_matrix(test_df, train_df, train_word_df, w2v_model, dominant_word_df)
     test_df = io_repo.get_mlp_feed_df([test_feature_vectors,test_types,test_real_scores])
@@ -377,16 +378,21 @@ def calculate_test(test_df, train_df, train_word_df, w2v_model, dominant_word_df
             if isinstance(mlp_model_list[x], nn.multilayer_perceptron.MLPRegressor):
                 model_df=tmp_test_df.dropna(axis=1)
                 test_feature = scaler_list[x].transform(model_df.iloc[:, :-2])
-                tmp_test_df['predict']=pd.Series(mlp_model_list[x].predict(test_feature))
+                tmp_test_df['nn_predict']=pd.Series(mlp_model_list[x].predict(test_feature))
+                tmp_test_df['tree_predict'] = pd.Series(tree_model_list[x].predict(test_feature))
             else:
-                tmp_test_df['predict']=2
+                tmp_test_df['nn_predict']=0
+                tmp_test_df['tree_predict'] = 0
             test_df_list.append(tmp_test_df)
 
     test_df = pd.concat(test_df_list).reset_index(drop=True)
-    test_df['predict'].replace(np.nan, 0, inplace=True)
+    test_df['nn_predict'].replace(np.nan, 0, inplace=True)
+    test_df['tree_predict'].replace(np.nan, 0, inplace=True)
     test_df['output'] = (test_df['output']*2)+2
-    test_df['predict'] = (test_df['predict']*2)+2
-    test_df['error'] = test_df['predict']-test_df['output']
+    test_df['nn_predict'] = (test_df['tree_predict']*2)+2
+    test_df['tree_predict'] = (test_df['tree_predict'] * 2) + 2
+    test_df['nn_error'] = test_df['nn_predict']-test_df['output']
+    test_df['tree_error'] = test_df['tree_predict'] - test_df['output']
     test_df.rename(index=str, columns={"output": "sentiment"}, inplace=True)
     return test_df
 
@@ -463,20 +469,23 @@ def getModelsAndScalers (mlp_df):
     # model order as type [0,15]
     # as binary number (dominant_exist expanded_exist, closest_exist, direct_exist)
     mlp_model_list=[]
+    tree_model_list=[]
     scaler_list=[]
     for x in range (0,16):
         try:
             tmp_df = mlp_df.loc[mlp_df['type']==x]
             tmp_df.dropna(axis=1, inplace=True)
-            mlpModel, scaler = getModelAndScaler(tmp_df.iloc[:,:-2],tmp_df.iloc[:,-2])
+            mlpModel, treeModel, scaler = getModelAndScaler(tmp_df.iloc[:,:-2],tmp_df.iloc[:,-2])
             mlp_model_list.append(mlpModel)
+            tree_model_list.append(treeModel)
             scaler_list.append(scaler)
         except:
             mlp_model_list.append(np.nan)
+            tree_model_list.append(np.nan)
             scaler_list.append(np.nan)
             print('no mlp of '+str(x))
 
-    return mlp_model_list, scaler_list
+    return mlp_model_list, tree_model_list, scaler_list
 
 
 
@@ -488,6 +497,7 @@ def getModelAndScaler (raw_train_feature_datas,raw_train_output_datas):
 
 
     mlpModel = nn.MLPRegressor(activation='tanh', validation_fraction=0.1)
+    treeModel = tree.DecisionTreeRegressor()
 
     train_feature_datas = raw_train_feature_datas
     train_output_datas = raw_train_output_datas
@@ -497,8 +507,9 @@ def getModelAndScaler (raw_train_feature_datas,raw_train_output_datas):
 
 
     mlpModel.fit(train_feature_datas, train_output_datas)
+    treeModel.fit(train_feature_datas, train_output_datas)
 
-    return mlpModel, scaler
+    return mlpModel, treeModel, scaler
 
 
 

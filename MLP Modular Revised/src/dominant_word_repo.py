@@ -22,7 +22,7 @@ def get_dominant_word_df (df_list, path):
     # phrase list
     # word list
     df=pd.concat(df_list).reset_index(drop=True)
-    common_words_list = collections.Counter(" ".join(df["Phrase"]).split()).most_common(1000)
+    common_words_list = collections.Counter(" ".join(df["Phrase"]).split()).most_common(10)
     # min frequency bound could be added instead of getting top X frequent words
     # least frequent word of comman_words_list is around 150
     # might not be enough to decide if it is dominant

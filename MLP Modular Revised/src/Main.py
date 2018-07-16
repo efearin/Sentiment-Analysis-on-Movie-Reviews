@@ -11,12 +11,15 @@ from sklearn.neural_network import MLPRegressor
 from sklearn.externals import joblib
 import time
 import warnings
+import os, sys, stat
+
 
 import func_repo
 import io_repo
 import calculate_repo
 import result_repo
 import dominant_word_repo
+
 
 t_start=time.time()
 
@@ -32,11 +35,13 @@ warnings.simplefilter('ignore', np.RankWarning)
 
 # in func repo convert numbers to strings
 # data_divide_constant*fake_data_divide_constant>2 otherwise there will be a problem at io_repo.save()
-data_divide_constant = 10
-fake_data_divide_constant = 10
+data_divide_constant = 2
+fake_data_divide_constant = 2
 data_path = 'data/'
 list_path = 'data/lists/'
 main_turn_path = 'data/turns/'
+# os.chmod(os.getcwd(),stat.S_IRWXU)
+
 
 features = ['length_of_phrase',
             'direct_len'        , 'direct_mean'     ,'direct_var',
@@ -48,12 +53,12 @@ features = ['length_of_phrase',
 
 # Load Google's pre-trained Word2Vec model.
 #TODO: download gensim to conda
-# w2v_model = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True, limit=100)
-w2v_model = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
+w2v_model = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True, limit=100)
+# w2v_model = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
 fake_w2v_model = w2v_model
 # get data
-# df=pd.read_csv('data/data.csv',sep="\t", nrows=500).drop(['PhraseId', 'SentenceId'], axis=1)
-df=pd.read_csv('data/data.csv',sep="\t").drop(['PhraseId', 'SentenceId'], axis=1)
+df=pd.read_csv('data/data.csv',sep="\t", nrows=500).drop(['PhraseId', 'SentenceId'], axis=1)
+# df=pd.read_csv('data/data.csv',sep="\t").drop(['PhraseId', 'SentenceId'], axis=1)
 df['Sentiment']=(df['Sentiment']-2)/2
 # df.Sentiment = df.Sentiment.astype(float, copy=False)
 # df.Sentiment = df.Sentiment+1
@@ -116,12 +121,12 @@ for x in range(0, data_divide_constant):
     # save feature vectors an normalized output score as df
     mlp_feed_df = io_repo.save([mlp_train_input, mlp_type, mlp_train_output], turn_path+'/mlp_feed_df.csv', 1)
     # normalize train set
-    mlp_model_list, scaler_list = calculate_repo.getModelsAndScalers(mlp_feed_df)
+    mlp_model_list, tree_model_list, scaler_list = calculate_repo.getModelsAndScalers(mlp_feed_df)
     print('   model and scaler done')
     # save model
     # to load model later
     # mlp_model = joblib.load('mlp_model.pkl')
-    io_repo.save([mlp_model_list,scaler_list],turn_path)
+    io_repo.save([[mlp_model_list,tree_model_list],scaler_list],turn_path,2)
     # create required dfs
     test_df, train_df, train_word_df = func_repo.dflists_to_dfs (test_df_list,train_df_list,
                                                                                   train_word_df_list)
@@ -133,7 +138,7 @@ for x in range(0, data_divide_constant):
 
     # calculate for validation set
     calculated_test_scores_df = calculate_repo.calculate_test(test_df, train_df, train_word_df, w2v_model,
-                                                              dominant_word_df, mlp_model_list, scaler_list)
+                                                              dominant_word_df, mlp_model_list, tree_model_list, scaler_list)
     print('   calculate_test done')
     # save result df
     io_repo.save(calculated_test_scores_df, turn_path+'/results/result_df.csv')
